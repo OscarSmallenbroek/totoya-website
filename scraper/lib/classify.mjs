@@ -16,6 +16,9 @@ export function contentHash(ev) {
   ).slice(0, 16);
 }
 
+const OFF_TOPIC =
+  /\b(idiomas?|conversaci[oó]n en|biblovacaciones|vacaciones recreativas|inteligencia artificial|\bIA\b|migrantes digitales|cocina|reposter[ií]a|[aá]ngeles|sanaci[oó]n|crochet|tejido|lencer[ií]a|excel|word|finanzas|emprendimiento)\b/i;
+
 /** Combine an AI answer with the keyword answer for robustness. */
 export function mergeAi(ev, ai, kw) {
   const out = { ...ai, accessibility: { ...ai.accessibility }, price: { ...ai.price } };
@@ -86,6 +89,13 @@ export async function classifyEvents(events, opts) {
   // 3) keyword fallback
   results.forEach((r, i) => {
     if (!r) results[i] = { ...kw[i], method: 'keywords' };
+  });
+  // Hard topic blocklist on the title, regardless of classifier (cheap safety net).
+  results.forEach((r, i) => {
+    if (r.keep && OFF_TOPIC.test(events[i].title)) {
+      r.keep = false;
+      r.reason = 'Tema fuera de sus intereses';
+    }
   });
   for (const r of results) r.method === 'ollama' ? stats.ai++ : stats.keywords++;
 
