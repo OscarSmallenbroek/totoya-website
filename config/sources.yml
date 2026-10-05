@@ -2,14 +2,14 @@
 # Para desactivar una fuente: enabled: false
 sources:
   - { id: banrep,        name: "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)", url: "https://www.banrepcultural.org/bogota/actividades", enabled: true }
-  - { id: museonacional, name: "Museo Nacional de Colombia", url: "https://www.museonacional.gov.co", enabled: true }
-  - { id: mambo,         name: "MAMBO — Museo de Arte Moderno de Bogotá", url: "https://www.mambogota.com", enabled: true }
-  - { id: jardinbotanico, name: "Jardín Botánico de Bogotá", url: "https://jbb.gov.co", enabled: true }
-  - { id: teatrocolon,   name: "Teatro Colón", url: "https://teatrocolon.gov.co", enabled: true }
-  - { id: teatromayor,   name: "Teatro Mayor Julio Mario Santo Domingo", url: "https://www.teatromayor.org", enabled: true }
+  - { id: museonacional, name: "Museo Nacional de Colombia", url: "https://www.museonacional.gov.co/Paginas/eventos-museo.aspx", enabled: true }
+  - { id: mambo,         name: "MAMBO — Museo de Arte Moderno de Bogotá", url: "https://www.mambogota.com/exposicionesactuales/", enabled: true }
+  - { id: jardinbotanico, name: "Jardín Botánico de Bogotá", url: "https://jbb.gov.co/eventos/agenda-cultural-academica/", enabled: true }
+  - { id: teatrocolon,   name: "Teatro Colón / Centro Nacional de las Artes Delia Zapata Olivella", url: "https://www.eneldelia.gov.co/eventos-con-boleteria/", enabled: true }
+  - { id: teatromayor,   name: "Teatro Mayor Julio Mario Santo Domingo", url: "https://www.teatromayor.org/es/temporada/2026", enabled: true }
   - { id: idartes,       name: "Idartes (Planetario, Teatro Jorge Eliécer Gaitán, Cinemateca, galerías)", url: "https://www.idartes.gov.co/es/agenda", enabled: true }
   - { id: biblored,      name: "BibloRed — Bibliotecas Públicas de Bogotá", url: "https://www.biblored.gov.co/eventos", enabled: true }
-  - { id: idrd,          name: "IDRD — Persona Mayor", url: "https://www.idrd.gov.co", enabled: true }
-  - { id: compensar,     name: "Compensar", url: "https://corporativo.compensar.com", enabled: true }
-  - { id: colsubsidio,   name: "Colsubsidio", url: "https://www.colsubsidio.com", enabled: true }
-  - { id: cafam,         name: "Cafam", url: "https://www.cafam.com.co", enabled: true }
+  - { id: idrd,          name: "IDRD — Persona Mayor", url: "https://www.idrd.gov.co/recreacion/actividad-fisica-y-deporte/persona-mayor", enabled: true }
+  - { id: compensar,     name: "Compensar", url: "https://www.tiendacompensar.com/agenda-cultural", enabled: true }
+  - { id: colsubsidio,   name: "Colsubsidio (Teatro Colsubsidio)", url: "https://www.tuboleta.com/es/venue/teatro-colsubsidio", enabled: true }
+  - { id: cafam,         name: "Cafam (Teatro Cafam)", url: "https://www.tuboleta.com/es/venue/teatro-cafam", enabled: true }

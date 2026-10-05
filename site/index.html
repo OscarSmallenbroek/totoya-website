@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agenda de Totoya</title>
+  <meta name="description" content="Actividades de arte, pintura y danza en Bogotá para Totoya.">
+  <meta name="theme-color" content="#F3E3D3">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#calendario">Saltar al calendario</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Hola, Totoya <span aria-hidden="true">🌸</span></h1>
+      <p class="tagline">Actividades de arte, pintura y danza en Bogotá. Toca una actividad para ver los detalles.</p>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <section class="controls" aria-label="Mes y filtros">
+      <div class="month-nav">
+        <button type="button" id="prev-month" class="btn btn-nav">
+          <span aria-hidden="true">◀</span> <span class="nav-text" id="prev-label">Mes anterior</span>
+        </button>
+        <div class="month-heading">
+          <h2 id="month-title" aria-live="polite">Cargando…</h2>
+          <p id="month-count" class="month-count"></p>
+        </div>
+        <button type="button" id="next-month" class="btn btn-nav">
+          <span class="nav-text" id="next-label">Mes siguiente</span> <span aria-hidden="true">▶</span>
+        </button>
+        <button type="button" id="today-btn" class="btn btn-today">
+          <span aria-hidden="true">📍</span> Hoy
+        </button>
+      </div>
+
+      <div class="filters" role="group" aria-labelledby="filters-title">
+        <h2 id="filters-title" class="filters-title">Mostrar</h2>
+        <div class="seg" role="group" aria-label="Tipo de actividad">
+          <button type="button" class="btn toggle" data-kind="todo" aria-pressed="true">Todas</button>
+          <button type="button" class="btn toggle kind-asistir-btn" data-kind="asistir" aria-pressed="false"><span aria-hidden="true">👀</span> Ir a ver</button>
+          <button type="button" class="btn toggle kind-participar-btn" data-kind="participar" aria-pressed="false"><span aria-hidden="true">✋</span> Participar</button>
+        </div>
+        <div class="toggles">
+          <button type="button" class="btn toggle" data-filter="gratis" aria-pressed="false"><span aria-hidden="true">🎁</span> Gratis</button>
+          <button type="button" class="btn toggle" data-filter="cerca" aria-pressed="false"><span aria-hidden="true">🏡</span> Cerca de casa</button>
+          <button type="button" class="btn toggle" data-filter="sinNoche" aria-pressed="false"><span aria-hidden="true">☀️</span> Sin noche</button>
+          <button type="button" class="btn toggle" data-filter="mayores" aria-pressed="false"><span aria-hidden="true">🧓</span> Para persona mayor</button>
+          <button type="button" class="btn btn-clear" id="clear-filters" hidden>✕ Quitar filtros</button>
+        </div>
+      </div>
+    </section>
+
+    <details class="legend" open>
+      <summary>¿Qué significan los colores y dibujos?</summary>
+      <ul class="legend-list">
+        <li><span class="swatch swatch-asistir" aria-hidden="true"></span> <strong>Ir a ver</strong> (asistir): exposiciones, conciertos, danza, teatro y cine</li>
+        <li><span class="swatch swatch-participar" aria-hidden="true"></span> <strong>Participar</strong>: talleres y clases para hacer con las manos o bailar</li>
+      </ul>
+      <ul class="legend-list legend-emojis">
+        <li><span aria-hidden="true">🎨</span> Arte</li>
+        <li><span aria-hidden="true">🖌️</span> Pintura</li>
+        <li><span aria-hidden="true">💃</span> Danza</li>
+        <li><span aria-hidden="true">🎵</span> Música</li>
+        <li><span aria-hidden="true">🎭</span> Teatro</li>
+        <li><span aria-hidden="true">🎬</span> Cine</li>
+        <li><span aria-hidden="true">🌿</span> Naturaleza</li>
+        <li><span aria-hidden="true">✨</span> Otro</li>
+      </ul>
+      <ul class="legend-list legend-emojis">
+        <li><span aria-hidden="true">🌙</span> Empieza de noche (6:00 p.&nbsp;m. o más tarde)</li>
+        <li><span aria-hidden="true">🏡</span> Cerca de casa (norte de Bogotá)</li>
+        <li><span aria-hidden="true">🧓</span> Pensado para persona mayor</li>
+        <li><span aria-hidden="true">🚶</span> Cuánto hay que caminar &nbsp;<span aria-hidden="true">🪑</span> Sillas &nbsp;<span aria-hidden="true">♿</span> Silla de ruedas</li>
+      </ul>
+    </details>
+
+    <p id="status" class="status" role="status"></p>
+
+    <section id="calendario" class="calendar-section" aria-labelledby="cal-title" tabindex="-1">
+      <h2 id="cal-title" class="visually-hidden">Calendario del mes</h2>
+      <div id="calendar"></div>
+    </section>
+
+    <section id="exposiciones" class="block" aria-labelledby="ranges-title">
+      <h2 id="ranges-title"><span aria-hidden="true">🖼️</span> En exposición este mes</h2>
+      <p class="section-intro">Exposiciones que se pueden visitar cualquier día mientras estén abiertas.</p>
+      <div id="ranges" class="card-list"></div>
+    </section>
+
+    <section id="siempre" class="block" aria-labelledby="places-title">
+      <h2 id="places-title" tabindex="-1"><span aria-hidden="true">🏛️</span> Siempre disponible</h2>
+      <p class="section-intro">Lugares que se pueden visitar casi cualquier semana.</p>
+      <div id="places" class="card-list"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p id="updated" class="updated"></p>
+      <p>Esta agenda se actualiza sola cada lunes temprano: revisa las páginas de museos, teatros, bibliotecas y cajas de compensación de Bogotá y escoge lo que puede gustarle a Totoya. Antes de salir, confirmen la hora y el lugar en «Ver más».</p>
+    </div>
+  </footer>
+
+  <dialog id="dialog" aria-labelledby="dlg-title">
+    <div class="dialog-inner">
+      <div class="dialog-bar">
+        <button type="button" id="dlg-back" class="btn btn-secondary" hidden><span aria-hidden="true">←</span> Volver al día</button>
+        <button type="button" id="dlg-close" class="btn btn-secondary btn-close"><span aria-hidden="true">✕</span> Cerrar</button>
+      </div>
+      <div id="dlg-body" class="dialog-body"></div>
+    </div>
+  </dialog>
+</body>
+</html>

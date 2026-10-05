@@ -1,0 +1,253 @@
+# Lugares de siempre: sitios permanentes en Bogotá que le pueden gustar a Totoya.
+# Aparecen en la sección "Siempre disponible" de la página.
+#
+# Datos revisados en octubre de 2026 con fuentes web; horarios y precios cambian:
+# lo marcado "(verificar)" no está confirmado en la página oficial.
+#
+# Campos:
+#   id, name, summary (≤ 220 caracteres), category (arte|pintura|danza|musica|teatro|cine|naturaleza|otro)
+#   address, zone (norte|centro|occidente|sur|desconocida), nearHome (true/false; por defecto: zone == norte)
+#   hours, price: { free: true/false, text: "…" }
+#   accessibility: { walking: poca|moderada|mucha|desconocida, seating: true|false|null,
+#                    wheelchair: si|parcial|no|desconocido, note: "… (≤ 160 caracteres)" }
+#   url
+#   recurring (opcional): actividades que se repiten y se convierten en eventos del calendario:
+#     - title: "…"
+#       weekday: domingo            # o lista: [sabado, domingo]
+#       weeks: [last]               # opcional: [1, 3] = 1.º y 3.er domingo del mes; [last] = último
+#       time: "10:00"               # opcional
+#       endTime: "17:00"            # opcional
+#       kind: asistir | participar  # por defecto asistir
+#       summary, category, price, accessibility, url, forSeniors, from, until, except: [AAAA-MM-DD]
+#       (si faltan, se usan los datos del lugar)
+#
+# También se puede poner una lista `recurring:` al final del archivo (fuera de un lugar),
+# indicando venue: { name, address, zone }.
+
+places:
+  - id: mercado-pulgas-usaquen
+    name: Mercado de las Pulgas de Usaquén
+    summary: Toldos de artesanías, antigüedades, libros y música en vivo alrededor de la plaza de Usaquén. Muy cerca de casa; ideal para un domingo con café.
+    category: otro
+    address: Carrera 6A con Calle 119, Usaquén
+    zone: norte
+    nearHome: true
+    hours: Domingos y festivos, 9:00 a. m. – 6:00 p. m. aprox.
+    price: { free: true, text: Entrada libre }
+    accessibility:
+      walking: mucha
+      seating: true
+      wheelchair: parcial
+      note: Calles con desniveles y mucha gente; la plaza tiene bancas y hay muchos cafés para sentarse. Mejor ir temprano.
+    url: https://bogota.gov.co/mi-ciudad/turismo/historia-y-horarios-de-los-mercados-de-las-pulgas-de-bogota
+    recurring:
+      - title: Mercado de las Pulgas de Usaquén
+        weekday: domingo
+        time: "10:00"
+        endTime: "17:00"
+        summary: Domingo de artesanías, antigüedades y música en vivo en la plaza de Usaquén, a pocas cuadras de casa. Hay cafés y bancas para descansar.
+
+  - id: museo-del-oro
+    name: Museo del Oro
+    summary: La gran colección de orfebrería prehispánica del Banco de la República. Salas tranquilas, bien iluminadas y con ascensor.
+    category: arte
+    address: Carrera 6 # 15-88 (Parque Santander), Centro
+    zone: centro
+    hours: Martes a sábado 9:00 a. m. – 7:00 p. m.; domingos 10:00 a. m. – 5:00 p. m. Lunes cerrado.
+    price: { free: true, text: "Gratis para mayores de 60 y los domingos para todos (general $4.000)" }
+    accessibility:
+      walking: moderada
+      seating: null
+      wheelchair: si
+      note: Rampa en la entrada y ascensor a los tres pisos de salas. Se recorre de pie; pocas bancas.
+    url: https://www.banrepcultural.org/bogota/museo-del-oro
+
+  - id: museo-botero-mamu
+    name: Museo Botero y Museo de Arte Miguel Urrutia (MAMU)
+    summary: Pinturas y esculturas de Fernando Botero y su colección de arte europeo (Picasso, Monet, Renoir), junto a la colección de arte del Banco de la República.
+    category: pintura
+    address: Calle 11 # 4-41, La Candelaria
+    zone: centro
+    hours: Lunes, miércoles a sábado 9:00 a. m. – 7:00 p. m.; domingos 10:00 a. m. – 5:00 p. m. Martes cerrado.
+    price: { free: true, text: Entrada gratuita }
+    accessibility:
+      walking: moderada
+      seating: null
+      wheelchair: parcial
+      note: Casa colonial de dos pisos alrededor de un patio; preguntar por el ascensor. Calles empinadas alrededor; mejor llegar en taxi.
+    url: https://www.banrepcultural.org/bogota/museo-botero
+
+  - id: museo-nacional
+    name: Museo Nacional de Colombia
+    summary: El museo más antiguo del país, en el antiguo Panóptico. Arte e historia de Colombia, con salas de pintura de todas las épocas.
+    category: arte
+    address: Carrera 7 # 28-66, Centro Internacional
+    zone: centro
+    hours: Martes a domingo 9:00 a. m. – 5:00 p. m. Lunes cerrado.
+    price: { free: true, text: "Gratis para mayores de 60; para todos los domingos y miércoles 3–5 p. m. (verificar)" }
+    accessibility:
+      walking: moderada
+      seating: null
+      wheelchair: parcial
+      note: Edificio histórico de tres pisos; preguntar por el ascensor en la entrada. Recorrido a pie por las salas.
+    url: https://www.museonacional.gov.co
+
+  - id: mambo
+    name: MAMBO — Museo de Arte Moderno de Bogotá
+    summary: Exposiciones de arte moderno y contemporáneo colombiano e internacional, en el edificio de Rogelio Salmona frente al Parque de la Independencia.
+    category: arte
+    address: Calle 24 # 6-00, Centro
+    zone: centro
+    hours: Martes a sábado 10:00 a. m. – 6:00 p. m.; domingos y festivos 12:00 m. – 5:00 p. m. Lunes cerrado.
+    price: { free: false, text: "Mayores de 60: $13.000 (general $18.000)" }
+    accessibility:
+      walking: moderada
+      seating: null
+      wheelchair: parcial
+      note: Varios niveles con rampas; preguntar por ascensor. Recorrido de pie por las salas.
+    url: https://www.mambogota.com
+
+  - id: museo-santa-clara
+    name: Museo Santa Clara
+    summary: Iglesia colonial del siglo XVII cubierta de pinturas, retablos dorados y murales. Un solo espacio, muy impactante y sin largos recorridos.
+    category: pintura
+    address: Carrera 8 # 8-91, Centro
+    zone: centro
+    hours: Martes a domingo, aprox. 9:00 a. m. – 5:00 p. m. (verificar)
+    price: { free: true, text: "Gratis para mayores de 60 (general $6.000)" }
+    accessibility:
+      walking: poca
+      seating: null
+      wheelchair: parcial
+      note: Una sola nave en un nivel; puede haber escalones en la entrada. Recorrido corto.
+    url: https://www.museocolonial.gov.co
+
+  - id: museo-colonial
+    name: Museo Colonial
+    summary: Pintura, escultura y objetos de la época colonial en una casona con patio, en La Candelaria. Obras de Gregorio Vásquez de Arce y Ceballos.
+    category: pintura
+    address: Carrera 6 # 9-77, La Candelaria
+    zone: centro
+    hours: Martes a domingo, aprox. 9:00 a. m. – 5:00 p. m. (verificar)
+    price: { free: true, text: "Gratis para mayores de 60 (general $6.000)" }
+    accessibility:
+      walking: moderada
+      seating: null
+      wheelchair: parcial
+      note: Casona colonial de dos pisos con patio; preguntar por acceso al segundo piso.
+    url: https://www.museocolonial.gov.co
+    recurring:
+      - title: "Último domingo del mes: Museo Colonial con entrada libre"
+        weekday: domingo
+        weeks: [last]
+        time: "10:00"
+        price: { free: true, text: Entrada libre (último domingo del mes) }
+        summary: El último domingo de cada mes la entrada es libre y a veces hay música y danza folclórica. Confirmar la programación en la web del museo.
+
+  - id: jardin-botanico
+    name: Jardín Botánico de Bogotá José Celestino Mutis
+    summary: Jardines, invernaderos y el Tropicario, con colecciones de orquídeas, plantas de los Andes y del bosque tropical. Senderos planos y muchas bancas.
+    category: naturaleza
+    address: Avenida Calle 63 # 68-95
+    zone: occidente
+    hours: Martes a viernes 8:00 a. m. – 5:00 p. m.; sábados, domingos y festivos 9:00 a. m. – 5:00 p. m. Lunes cerrado.
+    price: { free: false, text: "Desde julio 2026: mayores de 60 $13.000; general $16.000 (incluye Tropicario)" }
+    accessibility:
+      walking: mucha
+      seating: true
+      wheelchair: si
+      note: Senderos planos y pavimentados con bancas (sello de turismo accesible). Es grande; mejor en silla de ruedas con acompañante.
+    url: https://jbb.gov.co
+
+  - id: biblioteca-virgilio-barco
+    name: Biblioteca Pública Virgilio Barco
+    summary: Biblioteca de Rogelio Salmona, rodeada de agua y jardines. Tiene programación cultural gratuita (charlas, talleres, música) y es agradable para pasear un rato.
+    category: arte
+    address: Avenida Carrera 60 # 57-60
+    zone: occidente
+    hours: Martes a sábado 8:00 a. m. – 7:00 p. m.; domingos 10:00 a. m. – 5:00 p. m. Lunes y festivos cerrado.
+    price: { free: true, text: Entrada libre }
+    accessibility:
+      walking: moderada
+      seating: true
+      wheelchair: si
+      note: Rampas y espacios amplios con sillas para leer; el parqueadero queda algo retirado de la entrada.
+    url: https://www.biblored.gov.co
+
+  - id: biblioteca-julio-mario-santo-domingo
+    name: Biblioteca Pública Julio Mario Santo Domingo
+    summary: Biblioteca moderna en el norte, junto al Teatro Mayor, con exposiciones, talleres y actividades gratuitas, muchas para persona mayor.
+    category: arte
+    address: Avenida Calle 170 # 67-51
+    zone: norte
+    nearHome: true
+    hours: Martes a sábado 8:00 a. m. – 7:00 p. m.; domingos 10:00 a. m. – 5:00 p. m. (verificar)
+    price: { free: true, text: Entrada libre }
+    accessibility:
+      walking: poca
+      seating: true
+      wheelchair: si
+      note: Edificio moderno con ascensores y salas con sillas; parqueadero en el mismo complejo.
+    url: https://www.biblored.gov.co
+
+  - id: planetario
+    name: Planetario de Bogotá
+    summary: Funciones en el gran domo (cielo estrellado, mitos y música) cómodamente sentada, y el Museo del Espacio. Al lado del Parque de la Independencia.
+    category: otro
+    address: Calle 26B # 5-93, Centro
+    zone: centro
+    hours: Martes a domingo, 9:00 a. m. – 7:30 p. m. aprox.; funciones en horarios fijos.
+    price: { free: false, text: "Función en el domo, adulto mayor: $12.500 aprox. Museo del Espacio gratis para adulto mayor (verificar)" }
+    accessibility:
+      walking: poca
+      seating: true
+      wheelchair: parcial
+      note: En el domo se ve la función sentada en silla reclinable; consultar acceso para silla de ruedas al comprar.
+    url: https://www.planetariodebogota.gov.co
+
+  - id: teatro-colon-visitas
+    name: Teatro Colón — visitas guiadas
+    summary: Recorrido guiado por el teatro más bello de Bogotá (1892) — foyer, palcos y escenario. Hoy hace parte del Centro Nacional de las Artes Delia Zapata Olivella.
+    category: teatro
+    address: Calle 10 # 5-32, La Candelaria
+    zone: centro
+    hours: "Visitas guiadas en días y horas fijos (antes: miércoles y jueves 3:00 p. m.; sábados 12:00 m. y 3:00 p. m.) — verificar en la web."
+    price: { free: false, text: Consultar precio }
+    accessibility:
+      walking: moderada
+      seating: true
+      wheelchair: parcial
+      note: Edificio histórico con escaleras; el teatro ofrece apoyo de accesibilidad. Avisar al reservar que va con bastón o silla.
+    url: https://www.eneldelia.gov.co
+
+  - id: cafam-cursos-arte-baile
+    name: Cafam — cursos de pintura y baile
+    summary: Cursos de dibujo y pintura (básico a avanzado), "Sin trazo voy pintando" (acuarela, acrílicos) y Escuela de Baile Latino para mayores de 50. Inscripción en la tienda de Cafam.
+    category: pintura
+    address: Varias sedes de Cafam en Bogotá (verificar al inscribirse)
+    zone: desconocida
+    nearHome: false
+    hours: Ciclos con horarios fijos; ver cada curso en la tienda.
+    price: { free: false, text: "Pago por curso; tarifas más bajas para afiliados" }
+    accessibility:
+      walking: poca
+      seating: true
+      wheelchair: desconocido
+      note: Clases en salón, sentada en el caso de pintura. Preguntar por acceso y ascensor en la sede.
+    url: https://www.tiendacafam.com/producto/producto/453
+
+  - id: colsubsidio-cursos-talleres
+    name: Colsubsidio — cursos y talleres
+    summary: Talleres de arte, manualidades y bienestar en ciclos mensuales. Hay opciones para adultos mayores.
+    category: pintura
+    address: Varias sedes de Colsubsidio en Bogotá (verificar al inscribirse)
+    zone: desconocida
+    nearHome: false
+    hours: Ciclos mensuales; ver el catálogo.
+    price: { free: false, text: "Pago por curso; tarifas más bajas para afiliados" }
+    accessibility:
+      walking: poca
+      seating: true
+      wheelchair: desconocido
+      note: Talleres en salón. Preguntar por acceso en la sede.
+    url: https://www.colsubsidio.com/recreacion/cursos-talleres

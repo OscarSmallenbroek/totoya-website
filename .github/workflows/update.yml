@@ -1,0 +1,119 @@
+# Weekly update of the Totoya calendar + deploy to GitHub Pages.
+#
+# - schedule / manual run ("Run workflow"): scrape all sources, classify (Ollama Cloud, or keywords
+#   if OLLAMA_API_KEY is missing/failing), commit site/data/*.json back to main, deploy.
+# - push to main (site/, config/, scraper/): deploy only — fast, no scraping.
+#   The bot's own data commit never re-triggers this: it is made with GITHUB_TOKEN, carries
+#   [skip ci], and site/data/ is excluded from the push paths below.
+name: Actualizar y publicar
+
+on:
+  schedule:
+    - cron: '0 10 * * 1' # Monday 10:00 UTC = 05:00 Bogotá
+  workflow_dispatch:
+    inputs:
+      only:
+        description: 'Solo estas fuentes (ids separados por coma; vacío = todas)'
+        required: false
+        default: ''
+      no_ai:
+        description: 'Usar solo el clasificador por palabras clave (sin IA)'
+        type: boolean
+        required: false
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - 'config/**'
+      - 'scraper/**'
+      - '.github/workflows/update.yml'
+      - '!site/data/events.json'
+      - '!site/data/report.json'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-update
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        if: github.event_name != 'push'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        if: github.event_name != 'push'
+        run: npm ci
+
+      - name: Restore classification cache
+        if: github.event_name != 'push'
+        uses: actions/cache/restore@v4
+        with:
+          path: scraper/.cache
+          key: classify-cache-${{ github.run_id }}
+          restore-keys: classify-cache-
+
+      - name: Scrape and classify
+        if: github.event_name != 'push'
+        env:
+          OLLAMA_API_KEY: ${{ secrets.OLLAMA_API_KEY }}
+          ONLY: ${{ github.event.inputs.only }}
+          NO_AI: ${{ github.event.inputs.no_ai }}
+        run: |
+          args=()
+          if [ -n "$ONLY" ]; then args+=("--only=$ONLY"); fi
+          if [ "$NO_AI" = "true" ]; then args+=("--no-ai"); fi
+          node scraper/run.mjs "${args[@]}"
+
+      - name: Save classification cache
+        if: always() && github.event_name != 'push'
+        uses: actions/cache/save@v4
+        with:
+          path: scraper/.cache
+          key: classify-cache-${{ github.run_id }}
+
+      - name: Commit updated data
+        if: github.event_name != 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/events.json site/data/report.json
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "Actualizar eventos $(date -u +%Y-%m-%d) [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

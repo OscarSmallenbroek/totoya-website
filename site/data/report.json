@@ -1,0 +1,400 @@
+{
+ "generatedAt": "2026-10-05T18:53:54.353Z",
+ "today": "2026-10-05",
+ "horizonDays": 75,
+ "flags": {
+  "only": null,
+  "ai": false,
+  "dry": false
+ },
+ "sources": {
+  "banrep": {
+   "name": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
+   "status": "ok",
+   "raw": 228,
+   "valid": 228,
+   "invalid": 0,
+   "invalidSamples": [],
+   "error": null,
+   "durationMs": 5412,
+   "logs": 10,
+   "kept": 207,
+   "dropped": 21
+  },
+  "museonacional": {
+   "name": "Museo Nacional de Colombia",
+   "status": "ok",
+   "raw": 27,
+   "valid": 27,
+   "invalid": 0,
+   "invalidSamples": [],
+   "error": null,
+   "durationMs": 1080,
+   "logs": 2,
+   "kept": 27
+  },
+  "mambo": {
+   "name": "MAMBO — Museo de Arte Moderno de Bogotá",
+   "status": "ok",
+   "raw": 4,
+   "valid": 4,
+   "invalid": 0,
+   "invalidSamples": [],
+   "error": null,
+   "durationMs": 16710,
+   "logs": 1,
+   "kept": 4
+  },
+  "jardinbotanico": {
+   "name": "Jardín Botánico de Bogotá",
+   "status": "empty",
+   "raw": 0,
+   "valid": 0,
+   "invalid": 0,
+   "invalidSamples": [],
+   "error": null,
+   "durationMs": 756,
+   "logs": 1
+  },
+  "teatrocolon": {
+   "name": "Teatro Colón / Centro Nacional de las Artes Delia Zapata Olivella",
+   "status": "ok",
+   "raw": 25,
+   "valid": 25,
+   "invalid": 0,
+   "invalidSamples": [],
+   "error": null,
+   "durationMs": 6898,
+   "logs": 2,
+   "kept": 22,
+   "dropped": 3
+  },
+  "teatromayor": {
+   "name": "Teatro Mayor Julio Mario Santo Domingo",
+   "status": "ok",
+   "raw": 52,
+   "valid": 52,
+   "invalid": 0,
+   "invalidSamples": [],
+   "error": null,
+   "durationMs": 10762,
+   "logs": 5,
+   "kept": 46,
+   "dropped": 3
+  },
+  "idartes": {
+   "name": "Idartes (Planetario, Teatro Jorge Eliécer Gaitán, Cinemateca, galerías)",
+   "status": "ok",
+   "raw": 31,
+   "valid": 31,
+   "invalid": 0,
+   "invalidSamples": [],
+   "error": null,
+   "durationMs": 40550,
+   "logs": 0,
+   "kept": 31
+  },
+  "biblored": {
+   "name": "BibloRed — Bibliotecas Públicas de Bogotá",
+   "status": "ok",
+   "raw": 86,
+   "valid": 86,
+   "invalid": 0,
+   "invalidSamples": [],
+   "error": null,
+   "durationMs": 12245,
+   "logs": 0,
+   "kept": 83,
+   "dropped": 3
+  },
+  "idrd": {
+   "name": "IDRD — Persona Mayor",
+   "status": "ok",
+   "raw": 14,
+   "valid": 14,
+   "invalid": 0,
+   "invalidSamples": [],
+   "error": null,
+   "durationMs": 813,
+   "logs": 0,
+   "kept": 14
+  },
+  "compensar": {
+   "name": "Compensar",
+   "status": "ok",
+   "raw": 85,
+   "valid": 85,
+   "invalid": 0,
+   "invalidSamples": [],
+   "error": null,
+   "durationMs": 915,
+   "logs": 0,
+   "kept": 85
+  },
+  "colsubsidio": {
+   "name": "Colsubsidio (Teatro Colsubsidio)",
+   "status": "ok",
+   "raw": 12,
+   "valid": 12,
+   "invalid": 0,
+   "invalidSamples": [],
+   "error": null,
+   "durationMs": 3903,
+   "logs": 0,
+   "kept": 11
+  },
+  "cafam": {
+   "name": "Cafam (Teatro Cafam)",
+   "status": "ok",
+   "raw": 13,
+   "valid": 13,
+   "invalid": 0,
+   "invalidSamples": [],
+   "error": null,
+   "durationMs": 1308,
+   "logs": 0,
+   "kept": 12
+  },
+  "lugares": {
+   "name": "config/places.yml",
+   "status": "ok",
+   "places": 14,
+   "recurringEvents": 12,
+   "errors": []
+  }
+ },
+ "classifier": "keywords",
+ "classification": {
+  "total": 572,
+  "cacheHits": 0,
+  "ai": 0,
+  "keywords": 572,
+  "aiEnabled": false,
+  "ollama": null
+ },
+ "totals": {
+  "scrapedValid": 577,
+  "outOfHorizon": 0,
+  "duplicates": 5,
+  "classified": 572,
+  "kept": 542,
+  "dropped": 30,
+  "carriedOver": 0,
+  "recurring": 12,
+  "events": 554,
+  "places": 14
+ },
+ "dropped": [
+  {
+   "source": "banrep",
+   "title": "Laboratorio cultural para corazones rotos",
+   "start": "2026-10-10T15:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "Conversación ¿Y por qué? Robótica e IA",
+   "start": "2026-10-10T15:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "¿Cómo agrandar el mundo sin romperlo?",
+   "start": "2026-10-11T11:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "Déjame que te cuente...",
+   "start": "2026-10-17T10:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "¿Y por qué? Robótica, cuentos y máquinas que imaginan",
+   "start": "2026-10-17T15:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "Una aventura en Sensorama",
+   "start": "2026-10-18T15:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "Museo Monstruo",
+   "start": "2026-10-22T10:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "Déjame que te cuente...",
+   "start": "2026-10-24T10:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "¿Y por qué? Robótica, cuentos y máquinas que imaginan",
+   "start": "2026-10-24T15:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "Cantar y contar en la primera infancia",
+   "start": "2026-10-24T15:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "ABC de la Biblioteca Virtual",
+   "start": "2026-10-28T10:00",
+   "reason": "Solo virtual",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "Bestiario amazónico",
+   "start": "2026-11-07T11:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "Imaginamos otros mundos",
+   "start": "2026-11-07T11:30",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "Taller ¿Y por qué? Fluidos asquerosos - Parte 1",
+   "start": "2026-11-07T15:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "ABC de la Biblioteca Virtual",
+   "start": "2026-11-11T10:00",
+   "reason": "Solo virtual",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "Mujeres y feminismos en Colombia",
+   "start": "2026-11-18T16:30",
+   "reason": "Evento académico no relacionado con artes",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "Mujeres y feminismos en Colombia",
+   "start": "2026-11-19T16:30",
+   "reason": "Evento académico no relacionado con artes",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "Mujeres y feminismos en Colombia",
+   "start": "2026-11-20T16:30",
+   "reason": "Evento académico no relacionado con artes",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "Taller ¿Y por qué? Fluidos asquerosos - Parte 2",
+   "start": "2026-11-21T15:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "ABC de la Biblioteca Virtual",
+   "start": "2026-11-25T10:00",
+   "reason": "Solo virtual",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "Cantar y contar en la primera infancia",
+   "start": "2026-11-28T15:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "teatrocolon",
+   "title": "¿Quién mató al gato Bombón? – Franja Rin Rin",
+   "start": "2026-10-17T15:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "teatrocolon",
+   "title": "La sinfonía de los bichos raros – Franja Rin Rin",
+   "start": "2026-10-24T15:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "teatrocolon",
+   "title": "Cometa – Franja Rin Rin",
+   "start": "2026-11-07T15:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "teatromayor",
+   "title": "Navidad Filarmónica - Orquesta Filarmónica de Bogotá, Coro Filarmónico Juvenil y Coro Filarmónico Infantil",
+   "start": "2026-12-16T20:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "teatromayor",
+   "title": "Navidad Filarmónica - Orquesta Filarmónica de Bogotá, Coro Filarmónico Juvenil y Coro Filarmónico Infantil",
+   "start": "2026-12-18T20:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "teatromayor",
+   "title": "Navidad Filarmónica - Orquesta Filarmónica de Bogotá, Coro Filarmónico Juvenil y Coro Filarmónico Infantil",
+   "start": "2026-12-19T17:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "biblored",
+   "title": "Entre versos y juegos",
+   "start": "2026-10-07T11:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "biblored",
+   "title": "leo con mi bebé: palabras para abrazar y arrullar",
+   "start": "2026-10-08T10:00",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "biblored",
+   "title": "Leo con mi bebé: poesía y café (celebración del día internacional del café)",
+   "start": "2026-10-08T11:30",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  }
+ ],
+ "durationMs": 49555
+}
