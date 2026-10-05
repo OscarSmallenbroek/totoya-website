@@ -1,0 +1,14 @@
+{
+  "name": "totoya-website",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "update": "node scraper/run.mjs",
+    "serve": "npx --yes http-server site -p 8080 -c-1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "yaml": "^2.5.0"
+  }
+}

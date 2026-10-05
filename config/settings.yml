@@ -1,0 +1,11 @@
+ollama:
+  baseUrl: "https://ollama.com"
+  model: "gemma4:31b"
+  fallbackModel: "gpt-oss:20b"
+  batchSize: 8          # events per request
+  timeoutSeconds: 120
+horizonDays: 75
+home:
+  label: "Bella Suiza, Usaquén"
+  lat: 4.7040
+  lng: -74.0330
