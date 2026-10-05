@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-05T19:17:06.737Z",
- "classifier": "mixed",
+ "generatedAt": "2026-10-05T19:21:05.328Z",
+ "classifier": "ollama",
  "events": [
   {
    "id": "0eead68be6ef",
@@ -8334,38 +8334,6 @@
    "image": "https://www.teatromayor.org/sites/default/files/styles/sc_r_380x240/public/20260921/tm-sara-correia.jpg?itok=E36kgpOU&timestamp=1790029912"
   },
   {
-   "id": "a28bee995d28",
-   "title": "Club de conversación en idiomas",
-   "summary": "En el marco del servicio de Autoformación de la Red de Bibliotecas del Banco de la República Los Clubes de conversación en idiomas son espacios de autoformación, encuentro y aprendizaje colaborativo, autogestionados…",
-   "kind": "participar",
-   "category": "otro",
-   "span": "single",
-   "start": "2026-11-23T14:00",
-   "end": "2026-11-23T18:00",
-   "evening": false,
-   "venue": {
-    "name": "Biblioteca Luis Ángel Arango, Sala de música",
-    "address": "Calle 11 # 4-14, La Candelaria, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratuita, aforo limitado"
-   },
-   "accessibility": {
-    "walking": "moderada",
-    "seating": null,
-    "wheelchair": "parcial",
-    "note": "Museos del Banco de la República en La Candelaria: salas a pie; calles empinadas alrededor. Conviene llegar en taxi."
-   },
-   "forSeniors": false,
-   "url": "https://www.banrepcultural.org/bogota/actividad/club-de-conversacion-en-idiomas-10",
-   "source": "banrep",
-   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/club%20de%20lectura_2549990981.webp?itok=UNUIhmJI"
-  },
-  {
    "id": "731e1c081440",
    "title": "Fiesta Generación Silver (Compensar Centro de convenciones Av. 68)",
    "summary": "Fiesta para adultos mayores con show de la Orquesta Alquimia para cantar y bailar.",
@@ -8394,38 +8362,6 @@
    "source": "compensar",
    "sourceName": "Compensar",
    "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v2191084338647423338/products/orquesta-alquimia-en-el-escenario.jpg"
-  },
-  {
-   "id": "34f44431cd18",
-   "title": "Club de conversación en idiomas",
-   "summary": "En el marco del servicio de Autoformación de la Red de Bibliotecas del Banco de la República Los Clubes de conversación en idiomas son espacios de autoformación, encuentro y aprendizaje colaborativo, autogestionados…",
-   "kind": "participar",
-   "category": "otro",
-   "span": "single",
-   "start": "2026-11-24T15:00",
-   "end": "2026-11-24T18:00",
-   "evening": false,
-   "venue": {
-    "name": "Biblioteca Luis Ángel Arango, Sala de música",
-    "address": "Calle 11 # 4-14, La Candelaria, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratuita, aforo limitado"
-   },
-   "accessibility": {
-    "walking": "moderada",
-    "seating": null,
-    "wheelchair": "parcial",
-    "note": "Museos del Banco de la República en La Candelaria: salas a pie; calles empinadas alrededor. Conviene llegar en taxi."
-   },
-   "forSeniors": false,
-   "url": "https://www.banrepcultural.org/bogota/actividad/club-de-conversacion-en-idiomas-10",
-   "source": "banrep",
-   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/club%20de%20lectura_2549990981.webp?itok=UNUIhmJI"
   },
   {
    "id": "880bb9735281",
@@ -8460,37 +8396,6 @@
    "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/grupo-de-mujeres-detalle-carolina-cardenas-640x400.webp?itok=_6h1bI4r"
   },
   {
-   "id": "3ddd30bd365e",
-   "title": "Café literario de la Casa Gómez Campuzano",
-   "summary": "Adiós, Hemingway, de Leonardo Padura Un cadáver oculto durante décadas, una investigación llena de interrogantes y la figura contradictoria de Ernest Hemingway.",
-   "kind": "asistir",
-   "category": "otro",
-   "span": "single",
-   "start": "2026-11-24T17:00",
-   "end": "2026-11-24T19:00",
-   "evening": false,
-   "venue": {
-    "name": "Casa Gómez Campuzano",
-    "zone": "desconocida"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratuita, inscripción previa"
-   },
-   "accessibility": {
-    "walking": "desconocida",
-    "seating": null,
-    "wheelchair": "desconocido",
-    "note": "Accesibilidad sin confirmar: conviene llamar antes."
-   },
-   "forSeniors": false,
-   "url": "https://www.banrepcultural.org/bogota/actividad/cafe-literario-de-la-casa-gomez-campuzano-10",
-   "source": "banrep",
-   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/compressed-shutterstock_661587691.webp?itok=cgRZth1S"
-  },
-  {
    "id": "90744dfe3234",
    "title": "Geneva Camerata, Suiza - 'Dance of the Sun' - Director: David Greilsammer. Coreografía: Juan Kruz Díaz de",
    "summary": "Dance of the Sun: un espectáculo que une a la orquesta Geneva Camerata con danza y teatro en una oda a la vida y el amor.",
@@ -8520,70 +8425,6 @@
    "source": "teatromayor",
    "sourceName": "Teatro Mayor Julio Mario Santo Domingo",
    "image": "https://www.teatromayor.org/sites/default/files/styles/sc_r_380x240/public/20251104/tm-geneva.jpg?itok=Y3q7kGoT&timestamp=1762307436"
-  },
-  {
-   "id": "36870f78e0a1",
-   "title": "Club de conversación en idiomas",
-   "summary": "En el marco del servicio de Autoformación de la Red de Bibliotecas del Banco de la República Los Clubes de conversación en idiomas son espacios de autoformación, encuentro y aprendizaje colaborativo, autogestionados…",
-   "kind": "participar",
-   "category": "otro",
-   "span": "single",
-   "start": "2026-11-25T15:00",
-   "end": "2026-11-25T18:00",
-   "evening": false,
-   "venue": {
-    "name": "Biblioteca Luis Ángel Arango, Sala de música",
-    "address": "Calle 11 # 4-14, La Candelaria, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratuita, aforo limitado"
-   },
-   "accessibility": {
-    "walking": "moderada",
-    "seating": null,
-    "wheelchair": "parcial",
-    "note": "Museos del Banco de la República en La Candelaria: salas a pie; calles empinadas alrededor. Conviene llegar en taxi."
-   },
-   "forSeniors": false,
-   "url": "https://www.banrepcultural.org/bogota/actividad/club-de-conversacion-en-idiomas-10",
-   "source": "banrep",
-   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/club%20de%20lectura_2549990981.webp?itok=UNUIhmJI"
-  },
-  {
-   "id": "5d11df73b456",
-   "title": "Club de lectura científica | AstroBLAA",
-   "summary": "Impactos, asteroides y cometas Impactos, asteroides y cometas es una conferencia de divulgación astronómica presentada por Germán Puerta Restrepo, reconocido divulgador de la astronomía en Colombia.",
-   "kind": "participar",
-   "category": "naturaleza",
-   "span": "single",
-   "start": "2026-11-25T16:30",
-   "end": "2026-11-25T18:30",
-   "evening": false,
-   "venue": {
-    "name": "Biblioteca Luis Ángel Arango, Sala de conferencias, piso 2",
-    "address": "Calle 11 # 4-14, La Candelaria, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratuita, inscripción previa"
-   },
-   "accessibility": {
-    "walking": "moderada",
-    "seating": null,
-    "wheelchair": "parcial",
-    "note": "Museos del Banco de la República en La Candelaria: salas a pie; calles empinadas alrededor. Conviene llegar en taxi."
-   },
-   "forSeniors": false,
-   "url": "https://www.banrepcultural.org/bogota/actividad/club-de-lectura-cientifica-astroblaa-8",
-   "source": "banrep",
-   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Club%20de%20Astronom%C3%ADa.webp?itok=Mgs_y3dz"
   },
   {
    "id": "9734100c8c1e",

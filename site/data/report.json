@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-05T19:17:06.737Z",
+ "generatedAt": "2026-10-05T19:21:05.328Z",
  "today": "2026-10-05",
  "horizonDays": 75,
  "flags": {
@@ -16,10 +16,10 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 3359,
+   "durationMs": 2363,
    "logs": 10,
-   "kept": 113,
-   "dropped": 115
+   "kept": 108,
+   "dropped": 120
   },
   "museonacional": {
    "name": "Museo Nacional de Colombia",
@@ -29,7 +29,7 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 675,
+   "durationMs": 527,
    "logs": 2,
    "dropped": 10,
    "kept": 17
@@ -42,7 +42,7 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 14880,
+   "durationMs": 14582,
    "logs": 1,
    "kept": 4
   },
@@ -54,7 +54,7 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 420,
+   "durationMs": 347,
    "logs": 1
   },
   "teatrocolon": {
@@ -65,7 +65,7 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 7959,
+   "durationMs": 9104,
    "logs": 2,
    "kept": 19,
    "dropped": 6
@@ -78,7 +78,7 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 21650,
+   "durationMs": 24418,
    "logs": 5,
    "kept": 49
   },
@@ -90,7 +90,7 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 4703,
+   "durationMs": 5506,
    "logs": 0,
    "kept": 22,
    "dropped": 9
@@ -103,7 +103,7 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 8965,
+   "durationMs": 9364,
    "logs": 0,
    "dropped": 73,
    "kept": 13
@@ -116,7 +116,7 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 513,
+   "durationMs": 358,
    "logs": 0,
    "dropped": 14
   },
@@ -128,7 +128,7 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 4036,
+   "durationMs": 11406,
    "logs": 0,
    "kept": 47,
    "dropped": 38
@@ -141,7 +141,7 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 3495,
+   "durationMs": 4603,
    "logs": 0,
    "kept": 10,
    "dropped": 1
@@ -154,7 +154,7 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 2026,
+   "durationMs": 3977,
    "logs": 0,
    "kept": 10,
    "dropped": 2
@@ -167,19 +167,19 @@
    "errors": []
   }
  },
- "classifier": "mixed",
+ "classifier": "ollama",
  "classification": {
   "total": 572,
-  "cacheHits": 0,
-  "ai": 566,
-  "keywords": 6,
+  "cacheHits": 566,
+  "ai": 6,
+  "keywords": 0,
   "aiEnabled": true,
   "ollama": {
-   "requests": 72,
-   "batches": 72,
-   "okBatches": 72,
+   "requests": 1,
+   "batches": 1,
+   "okBatches": 1,
    "failedBatches": 0,
-   "classified": 566,
+   "classified": 6,
    "errors": [],
    "disabled": false
   }
@@ -189,11 +189,11 @@
   "outOfHorizon": 0,
   "duplicates": 5,
   "classified": 572,
-  "kept": 304,
-  "dropped": 268,
+  "kept": 299,
+  "dropped": 273,
   "carriedOver": 0,
   "recurring": 12,
-  "events": 316,
+  "events": 311,
   "places": 14
  },
  "dropped": [
@@ -927,10 +927,45 @@
   },
   {
    "source": "banrep",
+   "title": "Club de conversación en idiomas",
+   "start": "2026-11-23T14:00",
+   "reason": "Es un club de idiomas, no relacionado con arte, pintura, danza o música.",
+   "by": "ollama"
+  },
+  {
+   "source": "banrep",
+   "title": "Café literario de la Casa Gómez Campuzano",
+   "start": "2026-11-24T17:00",
+   "reason": "Es una charla literaria sobre una novela, no trata sobre arte o pintura.",
+   "by": "ollama"
+  },
+  {
+   "source": "banrep",
+   "title": "Club de conversación en idiomas",
+   "start": "2026-11-24T15:00",
+   "reason": "Es un club de idiomas, no relacionado con arte, pintura, danza o música.",
+   "by": "ollama"
+  },
+  {
+   "source": "banrep",
+   "title": "Club de lectura científica | AstroBLAA",
+   "start": "2026-11-25T16:30",
+   "reason": "Es una charla de astronomía y ciencia, no de arte.",
+   "by": "ollama"
+  },
+  {
+   "source": "banrep",
    "title": "ABC de la Biblioteca Virtual",
    "start": "2026-11-25T10:00",
-   "reason": "Solo virtual",
-   "by": "keywords"
+   "reason": "Es un taller de alfabetización digital y uso de biblioteca virtual.",
+   "by": "ollama"
+  },
+  {
+   "source": "banrep",
+   "title": "Club de conversación en idiomas",
+   "start": "2026-11-25T15:00",
+   "reason": "Es un club de idiomas, no relacionado con arte, pintura, danza o música.",
+   "by": "ollama"
   },
   {
    "source": "banrep",
@@ -2074,5 +2109,5 @@
    "by": "ollama"
   }
  ],
- "durationMs": 514298
+ "durationMs": 34400
 }
