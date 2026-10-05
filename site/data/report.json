@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-05T18:53:54.353Z",
+ "generatedAt": "2026-10-05T19:05:10.040Z",
  "today": "2026-10-05",
  "horizonDays": 75,
  "flags": {
   "only": null,
-  "ai": false,
+  "ai": true,
   "dry": false
  },
  "sources": {
@@ -16,10 +16,10 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 5412,
+   "durationMs": 2604,
    "logs": 10,
-   "kept": 207,
-   "dropped": 21
+   "kept": 202,
+   "dropped": 26
   },
   "museonacional": {
    "name": "Museo Nacional de Colombia",
@@ -29,9 +29,10 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 1080,
+   "durationMs": 485,
    "logs": 2,
-   "kept": 27
+   "kept": 26,
+   "dropped": 1
   },
   "mambo": {
    "name": "MAMBO — Museo de Arte Moderno de Bogotá",
@@ -41,7 +42,7 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 16710,
+   "durationMs": 14738,
    "logs": 1,
    "kept": 4
   },
@@ -53,7 +54,7 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 756,
+   "durationMs": 317,
    "logs": 1
   },
   "teatrocolon": {
@@ -64,10 +65,9 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 6898,
+   "durationMs": 8738,
    "logs": 2,
-   "kept": 22,
-   "dropped": 3
+   "kept": 25
   },
   "teatromayor": {
    "name": "Teatro Mayor Julio Mario Santo Domingo",
@@ -77,10 +77,9 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 10762,
+   "durationMs": 2793,
    "logs": 5,
-   "kept": 46,
-   "dropped": 3
+   "kept": 49
   },
   "idartes": {
    "name": "Idartes (Planetario, Teatro Jorge Eliécer Gaitán, Cinemateca, galerías)",
@@ -90,9 +89,10 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 40550,
+   "durationMs": 4805,
    "logs": 0,
-   "kept": 31
+   "kept": 28,
+   "dropped": 3
   },
   "biblored": {
    "name": "BibloRed — Bibliotecas Públicas de Bogotá",
@@ -102,10 +102,10 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 12245,
+   "durationMs": 11152,
    "logs": 0,
-   "kept": 83,
-   "dropped": 3
+   "kept": 75,
+   "dropped": 11
   },
   "idrd": {
    "name": "IDRD — Persona Mayor",
@@ -115,9 +115,9 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 813,
+   "durationMs": 361,
    "logs": 0,
-   "kept": 14
+   "dropped": 14
   },
   "compensar": {
    "name": "Compensar",
@@ -127,9 +127,10 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 915,
+   "durationMs": 2230,
    "logs": 0,
-   "kept": 85
+   "kept": 80,
+   "dropped": 5
   },
   "colsubsidio": {
    "name": "Colsubsidio (Teatro Colsubsidio)",
@@ -139,9 +140,10 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 3903,
+   "durationMs": 3937,
    "logs": 0,
-   "kept": 11
+   "kept": 10,
+   "dropped": 1
   },
   "cafam": {
    "name": "Cafam (Teatro Cafam)",
@@ -151,7 +153,7 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 1308,
+   "durationMs": 3947,
    "logs": 0,
    "kept": 12
   },
@@ -163,238 +165,463 @@
    "errors": []
   }
  },
- "classifier": "keywords",
+ "classifier": "ollama",
  "classification": {
   "total": 572,
   "cacheHits": 0,
-  "ai": 0,
-  "keywords": 572,
-  "aiEnabled": false,
-  "ollama": null
+  "ai": 572,
+  "keywords": 0,
+  "aiEnabled": true,
+  "ollama": {
+   "requests": 72,
+   "batches": 72,
+   "okBatches": 72,
+   "failedBatches": 0,
+   "classified": 572,
+   "errors": [],
+   "disabled": false
+  }
  },
  "totals": {
   "scrapedValid": 577,
   "outOfHorizon": 0,
   "duplicates": 5,
   "classified": 572,
-  "kept": 542,
-  "dropped": 30,
+  "kept": 511,
+  "dropped": 61,
   "carriedOver": 0,
   "recurring": 12,
-  "events": 554,
+  "events": 523,
   "places": 14
  },
  "dropped": [
   {
    "source": "banrep",
+   "title": "Club de conversación en idiomas",
+   "start": "2026-10-08T15:00",
+   "reason": "Actividad de aprendizaje de idiomas, no relacionada con artes o cultura",
+   "by": "ollama"
+  },
+  {
+   "source": "banrep",
+   "title": "Club de conversación en idiomas",
+   "start": "2026-10-09T14:00",
+   "reason": "Actividad de aprendizaje de idiomas, no relacionada con artes o cultura",
+   "by": "ollama"
+  },
+  {
+   "source": "banrep",
    "title": "Laboratorio cultural para corazones rotos",
    "start": "2026-10-10T15:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
+   "reason": "Exclusivamente para jóvenes de 13 a 17 años.",
+   "by": "ollama"
   },
   {
    "source": "banrep",
    "title": "Conversación ¿Y por qué? Robótica e IA",
    "start": "2026-10-10T15:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
+   "reason": "Exclusivamente para niños de 6 a 12 años.",
+   "by": "ollama"
   },
   {
    "source": "banrep",
    "title": "¿Cómo agrandar el mundo sin romperlo?",
    "start": "2026-10-11T11:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
+   "reason": "Actividad exclusivamente para niños de 3 a 5 años.",
+   "by": "ollama"
   },
   {
    "source": "banrep",
-   "title": "Déjame que te cuente...",
-   "start": "2026-10-17T10:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
+   "title": "Club de conversación en idiomas",
+   "start": "2026-10-16T14:00",
+   "reason": "Actividad de aprendizaje de idiomas, no relacionada con artes o cultura",
+   "by": "ollama"
   },
   {
    "source": "banrep",
    "title": "¿Y por qué? Robótica, cuentos y máquinas que imaginan",
    "start": "2026-10-17T15:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
+   "reason": "Actividad exclusivamente para niños de 6 a 12 años.",
+   "by": "ollama"
   },
   {
    "source": "banrep",
    "title": "Una aventura en Sensorama",
    "start": "2026-10-18T15:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
+   "reason": "Actividad exclusivamente para niños de 3 a 12 años.",
+   "by": "ollama"
+  },
+  {
+   "source": "banrep",
+   "title": "Club de conversación en idiomas",
+   "start": "2026-10-22T15:00",
+   "reason": "Actividad de aprendizaje de idiomas, no relacionada con artes o cultura",
+   "by": "ollama"
   },
   {
    "source": "banrep",
    "title": "Museo Monstruo",
    "start": "2026-10-22T10:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
-  },
-  {
-   "source": "banrep",
-   "title": "Déjame que te cuente...",
-   "start": "2026-10-24T10:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
+   "reason": "Actividad exclusivamente para niños de 3 a 12 años",
+   "by": "ollama"
   },
   {
    "source": "banrep",
    "title": "¿Y por qué? Robótica, cuentos y máquinas que imaginan",
    "start": "2026-10-24T15:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
+   "reason": "Exclusivamente para niños de 6 a 12 años",
+   "by": "ollama"
   },
   {
    "source": "banrep",
    "title": "Cantar y contar en la primera infancia",
    "start": "2026-10-24T15:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
+   "reason": "Exclusivamente para primera infancia (0 a 5 años)",
+   "by": "ollama"
   },
   {
    "source": "banrep",
-   "title": "ABC de la Biblioteca Virtual",
-   "start": "2026-10-28T10:00",
-   "reason": "Solo virtual",
-   "by": "keywords"
+   "title": "Menos tiempo buscando, más tiempo investigando",
+   "start": "2026-10-29T16:00",
+   "reason": "Taller académico de herramientas de investigación (EBSCO)",
+   "by": "ollama"
+  },
+  {
+   "source": "banrep",
+   "title": "Club de conversación en idiomas",
+   "start": "2026-10-29T15:00",
+   "reason": "Club de idiomas (autoformación lingüística)",
+   "by": "ollama"
+  },
+  {
+   "source": "banrep",
+   "title": "Club de conversación en idiomas",
+   "start": "2026-10-30T14:00",
+   "reason": "Actividad de aprendizaje de idiomas, no relacionada con artes o cultura específica.",
+   "by": "ollama"
   },
   {
    "source": "banrep",
    "title": "Bestiario amazónico",
    "start": "2026-11-07T11:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
+   "reason": "Actividad exclusivamente infantil.",
+   "by": "ollama"
+  },
+  {
+   "source": "banrep",
+   "title": "¿Cómo ser profe y no sucumbir en el intento?",
+   "start": "2026-11-07T10:00",
+   "reason": "Dirigido exclusivamente a docentes y mediadores.",
+   "by": "ollama"
   },
   {
    "source": "banrep",
    "title": "Imaginamos otros mundos",
    "start": "2026-11-07T11:30",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
+   "reason": "Actividad dirigida a niños de 6 a 12 años.",
+   "by": "ollama"
   },
   {
    "source": "banrep",
    "title": "Taller ¿Y por qué? Fluidos asquerosos - Parte 1",
    "start": "2026-11-07T15:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
+   "reason": "Actividad dirigida a niños de 6 a 12 años.",
+   "by": "ollama"
   },
   {
    "source": "banrep",
-   "title": "ABC de la Biblioteca Virtual",
-   "start": "2026-11-11T10:00",
-   "reason": "Solo virtual",
-   "by": "keywords"
+   "title": "El peritaje antropológico en Colombia y su aporte a decisiones judiciales y administrativas",
+   "start": "2026-11-13T08:00",
+   "reason": "Congreso académico especializado en derecho y antropología jurídica.",
+   "by": "ollama"
   },
   {
    "source": "banrep",
    "title": "Mujeres y feminismos en Colombia",
    "start": "2026-11-18T16:30",
-   "reason": "Evento académico no relacionado con artes",
-   "by": "keywords"
+   "reason": "Es un seminario académico",
+   "by": "ollama"
   },
   {
    "source": "banrep",
    "title": "Mujeres y feminismos en Colombia",
    "start": "2026-11-19T16:30",
-   "reason": "Evento académico no relacionado con artes",
-   "by": "keywords"
+   "reason": "Seminario académico sobre feminismos, no relacionado con artes o intereses específicos de Totoya.",
+   "by": "ollama"
+  },
+  {
+   "source": "banrep",
+   "title": "Club de conversación en idiomas",
+   "start": "2026-11-19T14:00",
+   "reason": "Club de idiomas, actividad de aprendizaje lingüístico no cultural/artística.",
+   "by": "ollama"
   },
   {
    "source": "banrep",
    "title": "Mujeres y feminismos en Colombia",
    "start": "2026-11-20T16:30",
-   "reason": "Evento académico no relacionado con artes",
-   "by": "keywords"
+   "reason": "Seminario académico sobre feminismos, no relacionado con artes o intereses específicos de Totoya.",
+   "by": "ollama"
   },
   {
    "source": "banrep",
    "title": "Taller ¿Y por qué? Fluidos asquerosos - Parte 2",
    "start": "2026-11-21T15:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
-  },
-  {
-   "source": "banrep",
-   "title": "ABC de la Biblioteca Virtual",
-   "start": "2026-11-25T10:00",
-   "reason": "Solo virtual",
-   "by": "keywords"
+   "reason": "Actividad exclusivamente para niños de 6 a 12 años.",
+   "by": "ollama"
   },
   {
    "source": "banrep",
    "title": "Cantar y contar en la primera infancia",
    "start": "2026-11-28T15:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
+   "reason": "Exclusivamente para niños de 3 a 5 años",
+   "by": "ollama"
   },
   {
-   "source": "teatrocolon",
-   "title": "¿Quién mató al gato Bombón? – Franja Rin Rin",
-   "start": "2026-10-17T15:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
+   "source": "museonacional",
+   "title": "CalmArte: yoga en el Museo Nacional de Colombia",
+   "start": "2026-10-18T10:00",
+   "reason": "Es una actividad física de yoga, no es una actividad cultural de contemplación o arte.",
+   "by": "ollama"
   },
   {
-   "source": "teatrocolon",
-   "title": "La sinfonía de los bichos raros – Franja Rin Rin",
-   "start": "2026-10-24T15:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
+   "source": "idartes",
+   "title": "Recorridos en bicicleta y a pie las intervenciones del Museo Abierto de Bogotá en Suba",
+   "start": "2026-10-10T09:00",
+   "reason": "Es un recorrido a pie y en bicicleta, implica caminata larga.",
+   "by": "ollama"
   },
   {
-   "source": "teatrocolon",
-   "title": "Cometa – Franja Rin Rin",
-   "start": "2026-11-07T15:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
+   "source": "idartes",
+   "title": "'Una Insectópolis Llamada Bosquetá' llega a San Cristóbal con Culturas en Común",
+   "start": "2026-10-22T10:00",
+   "reason": "Evento exclusivamente para niños y niñas.",
+   "by": "ollama"
   },
   {
-   "source": "teatromayor",
-   "title": "Navidad Filarmónica - Orquesta Filarmónica de Bogotá, Coro Filarmónico Juvenil y Coro Filarmónico Infantil",
-   "start": "2026-12-16T20:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
-  },
-  {
-   "source": "teatromayor",
-   "title": "Navidad Filarmónica - Orquesta Filarmónica de Bogotá, Coro Filarmónico Juvenil y Coro Filarmónico Infantil",
-   "start": "2026-12-18T20:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
-  },
-  {
-   "source": "teatromayor",
-   "title": "Navidad Filarmónica - Orquesta Filarmónica de Bogotá, Coro Filarmónico Juvenil y Coro Filarmónico Infantil",
-   "start": "2026-12-19T17:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
+   "source": "idartes",
+   "title": "Obra 'Profundo' en el Museo Nacional",
+   "start": "2026-10-25T11:30",
+   "reason": "Evento exclusivamente para niños de 0 a 5 años y sus cuidadores.",
+   "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Entre versos y juegos",
-   "start": "2026-10-07T11:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
+   "title": "Biblovacaciones gamer: crea tu propia aventura",
+   "start": "2026-10-06T15:00",
+   "reason": "Actividad exclusivamente para jóvenes y adultos hasta 59 años (gamer/videojuegos).",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Biblovacaciones: modelado 3D con toroides, esferas y cilindros",
+   "start": "2026-10-06T16:00",
+   "reason": "Taller técnico de modelado 3D para jóvenes y adultos hasta 59 años.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Pequeños poetas: jugando con las palabras",
+   "start": "2026-10-07T15:00",
+   "reason": "Actividad exclusivamente para niños de 6 a 12 años.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "En-barco familiar, ¡Al compás de tu bebé! (0 a 17 meses) Biblovacaciones",
+   "start": "2026-10-08",
+   "reason": "Exclusivamente para bebés de 0 a 17 meses.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "En-barco familiar, ¡Al compás de tu bebé! (18 meses a 5 años)",
+   "start": "2026-10-08",
+   "reason": "Exclusivamente para niños de 18 meses a 5 años.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "En-barco familiar, ¡Al compás de tu bebé! (18 meses a 5 años) Bibliovacaciones",
+   "start": "2026-10-08",
+   "reason": "Exclusivamente para niños de 18 meses a 5 años.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Ver con otras palabras",
+   "start": "2026-10-08",
+   "reason": "Actividad dirigida exclusivamente a jóvenes.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "¡Caminar, observar, aprender!",
+   "start": "2026-10-08T10:00",
+   "reason": "Es un recorrido de caminata por un parque.",
+   "by": "ollama"
   },
   {
    "source": "biblored",
    "title": "leo con mi bebé: palabras para abrazar y arrullar",
    "start": "2026-10-08T10:00",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
+   "reason": "Actividad exclusiva para bebés y sus cuidadores.",
+   "by": "ollama"
   },
   {
    "source": "biblored",
    "title": "Leo con mi bebé: poesía y café (celebración del día internacional del café)",
    "start": "2026-10-08T11:30",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
+   "reason": "Actividad exclusiva para bebés y sus cuidadores.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Maker Lab de prótesis en 3D",
+   "start": "2026-10-17",
+   "reason": "Taller técnico de prótesis 3D no relacionado con los intereses artísticos o culturales de Totoya.",
+   "by": "ollama"
+  },
+  {
+   "source": "idrd",
+   "title": "Actividad física para persona mayor — Parque San Antonio Padua (Antonio Nariño)",
+   "start": "2026-10-06T07:00",
+   "reason": "Actividad física/deporte en parque.",
+   "by": "ollama"
+  },
+  {
+   "source": "idrd",
+   "title": "Actividad física para persona mayor — Parque Alameda (Ciudad Bolívar)",
+   "start": "2026-10-12T08:00",
+   "reason": "Actividad física/deporte en parque.",
+   "by": "ollama"
+  },
+  {
+   "source": "idrd",
+   "title": "Actividad física para persona mayor — Desarrollo Callejón N de Santa Barbara I y II Sector (Rafael Uribe Uribe)",
+   "start": "2026-10-06T07:00",
+   "reason": "Actividad física/deporte en espacio público.",
+   "by": "ollama"
+  },
+  {
+   "source": "idrd",
+   "title": "Actividad física para persona mayor — Polideportivo Quiroga (Rafael Uribe Uribe)",
+   "start": "2026-10-06T08:00",
+   "reason": "Actividad física/deporte en polideportivo.",
+   "by": "ollama"
+  },
+  {
+   "source": "idrd",
+   "title": "Actividad física para persona mayor — Ciudadela Parque la Roca (San Cristóbal)",
+   "start": "2026-10-08T08:00",
+   "reason": "Actividad física/deporte en parque.",
+   "by": "ollama"
+  },
+  {
+   "source": "idrd",
+   "title": "Actividad física para persona mayor — Parque Urbanización Antioquia (San Cristóbal)",
+   "start": "2026-10-09T08:00",
+   "reason": "Es una actividad de ejercicio físico/deporte",
+   "by": "ollama"
+  },
+  {
+   "source": "idrd",
+   "title": "Actividad física para persona mayor — Agrupación VIVIENDA GRANADA NORTE (Suba)",
+   "start": "2026-10-09T07:00",
+   "reason": "Es una actividad de ejercicio físico/deporte",
+   "by": "ollama"
+  },
+  {
+   "source": "idrd",
+   "title": "Actividad física para persona mayor — CEFE Cometas (Suba)",
+   "start": "2026-10-08T07:00",
+   "reason": "Es una actividad de ejercicio físico/deporte",
+   "by": "ollama"
+  },
+  {
+   "source": "idrd",
+   "title": "Actividad física para persona mayor — Parque la Luisita (Teusaquillo)",
+   "start": "2026-10-07T08:00",
+   "reason": "Es una actividad de ejercicio físico/deporte",
+   "by": "ollama"
+  },
+  {
+   "source": "idrd",
+   "title": "Actividad física para persona mayor — Tunal CEFE(Aqua Rumba) (Tunjuelito)",
+   "start": "2026-10-08T06:00",
+   "reason": "Es una actividad de ejercicio físico/deporte",
+   "by": "ollama"
+  },
+  {
+   "source": "idrd",
+   "title": "Actividad física para persona mayor — Nuevo Muzú (Tunjuelito)",
+   "start": "2026-10-08T07:00",
+   "reason": "Es una actividad de ejercicio físico/deporte",
+   "by": "ollama"
+  },
+  {
+   "source": "idrd",
+   "title": "Actividad física para persona mayor — Urbanización JAL Venecia (Tunjuelito)",
+   "start": "2026-10-07T07:00",
+   "reason": "Es una actividad de ejercicio físico/deporte",
+   "by": "ollama"
+  },
+  {
+   "source": "idrd",
+   "title": "Actividad física para persona mayor — Urbanización San Carlos (Tunjuelito)",
+   "start": "2026-10-06T07:00",
+   "reason": "Es una actividad de ejercicio físico/deporte",
+   "by": "ollama"
+  },
+  {
+   "source": "idrd",
+   "title": "Actividad física para persona mayor — Bifamiliares Santa Mónica Norte- la Pradera (Usaquén)",
+   "start": "2026-10-06T08:00",
+   "reason": "Es una actividad puramente de ejercicio físico/deporte.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso integral cuidadores de corazón (Compensar Carrera 60)",
+   "start": "2026-10-07",
+   "reason": "Es un curso para cuidadores, no una actividad cultural o de bienestar para la persona mayor.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso activación física para adulto mayor (Compensar Centro Mayor)",
+   "start": "2026-10-15",
+   "reason": "Es una actividad de activación física/ejercicio.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso activación física para adulto mayor (Compensar Suba Sede Integral)",
+   "start": "2026-10-15",
+   "reason": "Es una actividad de activación física/ejercicio.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso activación física para adulto mayor (Compensar Avenida 68)",
+   "start": "2026-10-15",
+   "reason": "Es una actividad de activación física/ejercicio.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso de preparación para prepensionados (Compensar Carrera 60)",
+   "start": "2026-10-22",
+   "reason": "Es un curso de trámites y planeación financiera/laboral (prepensionados), no cultural ni artístico.",
+   "by": "ollama"
+  },
+  {
+   "source": "colsubsidio",
+   "title": "Un mentes expertas de Victor Kuppers",
+   "start": "2026-11-06T19:30",
+   "reason": "Conferencia de motivación/psicología no relacionada con artes",
+   "by": "ollama"
   }
  ],
- "durationMs": 49555
+ "durationMs": 627611
 }
