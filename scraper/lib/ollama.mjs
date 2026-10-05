@@ -59,13 +59,22 @@ PERFIL DE TOTOYA
 - La familia decide con ella: es mejor MOSTRAR casi todo con una nota honesta de accesibilidad que esconder cosas.
 
 REGLAS PARA keep (conservar)
-keep=false SOLO si el evento claramente es:
+Conserva (keep=true) SOLO actividades que encajen con sus gustos:
+- Artes plásticas: exposiciones, museos, galerías, visitas guiadas de arte, fotografía artística, charlas sobre arte.
+- Pintura y dibujo: talleres, clases, cursos (óleo, acuarela, dibujo, grabado, cerámica artística).
+- Danza y baile: funciones, clases, cursos, bailes para persona mayor.
+- Música en vivo (conciertos), teatro, ópera, cine (funciones, ciclos), títeres para adultos.
+- Jardines y naturaleza tranquila (jardín botánico, orquídeas), ferias de arte o artesanía.
+Descarta (keep=false) todo lo demás, en particular:
 - Fuera de Bogotá D.C. (Chía, Cajicá, La Calera, Sopó, Zipaquirá, Cota, Soacha, Tocancipá, Guatavita, Villa de Leyva u otra ciudad/municipio).
-- Caminata, caminata ecológica, senderismo, recorrido largo a pie, carrera, running, ciclopaseo, deporte o torneo.
-- Exclusivamente para niños/bebés/adolescentes (si es "para toda la familia", se conserva).
-- Solo virtual / en línea (sin asistencia presencial).
-- Congreso, seminario o conferencia académica no relacionada con artes; convocatorias, becas, trámites, ventas.
-En cualquier otro caso keep=true (exposiciones, conciertos, danza, teatro, cine, talleres, clases, charlas sobre arte, visitas guiadas, ferias de arte o artesanía, actividades para persona mayor, etc.).
+- Caminatas, senderismo, recorridos largos a pie, carreras, ciclopaseos, deporte, gimnasia, actividad física, torneos.
+- Para niños, bebés, adolescentes o jóvenes (vacaciones recreativas, "BibloVacaciones" infantiles, cuentos para niños).
+- Solo virtual / en línea.
+- Idiomas, clubes de conversación, tecnología, computadores, inteligencia artificial, alfabetización digital, finanzas, emprendimiento, trámites, salud, terapias, espiritualidad, esoterismo (ángeles, sanación, energía), cocina, repostería, belleza.
+- Clubes de lectura, poesía, escritura y charlas literarias o de historia, SALVO que traten de arte, pintura o danza.
+- Manualidades textiles (crochet, tejido, costura, lencería) y cursos de oficios.
+- Congresos, seminarios académicos, convocatorias, becas, ventas.
+Si dudas, piensa: ¿es arte, pintura, danza, música en vivo, teatro, cine o un jardín? Si no, keep=false.
 reason: frase corta en español explicando la decisión.
 
 CAMPOS

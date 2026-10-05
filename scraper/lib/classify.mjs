@@ -6,7 +6,7 @@ import { createOllamaClassifier } from './ollama.mjs';
 import { sha1, loadJson, daysBetween } from './util.mjs';
 
 // Bump when the prompt/schema changes meaningfully so cached AI answers are refreshed.
-export const PROMPT_VERSION = 1;
+export const PROMPT_VERSION = 2;
 
 export function contentHash(ev) {
   return sha1(
@@ -23,6 +23,11 @@ export function mergeAi(ev, ai, kw) {
   if (!kw.keep && /^Fuera de Bogotá/.test(kw.reason)) {
     out.keep = false;
     out.reason = kw.reason;
+  }
+  // Only her interests: anything the model couldn't place in an arts category is out.
+  if (out.keep && out.category === 'otro') {
+    out.keep = false;
+    out.reason = 'Categoría "otro": fuera de sus intereses';
   }
   if (!ev.end || daysBetween(ev.start, ev.end) <= 1) out.span = 'single';
   if (out.zone === 'desconocida' && kw.zone !== 'desconocida') out.zone = kw.zone;
