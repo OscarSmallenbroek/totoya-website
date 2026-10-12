@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-05T19:21:05.328Z",
+ "generatedAt": "2026-10-12T19:43:52.632Z",
  "classifier": "ollama",
  "events": [
   {
@@ -323,984 +323,16 @@
    "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/2.RITUALES-IMG-P-PORTAL-1024X768PX.webp?itok=Nc6t-FHE"
   },
   {
-   "id": "57bc927cf012",
-   "title": "Talleres de trombón y órgano con el Dúo Belli & Schmeding",
-   "summary": "Sesiones de trabajo musical con el Dúo Belli & Schmeding para profundizar en la interpretación de órgano y trombón.",
-   "kind": "participar",
-   "category": "musica",
-   "span": "single",
-   "start": "2026-10-05T09:00",
-   "end": "2026-10-05T12:00",
-   "evening": false,
-   "venue": {
-    "name": "Biblioteca Luis Ángel Arango, Sala de conciertos",
-    "address": "Calle 11 # 4-14, La Candelaria, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": false,
-    "text": "$11.400"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Sala de conciertos con acceso adecuado y sillas."
-   },
-   "forSeniors": false,
-   "url": "https://www.banrepcultural.org/bogota/actividad/talleres-de-trombon-y-organo-con-el-duo-belli-schmeding",
-   "source": "banrep",
-   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/D%C3%BAo%20Belli%20%26%20Schmeding_640x400.webp?itok=Fnhvh9uS"
-  },
-  {
-   "id": "e9f000ee186d",
-   "title": "Curso de baile salsa (Compensar Avenida 68)",
-   "summary": "Clases de salsa básico para aprender pasos, coordinación y ritmo latino en un ambiente divertido.",
-   "kind": "participar",
-   "category": "danza",
-   "span": "range",
-   "start": "2026-10-06",
-   "end": "2026-10-09",
-   "evening": false,
-   "venue": {
-    "name": "Compensar Avenida 68",
-    "zone": "occidente"
-   },
-   "nearHome": false,
-   "price": {
-    "free": false,
-    "text": "Afiliados cat. A $70.600 · B $86.600 · C $135.700 · No afiliados $220.600"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": false,
-    "wheelchair": "si",
-    "note": "Instalaciones modernas de Compensar; generalmente accesibles."
-   },
-   "forSeniors": false,
-   "url": "https://www.tiendacompensar.com/promo-cursos-deportivos/curso-de-baile-salsa/HER-B-RED-DEP-MOT-025",
-   "source": "compensar",
-   "sourceName": "Compensar",
-   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v9034244385477103579/products/id1500.tres-parejas-bailando-salsa.jpg"
-  },
-  {
-   "id": "245250b69ccf",
-   "title": "Curso de baile salsa (Compensar CUR - Centro Urbano de Recreación)",
-   "summary": "Clases de salsa básico para aprender pasos, coordinación y ritmo latino en un ambiente divertido.",
-   "kind": "participar",
-   "category": "danza",
-   "span": "range",
-   "start": "2026-10-06",
-   "end": "2026-10-09",
-   "evening": false,
-   "venue": {
-    "name": "Compensar CUR - Centro Urbano de Recreación",
-    "zone": "desconocida"
-   },
-   "nearHome": false,
-   "price": {
-    "free": false,
-    "text": "Afiliados cat. A $70.600 · B $86.600 · C $135.700 · No afiliados $220.600"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": false,
-    "wheelchair": "si",
-    "note": "Instalaciones modernas de Compensar; generalmente accesibles."
-   },
-   "forSeniors": false,
-   "url": "https://www.tiendacompensar.com/promo-cursos-deportivos/curso-de-baile-salsa/HER-B-RED-DEP-MOT-025",
-   "source": "compensar",
-   "sourceName": "Compensar",
-   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v9034244385477103579/products/id1500.tres-parejas-bailando-salsa.jpg"
-  },
-  {
-   "id": "6442a510a797",
-   "title": "Cuerpo, ecología y cuidado",
-   "summary": "Taller colectivo de creación para reconocer el cuerpo y las emociones a través de la danza, la improvisación y el juego.",
-   "kind": "participar",
-   "category": "danza",
-   "span": "single",
-   "start": "2026-10-06T14:00",
-   "end": "2026-10-06T17:00",
-   "evening": false,
-   "venue": {
-    "name": "Museo Nacional de Colombia — Sala 14: La Rotonda",
-    "address": "Carrera 7 # 28-66, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Entrada libre"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "parcial",
-    "note": "Se realiza en una sala del museo; preguntar por ascensor en la entrada."
-   },
-   "forSeniors": false,
-   "url": "https://www.museonacional.gov.co/Lists/Eventos%20Museo/DispForm.aspx?ID=6030",
-   "source": "museonacional",
-   "sourceName": "Museo Nacional de Colombia"
-  },
-  {
-   "id": "06f459235809",
-   "title": "Festival Mamarracho Fiesta Casera Payasa Vol. 9 presenta 'Frágil'",
-   "summary": "Obra de clown 'Frágil'. Una propuesta humorística sobre el juego y la resiliencia.",
+   "id": "f9df22794dc9",
+   "title": "Visita Guiada cumpleaños Teatro Colón 134 años",
+   "summary": "Recorrido guiado por el Teatro Colón para conocer su historia y espacios arquitectónicos en el marco de su aniversario 134.",
    "kind": "asistir",
    "category": "teatro",
    "span": "single",
-   "start": "2026-10-06T14:00",
+   "start": "2026-10-12T09:00",
    "evening": false,
    "venue": {
-    "name": "Salón Comunal Bosa Carbonell (Calle 71 Bis Sur No. 77G - 41) - Localidad: Bosa, Bogotá",
-    "address": "Salón Comunal Bosa Carbonell (Calle 71 Bis Sur No. 77G - 41) - Localidad: Bosa, Bogotá",
-    "zone": "sur"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Entrada libre"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": null,
-    "wheelchair": "desconocido",
-    "note": "Se realiza en salón comunal; consultar accesibilidad al llegar."
-   },
-   "forSeniors": false,
-   "url": "https://www.idartes.gov.co/es/agenda/presentacion/festival-mamarracho-fiesta-casera-payasa-vol-9-presenta-fragil",
-   "source": "idartes",
-   "sourceName": "Idartes (Planetario, Teatro Jorge Eliécer Gaitán, Cinemateca, galerías)",
-   "image": "https://www.idartes.gov.co/sites/default/files/styles/440_x_330/public/imagenes-eventos/FRA%CC%80GIL-2.jpg?itok=6nhofLi8"
-  },
-  {
-   "id": "f05a2dfd43d3",
-   "title": "¡Cineforo!",
-   "summary": "Ciclo de cine alemán para reflexionar sobre el arte, el medio ambiente y la sociedad.",
-   "kind": "asistir",
-   "category": "cine",
-   "span": "single",
-   "start": "2026-10-06T16:00",
-   "evening": false,
-   "venue": {
-    "name": "Biblioteca Público Escolar La Marichuela",
-    "address": "Biblioteca Público Escolar La Marichuela, Bogotá",
-    "zone": "desconocida"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratis"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "desconocido",
-    "note": "Actividad de cineforo; generalmente cuenta con sillas."
-   },
-   "forSeniors": true,
-   "url": "https://www.biblored.gov.co/programate/cineforo-35",
-   "source": "biblored",
-   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
-   "image": "https://biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/cin2.jpg?itok=QRc-Sq2Y"
-  },
-  {
-   "id": "5a3ff6d30310",
-   "title": "Saberes que florecen en La Siempre Viva",
-   "summary": "Encuentro de diálogo y reflexión en la huerta La Siempre Viva, un espacio verde para compartir saberes.",
-   "kind": "participar",
-   "category": "naturaleza",
-   "span": "single",
-   "start": "2026-10-07T10:00",
-   "evening": false,
-   "venue": {
-    "name": "Biblioteca Pública Carlos E. Restrepo",
-    "address": "Biblioteca Pública Carlos E. Restrepo, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratis"
-   },
-   "accessibility": {
-    "walking": "moderada",
-    "seating": null,
-    "wheelchair": "parcial",
-    "note": "Al ser una huerta, el terreno puede ser irregular; se recomienda precaución con el bastón."
-   },
-   "forSeniors": true,
-   "url": "https://www.biblored.gov.co/programate/saberes-que-florecen-en-la-siempre-viva-13",
-   "source": "biblored",
-   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
-   "image": "https://biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/whatsapp-image-2026-09-15-at-2.13.12-pm.jpeg?itok=nWVLgGsL"
-  },
-  {
-   "id": "7d3a037e952b",
-   "title": "Club de creación comunitaria para personas mayores",
-   "summary": "Club de creación con activación corporal suave y lenguaje expresivo para personas mayores.",
-   "kind": "participar",
-   "category": "danza",
-   "span": "single",
-   "start": "2026-10-07T10:30",
-   "evening": false,
-   "venue": {
-    "name": "Biblioteca Pública Virgilio Barco",
-    "address": "Biblioteca Pública Virgilio Barco, Bogotá",
-    "zone": "occidente"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratis"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Biblioteca con rampas y espacios amplios; actividad de movimiento suave."
-   },
-   "forSeniors": true,
-   "url": "https://www.biblored.gov.co/programate/club-de-creacion-comunitaria-para-personas-mayores-6",
-   "source": "biblored",
-   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
-   "image": "https://biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/whatsapp-image-2026-09-12-at-3.46.26-pm_3.jpeg?itok=cj9_0_5W"
-  },
-  {
-   "id": "26ca0004ebbe",
-   "title": "Tardes de historias: memorias que habitan el territorio",
-   "summary": "Espacio para personas mayores donde se comparten memorias de Tunjuelito a través de relatos, fotografías y dibujo.",
-   "kind": "participar",
-   "category": "pintura",
-   "span": "single",
-   "start": "2026-10-07T14:00",
-   "evening": false,
-   "venue": {
-    "name": "Biblioteca Pública Gabriel García Márquez - Tunal",
-    "address": "Biblioteca Pública Gabriel García Márquez - Tunal, Bogotá",
-    "zone": "sur"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratis"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Biblioteca con rampas y ascensor; actividad sentada."
-   },
-   "forSeniors": true,
-   "url": "https://www.biblored.gov.co/programate/tardes-de-historias-memorias-que-habitan-el-territorio-8",
-   "source": "biblored",
-   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
-   "image": "https://biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/whatsapp-image-2026-06-15-at-10.17.47-pm.jpeg?itok=F8TlQNjk"
-  },
-  {
-   "id": "466d76f18a79",
-   "title": "¡Se buscan…postales poéticas! Laboratorio de gráfica popular",
-   "summary": "Taller creativo para explorar la gráfica popular de los barrios y crear postales poéticas visuales.",
-   "kind": "participar",
-   "category": "arte",
-   "span": "single",
-   "start": "2026-10-07T15:00",
-   "evening": false,
-   "venue": {
-    "name": "Biblioteca Pública Manuel Zapata Olivella - Tintal",
-    "address": "Biblioteca Pública Manuel Zapata Olivella - Tintal, Bogotá",
-    "zone": "occidente"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratis"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Biblioteca El Tintal cuenta con rampas y ascensor."
-   },
-   "forSeniors": false,
-   "url": "https://www.biblored.gov.co/programate/se-buscanpostales-poeticas-laboratorio-de-grafica-popular",
-   "source": "biblored",
-   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
-   "image": "https://biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/whatsapp-image-2026-09-15-at-7.38.46-pm.jpeg?itok=cuaFVxo2"
-  },
-  {
-   "id": "4f957214d38d",
-   "title": "Festival de poesía Reverso: poéticas de la naturaleza que se transforma",
-   "summary": "Creación de composiciones artísticas y obras visuales utilizando hojas y materiales orgánicos.",
-   "kind": "participar",
-   "category": "arte",
-   "span": "single",
-   "start": "2026-10-07T15:00",
-   "evening": false,
-   "venue": {
-    "name": "Biblioteca Pública El Parque",
-    "address": "Biblioteca Pública El Parque, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratis"
-   },
-   "accessibility": {
-    "walking": "moderada",
-    "seating": null,
-    "wheelchair": "desconocido",
-    "note": "Implica recoger materiales en el entorno; consultar disponibilidad de sillas."
-   },
-   "forSeniors": false,
-   "url": "https://www.biblored.gov.co/programate/festival-de-poesia-reverso-poeticas-de-la-naturaleza-que-se-transforma",
-   "source": "biblored",
-   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
-   "image": "https://biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/captura-de-pantalla-2026-04-11-140526.png?itok=vH-8iWl2"
-  },
-  {
-   "id": "1a44d1c2af25",
-   "title": "Laboratorio de arte poética de las profundidades",
-   "summary": "Espacio de experimentación creativa para convertir emociones en imágenes a través del dibujo y el trazo.",
-   "kind": "participar",
-   "category": "pintura",
-   "span": "single",
-   "start": "2026-10-07T16:00",
-   "evening": false,
-   "venue": {
-    "name": "Biblioteca Pública Julio Mario Santo Domingo",
-    "address": "Biblioteca Pública Julio Mario Santo Domingo, Bogotá",
-    "zone": "norte"
-   },
-   "nearHome": true,
-   "price": {
-    "free": true,
-    "text": "Gratis (cupo limitado)"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Biblioteca moderna con ascensores y espacios accesibles."
-   },
-   "forSeniors": true,
-   "url": "https://www.biblored.gov.co/programate/laboratorio-de-arte-poetica-de-las-profundidades-10",
-   "source": "biblored",
-   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
-   "image": "https://biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/arbol-copia_0.jpeg?itok=mRZZL5TB"
-  },
-  {
-   "id": "bd6a221d8816",
-   "title": "Del daguerrotipo a la fotografía de papel",
-   "summary": "Charla sobre la evolución de la fotografía, desde el daguerrotipo hasta el papel. Ideal para amantes de la imagen histórica.",
-   "kind": "asistir",
-   "category": "arte",
-   "span": "single",
-   "start": "2026-10-07T17:00",
-   "end": "2026-10-07T18:30",
-   "evening": false,
-   "venue": {
-    "name": "Biblioteca Luis Ángel Arango, Auditorio de Audiovisuales BLAA",
-    "address": "Calle 11 # 4-14, La Candelaria, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratuita, aforo limitado"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Auditorio con butacas; la biblioteca cuenta con ascensor y rampas."
-   },
-   "forSeniors": false,
-   "url": "https://www.banrepcultural.org/bogota/actividad/del-daguerrotipo-la-fotografia-de-papel",
-   "source": "banrep",
-   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/articulos/habitacion-compartida-daguerrotipos-640x400.jpg?itok=W3Icl9ve"
-  },
-  {
-   "id": "d778a0df112e",
-   "title": "Club Persona Mayor años dorados",
-   "summary": "Espacio de diálogo y creación plástica para personas mayores. Ideal para compartir experiencias y expresarse artísticamente.",
-   "kind": "participar",
-   "category": "arte",
-   "span": "single",
-   "start": "2026-10-08T10:00",
-   "evening": false,
-   "venue": {
-    "name": "Biblioteca Pública FUGA",
-    "address": "Biblioteca Pública FUGA, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratis"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Biblioteca pública con accesibilidad; actividad sentada en salón."
-   },
-   "forSeniors": true,
-   "url": "https://www.biblored.gov.co/programate/club-persona-mayor-anos-dorados-5",
-   "source": "biblored",
-   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
-   "image": "https://biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/dfghjghj.jpg?itok=tmcuw_aZ"
-  },
-  {
-   "id": "0ed86bfbd04b",
-   "title": "Descubre tu voz: introducción a la práctica vocal",
-   "summary": "Encuentro musical introductorio a la práctica vocal utilizando las colecciones físicas de la Sala de Música.",
-   "kind": "participar",
-   "category": "musica",
-   "span": "single",
-   "start": "2026-10-08T14:00",
-   "end": "2026-10-08T16:00",
-   "evening": false,
-   "venue": {
-    "name": "Biblioteca Luis Ángel Arango, Sala de música",
-    "address": "Calle 11 # 4-14, La Candelaria, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratuita, aforo limitado"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Biblioteca con accesibilidad; actividad en sala especializada."
-   },
-   "forSeniors": true,
-   "url": "https://www.banrepcultural.org/bogota/actividad/descubre-tu-voz-introduccion-la-practica-vocal-0",
-   "source": "banrep",
-   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Actividad_enla_Salademusica.640x400.webp?itok=MqccKXjp"
-  },
-  {
-   "id": "18c81dacba7b",
-   "title": "Paisajes de agua: memorias de un territorio vivo",
-   "summary": "Taller para explorar los paisajes y ecosistemas de Bogotá a través de la observación del entorno y el manejo del agua.",
-   "kind": "participar",
-   "category": "naturaleza",
-   "span": "single",
-   "start": "2026-10-08T14:00",
-   "end": "2026-10-08T16:00",
-   "evening": false,
-   "venue": {
-    "name": "Externos - Bogotá, Museo de la Ciudad Autoconstruida",
-    "zone": "sur"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratuita"
-   },
-   "accessibility": {
-    "walking": "moderada",
-    "seating": null,
-    "wheelchair": "desconocido",
-    "note": "Lugar externo; se recomienda consultar accesibilidad del museo específico en Ciudad Bolívar."
-   },
-   "forSeniors": true,
-   "url": "https://www.banrepcultural.org/bogota/actividad/paisajes-de-agua-memorias-de-un-territorio-vivo",
-   "source": "banrep",
-   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/ecosistema-paramo-agua-flora-640x400px.webp?itok=EprSA9Ox"
-  },
-  {
-   "id": "a3e751451df1",
-   "title": "¿A quién le pertenece la memoria? Diálogos sobre espiritualidad, territorio y piezas sagradas",
-   "summary": "Diálogo sobre la colección Quimbaya y su resonancia con el arte contemporáneo y las cosmovisiones originarias.",
-   "kind": "asistir",
-   "category": "arte",
-   "span": "single",
-   "start": "2026-10-08T15:00",
-   "end": "2026-10-08T17:00",
-   "evening": false,
-   "venue": {
-    "name": "Museo Nacional de Colombia — Sala 5: Talleres del P anóptico",
-    "address": "Carrera 7 # 28-66, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Entrada libre hasta completar aforo"
-   },
-   "accessibility": {
-    "walking": "moderada",
-    "seating": true,
-    "wheelchair": "parcial",
-    "note": "Edificio histórico; preguntar por ascensor en la entrada. La charla es en sala de talleres."
-   },
-   "forSeniors": false,
-   "url": "https://www.museonacional.gov.co/Lists/Eventos%20Museo/DispForm.aspx?ID=6031",
-   "source": "museonacional",
-   "sourceName": "Museo Nacional de Colombia"
-  },
-  {
-   "id": "7b0eff18cf56",
-   "title": "Cuando el poema se vuelve canción",
-   "summary": "Encuentro para explorar la relación entre la poesía y la música a través de poemas musicalizados. Un espacio cálido de conversación y creación.",
-   "kind": "asistir",
-   "category": "musica",
-   "span": "single",
-   "start": "2026-10-08T15:00",
-   "evening": false,
-   "venue": {
-    "name": "Biblioteca Pública CEFE Fontanar del Río",
-    "address": "Biblioteca Pública CEFE Fontanar del Río, Bogotá",
-    "zone": "occidente"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratis"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Biblioteca pública con accesibilidad general; actividad sentada."
-   },
-   "forSeniors": true,
-   "url": "https://www.biblored.gov.co/programate/cuando-el-poema-se-vuelve-cancion",
-   "source": "biblored",
-   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
-   "image": "https://biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/club-de-ficcion-1-2.jpg?itok=FsusYQ6s"
-  },
-  {
-   "id": "e6df3b94b6fb",
-   "title": "Disfruta una tarde de cine",
-   "summary": "Tarde de cine con funciones especiales de la Cinemateca Distrital y espacio para dialogar sobre las películas.",
-   "kind": "asistir",
-   "category": "cine",
-   "span": "single",
-   "start": "2026-10-08T15:00",
-   "evening": false,
-   "venue": {
-    "name": "Biblioteca Pública Fontibón",
-    "address": "Biblioteca Pública Fontibón, Bogotá",
-    "zone": "occidente"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratis"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Biblioteca con rampas y ascensor; función en sala con butacas."
-   },
-   "forSeniors": true,
-   "url": "https://www.biblored.gov.co/programate/disfruta-una-tarde-de-cine-56",
-   "source": "biblored",
-   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
-   "image": "https://biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/whatsapp-image-2026-09-07-at-5.50.35-pm_0.jpeg?itok=NlTM6qC2"
-  },
-  {
-   "id": "3449d8e64476",
-   "title": "Visita guiada 'De la casa al universo'",
-   "summary": "Visita guiada 'De la casa al universo'. Recorrido por obras de diversos artistas que exploran la memoria y el espacio.",
-   "kind": "asistir",
-   "category": "arte",
-   "span": "single",
-   "start": "2026-10-08T15:30",
-   "evening": false,
-   "venue": {
-    "name": "Galería Santa Fe",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Entrada libre"
-   },
-   "accessibility": {
-    "walking": "moderada",
-    "seating": null,
-    "wheelchair": "desconocido",
-    "note": "Recorrido por galería; se recomienda preguntar por disponibilidad de sillas para descansar."
-   },
-   "forSeniors": false,
-   "url": "https://www.idartes.gov.co/es/agenda/exposicion/visita-guiada-de-la-casa-al-universo",
-   "source": "idartes",
-   "sourceName": "Idartes (Planetario, Teatro Jorge Eliécer Gaitán, Cinemateca, galerías)",
-   "image": "https://www.idartes.gov.co/sites/default/files/styles/440_x_330/public/imagenes-eventos/galeria-santa-fe_1.jpg?itok=HZxoFMV7"
-  },
-  {
-   "id": "85693b62b91f",
-   "title": "Círculo de mujeres: mujeres fuera de cuadro",
-   "summary": "Conversatorio sobre estereotipos femeninos en el cine y la televisión, analizando escenas y la memoria cultural.",
-   "kind": "asistir",
-   "category": "cine",
-   "span": "single",
-   "start": "2026-10-08T16:00",
-   "evening": false,
-   "venue": {
-    "name": "Biblioteca Pública Gabriel García Márquez - Tunal",
-    "address": "Biblioteca Pública Gabriel García Márquez - Tunal, Bogotá",
-    "zone": "sur"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratis (cupo limitado)"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Biblioteca El Tunal cuenta con rampas y ascensor."
-   },
-   "forSeniors": true,
-   "url": "https://www.biblored.gov.co/programate/circulo-de-mujeres-mujeres-fuera-de-cuadro",
-   "source": "biblored",
-   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
-   "image": "https://biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/whatsapp-image-2026-06-15-at-10.38.14-pm.jpeg?itok=MHu7tL3P"
-  },
-  {
-   "id": "d720ba093a86",
-   "title": "Ana María Cuéllar (Colombia)",
-   "summary": "Concierto de la soprano Ana María Cuéllar. Una velada de música clásica y lírica en la Sala de Conciertos de la BLAA.",
-   "kind": "asistir",
-   "category": "musica",
-   "span": "single",
-   "start": "2026-10-08T18:30",
-   "end": "2026-10-08T20:30",
-   "evening": true,
-   "venue": {
-    "name": "Biblioteca Luis Ángel Arango, Sala de conciertos",
-    "address": "Calle 11 # 4-14, La Candelaria, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": false,
-    "text": "$9.500"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Sala de conciertos con butacas; acceso mediante ascensor en la biblioteca."
-   },
-   "forSeniors": true,
-   "url": "https://www.banrepcultural.org/bogota/actividad/ana-maria-cuellar-colombia",
-   "source": "banrep",
-   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Ana%20Mar%C3%ADa%20Cu%C3%A9llar_640x400.webp?itok=maT_rUPz"
-  },
-  {
-   "id": "3bca67b1aa0f",
-   "title": "Diario de Manifestaciones Sociales: Giangrandi & Velandia",
-   "summary": "Una experiencia visual y sonora basada en un archivo fotográfico de manifestaciones sociales en Colombia, con música en vivo.",
-   "kind": "asistir",
-   "category": "arte",
-   "span": "single",
-   "start": "2026-10-08T20:00",
-   "evening": true,
-   "venue": {
-    "name": "Teatro Jorge Eliécer Gaitán",
-    "address": "Carrera 7 No. 22 - 47, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": false,
-    "text": "Entrada con costo"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Teatro con butacas; ofrece servicio de accesibilidad avisando al comprar la boleta."
-   },
-   "forSeniors": false,
-   "url": "https://www.idartes.gov.co/es/agenda/experiencia-artistica/diario-de-manifestaciones-sociales-giangrandi-velandia",
-   "source": "idartes",
-   "sourceName": "Idartes (Planetario, Teatro Jorge Eliécer Gaitán, Cinemateca, galerías)",
-   "image": "https://www.idartes.gov.co/sites/default/files/styles/440_x_330/public/imagenes-eventos/Velandia_1.jpg?itok=a5HFZFJI"
-  },
-  {
-   "id": "ba15db06c989",
-   "title": "Dúo Lotos, Japón. Mayumi Kanagawa, violín, y Kanahi Yamashita, guitarra",
-   "summary": "Recital del Dúo Lotos (Japón) con un programa que incluye a Schubert, Paganini y el tango de Piazzolla.",
-   "kind": "asistir",
-   "category": "musica",
-   "span": "single",
-   "start": "2026-10-08T20:00",
-   "evening": true,
-   "venue": {
-    "name": "Teatro Mayor Julio Mario Santo Domingo",
-    "address": "Av. Calle 170 # 67-51, Bogotá",
-    "zone": "norte"
-   },
-   "nearHome": true,
-   "price": {
-    "free": false,
-    "text": "Con boletería (Tuboleta)"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el complejo."
-   },
-   "forSeniors": false,
-   "url": "https://www.teatromayor.org/es/evento/musica/duo-lotos-japon-mayumi-kanagawa-violin-y-kanahi-yamashita-guitarra-15088?function=3580",
-   "source": "teatromayor",
-   "sourceName": "Teatro Mayor Julio Mario Santo Domingo",
-   "image": "https://www.teatromayor.org/sites/default/files/styles/sc_r_380x240/public/20260119/tm-duo-loto.jpg?itok=In6N4ynG&timestamp=1768861033"
-  },
-  {
-   "id": "89914f4fc860",
-   "title": "Ver con otras palabras: la imagen poética II",
-   "summary": "Exploración de la imagen poética y cómo se relaciona la palabra con la visión artística.",
-   "kind": "asistir",
-   "category": "arte",
-   "span": "single",
-   "start": "2026-10-09",
-   "evening": false,
-   "venue": {
-    "name": "Leer el mundo",
-    "address": "Leer el mundo, Bogotá",
-    "zone": "desconocida"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratis"
-   },
-   "accessibility": {
-    "walking": "desconocida",
-    "seating": null,
-    "wheelchair": "desconocido",
-    "note": "Lugar no especificado concretamente."
-   },
-   "forSeniors": false,
-   "url": "https://www.biblored.gov.co/programate/ver-con-otras-palabras-la-imagen-poetica-ii",
-   "source": "biblored",
-   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
-   "image": "https://biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/captura-1209.JPG?itok=Pirx9DuR"
-  },
-  {
-   "id": "3ad47ef59a8c",
-   "title": "Arenas al viento",
-   "summary": "Taller colaborativo para crear un gran mandala de colores inspirado en la colección del Museo del Oro.",
-   "kind": "participar",
-   "category": "pintura",
-   "span": "single",
-   "start": "2026-10-09T10:00",
-   "end": "2026-10-09T17:00",
-   "evening": false,
-   "venue": {
-    "name": "Museo del Oro, Exploratorio",
-    "address": "Carrera 6 # 15-88, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratuita"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Espacio exploratorio accesible; actividad sentada."
-   },
-   "forSeniors": false,
-   "url": "https://www.banrepcultural.org/bogota/actividad/arenas-al-viento-14",
-   "source": "banrep",
-   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/taller-mandalas-museo-del-oro-mo-2023-6-640x400.jpg?itok=5vCAb23c"
-  },
-  {
-   "id": "8710747efa5e",
-   "title": "Las mujeres se toman los archivos",
-   "summary": "Recorrido guiado por la exposición de archivos de mujeres, analizando libros, fotografías y manuscritos.",
-   "kind": "asistir",
-   "category": "arte",
-   "span": "single",
-   "start": "2026-10-09T11:00",
-   "end": "2026-10-09T12:00",
-   "evening": false,
-   "venue": {
-    "name": "Biblioteca Luis Ángel Arango, Sala de exposiciones",
-    "address": "Calle 11 # 4-14, La Candelaria, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratuita, aforo limitado"
-   },
-   "accessibility": {
-    "walking": "moderada",
-    "seating": false,
-    "wheelchair": "si",
-    "note": "Biblioteca con ascensores; recorrido a pie por la sala de exposiciones."
-   },
-   "forSeniors": false,
-   "url": "https://www.banrepcultural.org/bogota/actividad/las-mujeres-se-toman-los-archivos",
-   "source": "banrep",
-   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Visita_guiada_YNPANM17-640x400.webp?itok=nyWrOMyO"
-  },
-  {
-   "id": "14a3c821e75a",
-   "title": "Ciclo de poética cotidiana - Club de persona mayor",
-   "summary": "Encuentro para personas mayores donde se comparte la sabiduría a través del cuerpo, la música y el baile.",
-   "kind": "participar",
-   "category": "danza",
-   "span": "single",
-   "start": "2026-10-09T14:00",
-   "evening": false,
-   "venue": {
-    "name": "Biblioteca Pública Manuel Zapata Olivella - Tintal",
-    "address": "Biblioteca Pública Manuel Zapata Olivella - Tintal, Bogotá",
-    "zone": "sur"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratis"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Biblioteca El Tintal cuenta con rampas y ascensor."
-   },
-   "forSeniors": true,
-   "url": "https://www.biblored.gov.co/programate/ciclo-de-poetica-cotidiana-club-de-persona-mayor-0",
-   "source": "biblored",
-   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
-   "image": "https://biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/whatsapp-image-2026-09-05-at-6.28.34-pm.jpeg?itok=4dx66RNX"
-  },
-  {
-   "id": "49dda321a331",
-   "title": "Las ausencias: historias invisibles detrás de los objetos",
-   "summary": "Recorrido guiado por el Museo del Oro para descubrir las historias invisibles y los saberes detrás de las piezas.",
-   "kind": "asistir",
-   "category": "arte",
-   "span": "single",
-   "start": "2026-10-09T15:00",
-   "end": "2026-10-09T16:30",
-   "evening": false,
-   "venue": {
-    "name": "Museo del Oro, Primer piso, Punto de información",
-    "address": "Carrera 6 # 15-88, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratuita"
-   },
-   "accessibility": {
-    "walking": "moderada",
-    "seating": false,
-    "wheelchair": "si",
-    "note": "Museo con rampa y ascensor; el recorrido es a pie y hay pocas bancas."
-   },
-   "forSeniors": false,
-   "url": "https://www.banrepcultural.org/bogota/actividad/las-ausencias-historias-invisibles-detras-de-los-objetos-0",
-   "source": "banrep",
-   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/FOTOS%20HOME%20640%20400%20%284%29.webp?itok=EgMZyxKg"
-  },
-  {
-   "id": "a4e40b6fa1f7",
-   "title": "Rituales: memorias que nos conectan",
-   "summary": "Visita guiada por la exposición Rituales, que reúne 19 obras de arte sobre sanación y saberes ancestrales.",
-   "kind": "asistir",
-   "category": "arte",
-   "span": "single",
-   "start": "2026-10-09T16:00",
-   "end": "2026-10-09T17:00",
-   "evening": false,
-   "venue": {
-    "name": "Biblioteca Luis Ángel Arango, Casa Republicana",
-    "address": "Calle 11 # 4-14, La Candelaria, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratuita, aforo limitado"
-   },
-   "accessibility": {
-    "walking": "moderada",
-    "seating": false,
-    "wheelchair": "si",
-    "note": "Casa Republicana con accesibilidad; recorrido a pie por las salas."
-   },
-   "forSeniors": false,
-   "url": "https://www.banrepcultural.org/bogota/actividad/rituales-memorias-que-nos-conectan-0",
-   "source": "banrep",
-   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/rituales-slider-1920-823PX.webp?itok=G6zZAwe6"
-  },
-  {
-   "id": "5b894b5fdea6",
-   "title": "Ópera Prima presenta: 'Aimatósis' del Colectivo Béton Brut",
-   "summary": "Obra de danza contemporánea que explora la relación entre el cuerpo, la ciudad y la arquitectura.",
-   "kind": "asistir",
-   "category": "danza",
-   "span": "single",
-   "start": "2026-10-09T19:00",
-   "evening": true,
-   "venue": {
-    "name": "Teatro Jorge Eliécer Gaitán",
-    "address": "Carrera 7 No. 22 - 47, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": false,
-    "text": "Entrada con costo"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Teatro con butacas; ofrece servicio de accesibilidad avisando al comprar la boleta."
-   },
-   "forSeniors": false,
-   "url": "https://www.idartes.gov.co/es/agenda/presentacion/opera-prima-presenta-aimatosis-del-colectivo-beton-brut",
-   "source": "idartes",
-   "sourceName": "Idartes (Planetario, Teatro Jorge Eliécer Gaitán, Cinemateca, galerías)",
-   "image": "https://www.idartes.gov.co/sites/default/files/styles/440_x_330/public/imagenes-eventos/obra-1.png?itok=sbL7PZQx"
-  },
-  {
-   "id": "5d0e6ecf5fa7",
-   "title": "Nzila: El camino sagrado bantú, el destino es volver a la herencia ancestral",
-   "summary": "Obra interdisciplinar que usa la danza y el teatro para narrar la herencia bantú y la cumbia como danza de sanación.",
-   "kind": "asistir",
-   "category": "danza",
-   "span": "single",
-   "start": "2026-10-09T19:30",
-   "evening": true,
-   "venue": {
-    "name": "Sala Delia Zapata — Centro Nacional de las Artes Delia Zapata Olivella (Teatro Colón)",
+    "name": "Teatro Colón",
     "address": "Calle 10 # 5-32, La Candelaria, Bogotá",
     "zone": "centro"
    },
@@ -1310,460 +342,21 @@
     "text": "Entrada libre con inscripción previa"
    },
    "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "parcial",
-    "note": "Edificio histórico; se recomienda avisar al comprar la boleta para coordinar el acceso."
-   },
-   "forSeniors": false,
-   "url": "https://eneldelia.gov.co/event/nzila-el-camino-sagrado-bantu-el-destino-es-volver-a-la-herencia-ancestral/",
-   "source": "teatrocolon",
-   "sourceName": "Teatro Colón / Centro Nacional de las Artes Delia Zapata Olivella",
-   "image": "https://www.eneldelia.gov.co/wp-content/uploads/2026/09/Nzila_IG_1080x1350-en-tamano-grande.jpeg"
-  },
-  {
-   "id": "af1fa964c308",
-   "title": "Festival Mozart - 'Exsultate Jubilate' y Sinfonía n.° 41: Júpiter' - Orquesta Sinfónica Nacional de Colombia. Director: Juan Pablo Valencia.",
-   "summary": "Festival Mozart con la Orquesta Sinfónica Nacional: incluye Exsultate Jubilate y la Sinfonía n.° 41 Júpiter.",
-   "kind": "asistir",
-   "category": "musica",
-   "span": "single",
-   "start": "2026-10-09T20:00",
-   "evening": true,
-   "venue": {
-    "name": "Teatro Mayor Julio Mario Santo Domingo",
-    "address": "Av. Calle 170 # 67-51, Bogotá",
-    "zone": "norte"
-   },
-   "nearHome": true,
-   "price": {
-    "free": false,
-    "text": "Con boletería (Tuboleta)"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el complejo."
-   },
-   "forSeniors": false,
-   "url": "https://www.teatromayor.org/es/evento/musica/festival-mozart-exsultate-jubilate-y-sinfonia-ndeg-41-jupiter-orquesta-sinfonica-nacional-de-15089?function=3581",
-   "source": "teatromayor",
-   "sourceName": "Teatro Mayor Julio Mario Santo Domingo",
-   "image": "https://www.teatromayor.org/sites/default/files/styles/sc_r_380x240/public/20260902/tm-festival-de-mozart-09.jpg?itok=vINWnPhz&timestamp=1788367586"
-  },
-  {
-   "id": "70651ccdec84",
-   "title": "CreActividad para todos y todas",
-   "summary": "Taller creativo de pintura sobre piedra inspirado en los objetos del Museo del Oro.",
-   "kind": "participar",
-   "category": "pintura",
-   "span": "single",
-   "start": "2026-10-10T10:00",
-   "end": "2026-10-10T13:00",
-   "evening": false,
-   "venue": {
-    "name": "Museo del Oro, Primer piso, Punto de información",
-    "address": "Carrera 6 # 15-88, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratuita"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Se realiza en el primer piso del museo; cuenta con accesibilidad."
-   },
-   "forSeniors": false,
-   "url": "https://www.banrepcultural.org/bogota/actividad/creactividad-para-todos-y-todas-37",
-   "source": "banrep",
-   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Creactividad%20Coopmente.webp?itok=av4-xMJi"
-  },
-  {
-   "id": "1493b28df34c",
-   "title": "Huellas de luz. Imágenes que aparecen y se transforman",
-   "summary": "Taller experimental de cianotipia para crear imágenes usando la luz. Una actividad creativa y artística ideal para Totoya.",
-   "kind": "participar",
-   "category": "arte",
-   "span": "single",
-   "start": "2026-10-10T14:00",
-   "end": "2026-10-10T16:00",
-   "evening": false,
-   "venue": {
-    "name": "Museo de Arte Miguel Urrutia (MAMU)",
-    "address": "Calle 11 # 4-21, La Candelaria, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratuita, inscripción previa"
-   },
-   "accessibility": {
-    "walking": "moderada",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Museo con ascensor; el taller suele ser en salón con sillas, pero requiere desplazarse por el museo."
-   },
-   "forSeniors": false,
-   "url": "https://www.banrepcultural.org/bogota/actividad/huellas-de-luz-imagenes-que-aparecen-y-se-transforman",
-   "source": "banrep",
-   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Cyanotype_-_4755149743.webp?itok=84Q9qedI"
-  },
-  {
-   "id": "afadcc269649",
-   "title": "Al final del espectro",
-   "summary": "Proyección de la película Al final del espectro, una historia sobre la agorafobia y experiencias inexplicables.",
-   "kind": "asistir",
-   "category": "cine",
-   "span": "single",
-   "start": "2026-10-10T15:00",
-   "end": "2026-10-10T17:00",
-   "evening": false,
-   "venue": {
-    "name": "Museo Nacional de Colombia — Auditorio Teresa Cuervo Borda",
-    "address": "Carrera 7 # 28-66, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Entrada libre hasta completar aforo"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "parcial",
-    "note": "Auditorio con butacas; preguntar por ascensor en la entrada del museo."
-   },
-   "forSeniors": false,
-   "url": "https://www.museonacional.gov.co/Lists/Eventos%20Museo/DispForm.aspx?ID=6032",
-   "source": "museonacional",
-   "sourceName": "Museo Nacional de Colombia"
-  },
-  {
-   "id": "ce382c1dfacf",
-   "title": "El aire toma forma",
-   "summary": "Laboratorio para construir y practicar instrumentos de viento andinos basado en la colección del museo.",
-   "kind": "participar",
-   "category": "musica",
-   "span": "single",
-   "start": "2026-10-10T15:00",
-   "end": "2026-10-10T17:00",
-   "evening": false,
-   "venue": {
-    "name": "Museo del Oro, Exploratorio",
-    "address": "Carrera 6 # 15-88, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratuita, inscripción previa"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Espacio del Exploratorio con accesibilidad; actividad sentada."
-   },
-   "forSeniors": false,
-   "url": "https://www.banrepcultural.org/bogota/actividad/el-aire-toma-forma",
-   "source": "banrep",
-   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Ocarinas.webp?itok=Gtbdrj2D"
-  },
-  {
-   "id": "3d3b362afb1c",
-   "title": "La Lindosa: arte rupestre y memoria viva",
-   "summary": "Visita guiada sobre el arte rupestre de La Lindosa, explorando pinturas antiguas y memoria cultural.",
-   "kind": "asistir",
-   "category": "pintura",
-   "span": "single",
-   "start": "2026-10-10T15:00",
-   "end": "2026-10-10T16:00",
-   "evening": false,
-   "venue": {
-    "name": "Museo del Oro, Primer piso, Punto de información",
-    "address": "Carrera 6 # 15-88, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": false,
-    "text": "Entrada al Museo del Oro, consulte las tarifas"
-   },
-   "accessibility": {
     "walking": "moderada",
     "seating": false,
-    "wheelchair": "si",
-    "note": "Museo con rampa y ascensor; el recorrido es a pie y hay pocas bancas."
-   },
-   "forSeniors": false,
-   "url": "https://www.banrepcultural.org/bogota/actividad/la-lindosa-arte-rupestre-y-memoria-viva-58",
-   "source": "banrep",
-   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/ch-405-ciencias-saberes-y-medioambiente-real-expedicion-botanica-pintura-rupestre.jpg?itok=WQW7dxVU"
-  },
-  {
-   "id": "971aace5cd1d",
-   "title": "Festival Mamarracho Fiesta Casera Payasa Vol. 9 presenta 'Frágil'",
-   "summary": "Obra de clown española que utiliza el humor y el juego para hablar sobre la resiliencia.",
-   "kind": "asistir",
-   "category": "teatro",
-   "span": "single",
-   "start": "2026-10-10T16:30",
-   "evening": false,
-   "venue": {
-    "name": "Il Nido del Gufo (Carrera 154 No. 135 - 22, barrio Lisboa) - Localidad: Suba, Bogotá",
-    "address": "Il Nido del Gufo (Carrera 154 No. 135 - 22, barrio Lisboa) - Localidad: Suba, Bogotá",
-    "zone": "norte"
-   },
-   "nearHome": true,
-   "price": {
-    "free": true,
-    "text": "Entrada libre"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": null,
-    "wheelchair": "desconocido",
-    "note": "Lugar pequeño en barrio Lisboa; consultar disponibilidad de sillas."
-   },
-   "forSeniors": false,
-   "url": "https://www.idartes.gov.co/es/agenda/presentacion/festival-mamarracho-fiesta-casera-payasa-vol-9-presenta-fragil-0",
-   "source": "idartes",
-   "sourceName": "Idartes (Planetario, Teatro Jorge Eliécer Gaitán, Cinemateca, galerías)",
-   "image": "https://www.idartes.gov.co/sites/default/files/styles/440_x_330/public/imagenes-eventos/FRA%CC%81GIL-3.jpg?itok=Xb7QQBqh"
-  },
-  {
-   "id": "0213ce314272",
-   "title": "Festival Mozart - 'Sinfonía n.° 40' y 'Concierto para piano n.° 21' - Orquesta Sinfónica Nacional de Colombia. Director y solista: Ricardo Castro, piano, Brasil",
-   "summary": "Festival Mozart: Obertura de Las bodas de Fígaro, Sinfonía n.° 40 y Concierto para piano n.° 21.",
-   "kind": "asistir",
-   "category": "musica",
-   "span": "single",
-   "start": "2026-10-10T17:00",
-   "evening": false,
-   "venue": {
-    "name": "Teatro Mayor Julio Mario Santo Domingo",
-    "address": "Av. Calle 170 # 67-51, Bogotá",
-    "zone": "norte"
-   },
-   "nearHome": true,
-   "price": {
-    "free": false,
-    "text": "Con boletería (Tuboleta)"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el complejo."
-   },
-   "forSeniors": false,
-   "url": "https://www.teatromayor.org/es/evento/musica/festival-mozart-sinfonia-ndeg-40-y-concierto-para-piano-ndeg-23-orquesta-sinfonica-nacional-de-15090?function=3582",
-   "source": "teatromayor",
-   "sourceName": "Teatro Mayor Julio Mario Santo Domingo",
-   "image": "https://www.teatromayor.org/sites/default/files/styles/sc_r_380x240/public/20260902/tm-festival-de-mozart-10.jpg?itok=BEihaBH6&timestamp=1788367713"
-  },
-  {
-   "id": "9af04c85ec05",
-   "title": "Cununo Sound lleva la carranga y la rumba criolla a la localidad de Ciudad Bolívar",
-   "summary": "Tarde de música en vivo con carranga, rumba criolla y sonidos tropicales para disfrutar en familia.",
-   "kind": "asistir",
-   "category": "musica",
-   "span": "single",
-   "start": "2026-10-10T19:00",
-   "evening": true,
-   "venue": {
-    "name": "Centro Cultural Compartir en Sumapaz La Pilona 10",
-    "address": "Calle 66 A Sur No. 18 U - 12, Bogotá",
-    "zone": "sur"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Entrada libre"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": null,
-    "wheelchair": "si",
-    "note": "Centro cultural con rampas y accesos amplios."
-   },
-   "forSeniors": false,
-   "url": "https://www.idartes.gov.co/es/agenda/concierto/cununo-sound-lleva-la-carranga-y-la-rumba-criolla-la-localidad-de-ciudad-bolivar",
-   "source": "idartes",
-   "sourceName": "Idartes (Planetario, Teatro Jorge Eliécer Gaitán, Cinemateca, galerías)",
-   "image": "https://www.idartes.gov.co/sites/default/files/styles/440_x_330/public/imagenes-eventos/conuno-comprimido.jpg?itok=lnB22lav"
-  },
-  {
-   "id": "1ac2452aaf73",
-   "title": "Nzila: El camino sagrado bantú, el destino es volver a la herencia ancestral",
-   "summary": "Obra interdisciplinar que usa la danza y el teatro para narrar la herencia bantú y la cumbia como danza de sanación.",
-   "kind": "asistir",
-   "category": "danza",
-   "span": "single",
-   "start": "2026-10-10T19:30",
-   "evening": true,
-   "venue": {
-    "name": "Sala Delia Zapata — Centro Nacional de las Artes Delia Zapata Olivella (Teatro Colón)",
-    "address": "Calle 10 # 5-32, La Candelaria, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Entrada libre con inscripción previa"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
     "wheelchair": "parcial",
-    "note": "Edificio histórico; se recomienda avisar al comprar la boleta para coordinar el acceso."
+    "note": "Edificio histórico con escaleras; ofrece servicios de accesibilidad avisando previamente."
    },
    "forSeniors": false,
-   "url": "https://eneldelia.gov.co/event/nzila-el-camino-sagrado-bantu-el-destino-es-volver-a-la-herencia-ancestral/",
+   "url": "https://eneldelia.gov.co/event/visita-guiada-cumpleanos-teatro-colon-134-anos/",
    "source": "teatrocolon",
    "sourceName": "Teatro Colón / Centro Nacional de las Artes Delia Zapata Olivella",
-   "image": "https://www.eneldelia.gov.co/wp-content/uploads/2026/09/Nzila_IG_1080x1350-en-tamano-grande.jpeg"
-  },
-  {
-   "id": "03220aaf5dc5",
-   "title": "Festival NO convencional presenta: Dean & Britta",
-   "summary": "Concierto en vivo que acompaña la proyección de retratos fílmicos de Andy Warhol.",
-   "kind": "asistir",
-   "category": "cine",
-   "span": "single",
-   "start": "2026-10-10T20:00",
-   "evening": true,
-   "venue": {
-    "name": "Teatro Jorge Eliécer Gaitán",
-    "address": "Carrera 7 No. 22 - 47, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": false,
-    "text": "Entrada con costo"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Teatro con butacas; ofrece servicio de accesibilidad avisando al comprar la boleta."
-   },
-   "forSeniors": false,
-   "url": "https://www.idartes.gov.co/es/agenda/concierto/festival-no-convencional-presenta-dean-britta",
-   "source": "idartes",
-   "sourceName": "Idartes (Planetario, Teatro Jorge Eliécer Gaitán, Cinemateca, galerías)",
-   "image": "https://www.idartes.gov.co/sites/default/files/styles/440_x_330/public/imagenes-eventos/dean-and-britta.jpg?itok=KfCLYkR6"
-  },
-  {
-   "id": "4818e963be38",
-   "title": "Mercado de las Pulgas de Usaquén",
-   "summary": "Domingo de artesanías, antigüedades y música en vivo en la plaza de Usaquén, a pocas cuadras de casa. Hay cafés y bancas para descansar.",
-   "kind": "asistir",
-   "category": "otro",
-   "span": "single",
-   "start": "2026-10-11T10:00",
-   "evening": false,
-   "venue": {
-    "name": "Mercado de las Pulgas de Usaquén",
-    "address": "Carrera 6A con Calle 119, Usaquén",
-    "zone": "norte"
-   },
-   "nearHome": true,
-   "price": {
-    "free": true,
-    "text": "Entrada libre"
-   },
-   "accessibility": {
-    "walking": "mucha",
-    "seating": true,
-    "wheelchair": "parcial",
-    "note": "Calles con desniveles y mucha gente; la plaza tiene bancas y hay muchos cafés para sentarse. Mejor ir temprano."
-   },
-   "forSeniors": false,
-   "url": "https://bogota.gov.co/mi-ciudad/turismo/historia-y-horarios-de-los-mercados-de-las-pulgas-de-bogota",
-   "source": "lugares",
-   "sourceName": "Lugares de siempre (selección de la familia)",
-   "end": "2026-10-11T17:00"
-  },
-  {
-   "id": "357660ef433b",
-   "title": "Símbolos que toman forma: creando tu propio amuleto",
-   "summary": "Taller creativo para diseñar y estampar un amuleto propio inspirado en los símbolos y formas del Museo del Oro.",
-   "kind": "participar",
-   "category": "pintura",
-   "span": "single",
-   "start": "2026-10-11T11:00",
-   "end": "2026-10-11T13:00",
-   "evening": false,
-   "venue": {
-    "name": "Museo del Oro, Salas de exposición permanente, Sala la gente y el oro en la Colombia prehispánica",
-    "address": "Carrera 6 # 15-88, Bogotá",
-    "zone": "centro"
-   },
-   "nearHome": false,
-   "price": {
-    "free": true,
-    "text": "Gratuita"
-   },
-   "accessibility": {
-    "walking": "moderada",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Museo con rampa y ascensor; se recorre a pie pero el taller se realiza sentado."
-   },
-   "forSeniors": false,
-   "url": "https://www.banrepcultural.org/bogota/actividad/simbolos-que-toman-forma-creando-tu-propio-amuleto",
-   "source": "banrep",
-   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Pez-volador-San-Agust%C3%ADn-Museo-del-Oro.webp?itok=YJICDfQT"
-  },
-  {
-   "id": "379d1bd28449",
-   "title": "Festival Mozart - 'Concierto para violín n.° 5' y 'Réquiem' - Orquesta Sinfónica Nacional de Colombia y Coro Nacional de Colombia",
-   "summary": "Cierre del Festival Mozart con la Obertura de La flauta mágica, Concierto para violín n.° 5 y el Réquiem.",
-   "kind": "asistir",
-   "category": "musica",
-   "span": "single",
-   "start": "2026-10-11T17:00",
-   "evening": false,
-   "venue": {
-    "name": "Teatro Mayor Julio Mario Santo Domingo",
-    "address": "Av. Calle 170 # 67-51, Bogotá",
-    "zone": "norte"
-   },
-   "nearHome": true,
-   "price": {
-    "free": false,
-    "text": "Con boletería (Tuboleta)"
-   },
-   "accessibility": {
-    "walking": "poca",
-    "seating": true,
-    "wheelchair": "si",
-    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el complejo."
-   },
-   "forSeniors": false,
-   "url": "https://www.teatromayor.org/es/evento/musica/festival-mozart-concierto-para-violin-ndeg-5-y-requiem-orquesta-sinfonica-nacional-de-colombia-y-15091?function=3583",
-   "source": "teatromayor",
-   "sourceName": "Teatro Mayor Julio Mario Santo Domingo",
-   "image": "https://www.teatromayor.org/sites/default/files/styles/sc_r_380x240/public/20260902/tm-festival-de-mozart-11.jpg?itok=s7A-YG1R&timestamp=1788367850"
+   "image": "https://www.eneldelia.gov.co/wp-content/uploads/2026/10/Visitas-guidasTC_IG1.png"
   },
   {
    "id": "d834ee129e4f",
    "title": "Bogota International Film Festival, BIFF - 'Slave Bird'- Dirección: Lajos Lázás y Pál Sugár. Con la",
-   "summary": "Cine concierto: película silente húngara de 1929 acompañada por música original en vivo. Un thriller emocionante sobre el amor y la redención.",
+   "summary": "Cine Concierto del BIFF: película silente húngara 'Slave Bird' (1929) con musicalización original en vivo. Un thriller romántico y dramático.",
    "kind": "asistir",
    "category": "cine",
    "span": "single",
@@ -1783,7 +376,7 @@
     "walking": "poca",
     "seating": true,
     "wheelchair": "si",
-    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el complejo."
+    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el mismo complejo."
    },
    "forSeniors": false,
    "url": "https://www.teatromayor.org/es/evento/musica/bogota-international-film-festival-cineconcierto-15092?function=3584",
@@ -1885,6 +478,161 @@
    "sourceName": "Museo Nacional de Colombia"
   },
   {
+   "id": "13e367f2bcdd",
+   "title": "Cineclub: Arte y memoria",
+   "summary": "Cineclub para reflexionar sobre el arte, la memoria y las narrativas urbanas a través del cine.",
+   "kind": "asistir",
+   "category": "cine",
+   "span": "single",
+   "start": "2026-10-13T15:00",
+   "evening": false,
+   "venue": {
+    "name": "Biblioteca Pública Gabriel García Márquez - Tunal",
+    "address": "Biblioteca Pública Gabriel García Márquez - Tunal, Bogotá",
+    "zone": "sur"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Gratis"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Biblioteca con rampas y ascensor."
+   },
+   "forSeniors": true,
+   "url": "https://www.biblored.gov.co/programate/cineclub-arte-y-memoria-5",
+   "source": "biblored",
+   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
+   "image": "https://biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/whatsapp-image-2026-09-08-at-4.18.05-pm-1_1.jpeg?itok=2zbCtaf-"
+  },
+  {
+   "id": "0c3bf5163d1d",
+   "title": "Tardes de cine: 3 martes, 3 pelis y 3 aventuras en familia",
+   "summary": "Tardes de cine en familia con historias diversas y un enfoque poético.",
+   "kind": "asistir",
+   "category": "cine",
+   "span": "single",
+   "start": "2026-10-13T15:00",
+   "evening": false,
+   "venue": {
+    "name": "Biblioteca Pública Manuel Zapata Olivella - Tintal",
+    "address": "Biblioteca Pública Manuel Zapata Olivella - Tintal, Bogotá",
+    "zone": "occidente"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Gratis"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Biblioteca con rampas y ascensor."
+   },
+   "forSeniors": false,
+   "url": "https://www.biblored.gov.co/index.php/programate/tardes-de-cine-3-martes-3-pelis-y-3-aventuras-en-familia",
+   "source": "biblored",
+   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
+   "image": "https://www.biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/whatsapp-image-2026-09-15-at-9.33.30-pm.jpeg?itok=cdWEuvo6"
+  },
+  {
+   "id": "fdc3f6123e55",
+   "title": "¡Cineforo en La Biblochuela!",
+   "summary": "Cineforo de cine alemán para dialogar sobre el arte, el medio ambiente y la cultura.",
+   "kind": "asistir",
+   "category": "cine",
+   "span": "single",
+   "start": "2026-10-13T16:00",
+   "evening": false,
+   "venue": {
+    "name": "Biblioteca Público Escolar La Marichuela",
+    "address": "Biblioteca Público Escolar La Marichuela, Bogotá",
+    "zone": "desconocida"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Gratis"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "desconocido",
+    "note": "Lugar escolar; se recomienda consultar accesibilidad al ingresar."
+   },
+   "forSeniors": true,
+   "url": "https://www.biblored.gov.co/index.php/programate/cineforo-en-la-biblochuela-2",
+   "source": "biblored",
+   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
+   "image": "https://www.biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/cin1.jpg?itok=zDNV5Mf2"
+  },
+  {
+   "id": "20b37315e156",
+   "title": "Cinestesia: mucho más que una película",
+   "summary": "Disfrute de una película seleccionada seguida de un espacio de conversación y reflexión colectiva sobre temas humanos y culturales.",
+   "kind": "asistir",
+   "category": "cine",
+   "span": "single",
+   "start": "2026-10-13T16:00",
+   "evening": false,
+   "venue": {
+    "name": "Biblioteca Pública Julio Mario Santo Domingo",
+    "address": "Biblioteca Pública Julio Mario Santo Domingo, Bogotá",
+    "zone": "norte"
+   },
+   "nearHome": true,
+   "price": {
+    "free": true,
+    "text": "Gratis"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Biblioteca moderna con ascensores y salas con butacas; acceso sencillo."
+   },
+   "forSeniors": true,
+   "url": "https://www.biblored.gov.co/index.php/programate/cinestesia-mucho-mas-que-una-pelicula-9",
+   "source": "biblored",
+   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
+   "image": "https://www.biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/whatsapp-image-2026-09-11-at-11.33.26-am.jpeg?itok=5BcJErFZ"
+  },
+  {
+   "id": "c67662a9eb69",
+   "title": "La ciudad como poema",
+   "summary": "Ciclo de cine para explorar cómo las imágenes transforman la ciudad en escenario y memoria.",
+   "kind": "asistir",
+   "category": "cine",
+   "span": "single",
+   "start": "2026-10-13T16:00",
+   "evening": false,
+   "venue": {
+    "name": "Biblioteca Pública Francisco José de Caldas - Suba",
+    "address": "Biblioteca Pública Francisco José de Caldas - Suba, Bogotá",
+    "zone": "norte"
+   },
+   "nearHome": true,
+   "price": {
+    "free": true,
+    "text": "Gratis"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Biblioteca pública con accesibilidad general; consultar ubicación de sala."
+   },
+   "forSeniors": true,
+   "url": "https://www.biblored.gov.co/index.php/programate/la-ciudad-como-poema",
+   "source": "biblored",
+   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
+   "image": "https://www.biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/whatsapp-image-2026-07-23-at-3.01.11-pm-10.jpeg?itok=_VGLbijP"
+  },
+  {
    "id": "41b3d2e87ee0",
    "title": "Las mujeres se toman los archivos",
    "summary": "Recorrido guiado por la exposición de archivos de mujeres, conversando sobre la investigación y construcción artística.",
@@ -1919,7 +667,7 @@
   {
    "id": "ac6102d29435",
    "title": "Bogota International Film Festival, BIFF - 'Slave Bird'- Dirección: Lajos Lázás y Pál Sugár. Con la",
-   "summary": "Cine concierto: película silente húngara de 1929 acompañada por música original en vivo. Un thriller emocionante sobre el amor y la redención.",
+   "summary": "Cine Concierto del BIFF: película silente húngara 'Slave Bird' (1929) con musicalización original en vivo. Un thriller romántico y dramático.",
    "kind": "asistir",
    "category": "cine",
    "span": "single",
@@ -1939,7 +687,7 @@
     "walking": "poca",
     "seating": true,
     "wheelchair": "si",
-    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el complejo."
+    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el mismo complejo."
    },
    "forSeniors": false,
    "url": "https://www.teatromayor.org/es/evento/musica/bogota-international-film-festival-cineconcierto-15092?function=3585",
@@ -1950,7 +698,7 @@
   {
    "id": "8de73187737b",
    "title": "Los 12 violonchelistas de la Filarmónica de Berlín - Medio siglo de música",
-   "summary": "Medio siglo de música con los 12 violonchelistas de la Filarmónica de Berlín. Un repertorio variado que incluye a Piazzolla y Edith Piaf.",
+   "summary": "Los 12 violonchelistas de la Filarmónica de Berlín presentan un repertorio variado que incluye a Piazzolla, Édith Piaf y George Gershwin.",
    "kind": "asistir",
    "category": "musica",
    "span": "single",
@@ -1970,7 +718,7 @@
     "walking": "poca",
     "seating": true,
     "wheelchair": "si",
-    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el complejo."
+    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el mismo complejo."
    },
    "forSeniors": false,
    "url": "https://www.teatromayor.org/es/evento/musica/doce-violonchelos-de-la-filarmonica-de-berlin-15208?function=3679",
@@ -1979,9 +727,226 @@
    "image": "https://www.teatromayor.org/sites/default/files/styles/sc_r_380x240/public/20260824/tm-12-chelos_0.jpg?itok=FHuXbaWF&timestamp=1787589814"
   },
   {
+   "id": "029d6800075b",
+   "title": "Constelaciones que suenan",
+   "summary": "Exploración de la música y la memoria a través de El Principito, finalizando con la creación de una constelación personal.",
+   "kind": "participar",
+   "category": "musica",
+   "span": "single",
+   "start": "2026-10-14T11:00",
+   "evening": false,
+   "venue": {
+    "name": "Biblioteca Pública del Deporte - Centro Felicidad Chapinero",
+    "address": "Biblioteca Pública del Deporte - Centro Felicidad Chapinero, Bogotá",
+    "zone": "norte"
+   },
+   "nearHome": true,
+   "price": {
+    "free": true,
+    "text": "Gratis (cupo limitado)"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Centro Felicidad con instalaciones modernas y accesibles."
+   },
+   "forSeniors": true,
+   "url": "https://www.biblored.gov.co/programate/constelaciones-que-suenan-0",
+   "source": "biblored",
+   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
+   "image": "https://biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/img-20260915-wa0019_1.jpg?itok=ioSbGTCb"
+  },
+  {
+   "id": "a1183a914154",
+   "title": "Poesía visual: los caligramas",
+   "summary": "Taller para explorar el caligrama como forma de poesía visual, creando imágenes a través de las palabras.",
+   "kind": "participar",
+   "category": "pintura",
+   "span": "single",
+   "start": "2026-10-14T14:00",
+   "evening": false,
+   "venue": {
+    "name": "Biblioteca Pública de la Participación Ciudadana",
+    "address": "Biblioteca Pública de la Participación Ciudadana, Bogotá",
+    "zone": "centro"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Gratis"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Biblioteca pública con acceso general."
+   },
+   "forSeniors": false,
+   "url": "https://www.biblored.gov.co/programate/poesia-visual-los-caligramas",
+   "source": "biblored",
+   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
+   "image": "https://biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/whatsapp-image-2026-08-14-at-11.55.54-am_1.jpeg?itok=_1eryoHM"
+  },
+  {
+   "id": "648a29cf51eb",
+   "title": "Tardes de historias: Memorias que habitan el territorio",
+   "summary": "Espacio para personas mayores donde se evocan memorias del territorio a través del dibujo y la fotografía.",
+   "kind": "participar",
+   "category": "pintura",
+   "span": "single",
+   "start": "2026-10-14T14:00",
+   "evening": false,
+   "venue": {
+    "name": "Biblioteca Pública Gabriel García Márquez - Tunal",
+    "address": "Biblioteca Pública Gabriel García Márquez - Tunal, Bogotá",
+    "zone": "sur"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Gratis"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Biblioteca con rampas y ascensor."
+   },
+   "forSeniors": true,
+   "url": "https://www.biblored.gov.co/programate/tardes-de-historias-memorias-que-habitan-el-territorio-9",
+   "source": "biblored",
+   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
+   "image": "https://biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/whatsapp-image-2026-06-15-at-10.17.47-pm_0.jpeg?itok=GyAu37_G"
+  },
+  {
+   "id": "f7d5e9899806",
+   "title": "¡Se buscan…postales poéticas! Laboratorio de gráfica popular",
+   "summary": "Laboratorio creativo para explorar la gráfica popular y la poesía visual de las calles de Bogotá.",
+   "kind": "participar",
+   "category": "arte",
+   "span": "single",
+   "start": "2026-10-14T15:00",
+   "evening": false,
+   "venue": {
+    "name": "Biblioteca Pública Manuel Zapata Olivella - Tintal",
+    "address": "Biblioteca Pública Manuel Zapata Olivella - Tintal, Bogotá",
+    "zone": "occidente"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Gratis"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Biblioteca con rampas y ascensor."
+   },
+   "forSeniors": false,
+   "url": "https://www.biblored.gov.co/programate/se-buscanpostales-poeticas-laboratorio-de-grafica-popular-0",
+   "source": "biblored",
+   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
+   "image": "https://biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/whatsapp-image-2026-09-15-at-9.47.50-pm.jpeg?itok=5gLj22et"
+  },
+  {
+   "id": "f07ee88a2466",
+   "title": "II. CineForo: Detrás de la Pantalla",
+   "summary": "Cineforo para explorar la diversidad del cine alemán y construir comunidad a través del diálogo.",
+   "kind": "asistir",
+   "category": "cine",
+   "span": "single",
+   "start": "2026-10-14T15:00",
+   "evening": false,
+   "venue": {
+    "name": "Biblioteca Pública Virgilio Barco",
+    "address": "Biblioteca Pública Virgilio Barco, Bogotá",
+    "zone": "occidente"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Gratis"
+   },
+   "accessibility": {
+    "walking": "moderada",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Biblioteca con rampas y espacios amplios; el parqueadero queda algo retirado."
+   },
+   "forSeniors": true,
+   "url": "https://www.biblored.gov.co/programate/ii-cineforo-detras-de-la-pantalla-1",
+   "source": "biblored",
+   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
+   "image": "https://www.biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/cine2-1_1.jpg?itok=aa-67EyZ"
+  },
+  {
+   "id": "c4a3b9766e05",
+   "title": "Laboratorio de arte Poética de las profundidades",
+   "summary": "Taller de exploración artística para convertir emociones en imágenes a través del dibujo y la experimentación.",
+   "kind": "participar",
+   "category": "pintura",
+   "span": "single",
+   "start": "2026-10-14T16:00",
+   "evening": false,
+   "venue": {
+    "name": "Biblioteca Pública Julio Mario Santo Domingo",
+    "address": "Biblioteca Pública Julio Mario Santo Domingo, Bogotá",
+    "zone": "norte"
+   },
+   "nearHome": true,
+   "price": {
+    "free": true,
+    "text": "Gratis (cupo limitado)"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Biblioteca moderna con ascensores y espacios accesibles."
+   },
+   "forSeniors": true,
+   "url": "https://www.biblored.gov.co/programate/laboratorio-de-arte-poetica-de-las-profundidades-9",
+   "source": "biblored",
+   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
+   "image": "https://biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/arbol-copia.jpeg?itok=eM6cx9sJ"
+  },
+  {
+   "id": "0c4151f33456",
+   "title": "Música Como en casa – Sesión de escucha | Franklin Tejedor Salgado",
+   "summary": "Encuentro musical con el percusionista Franklin Tejedor para conocer los saberes y ritmos de San Basilio de Palenque.",
+   "kind": "asistir",
+   "category": "musica",
+   "span": "single",
+   "start": "2026-10-14T18:00",
+   "evening": true,
+   "venue": {
+    "name": "Foyer del Teatro Colón",
+    "address": "Calle 10 # 5-32, La Candelaria, Bogotá",
+    "zone": "centro"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Entrada libre con inscripción previa"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Ubicado en el foyer del teatro; espacio amplio y accesible."
+   },
+   "forSeniors": false,
+   "url": "https://eneldelia.gov.co/event/musica-como-en-casa-sesion-de-escucha-franklin-tejedor-salgado/",
+   "source": "teatrocolon",
+   "sourceName": "Teatro Colón / Centro Nacional de las Artes Delia Zapata Olivella",
+   "image": "https://www.eneldelia.gov.co/wp-content/uploads/2026/10/Despliegue-Sesion-escucha-octubre_IG_1080x1350-en-tamano-grande.jpeg"
+  },
+  {
    "id": "a716ec430269",
    "title": "Escenas de Shakespeare Homenaje a Joe Broderick",
-   "summary": "Montaje teatral con fragmentos de traducciones de Shakespeare, coordinado por Joe Broderick.",
+   "summary": "Montaje teatral con fragmentos de Shakespeare, una reunión de voces y memorias dirigidas por Joe Broderick.",
    "kind": "asistir",
    "category": "teatro",
    "span": "single",
@@ -2000,8 +965,8 @@
    "accessibility": {
     "walking": "poca",
     "seating": true,
-    "wheelchair": "parcial",
-    "note": "Edificio histórico; se recomienda avisar al comprar la boleta para coordinar el acceso."
+    "wheelchair": "si",
+    "note": "Sala de teatro con butacas; consultar ubicación accesible al comprar la boleta."
    },
    "forSeniors": false,
    "url": "https://eneldelia.gov.co/event/escenas-de-shakespeare-homenaje-a-joe-broderick/",
@@ -2012,7 +977,7 @@
   {
    "id": "488151367318",
    "title": "Berliner Philharmoniker, Alemania. Director: Kirill Petrenko, Rusia.",
-   "summary": "Concierto de la Filarmónica de Berlín bajo la dirección de Kirill Petrenko. Interpretarán obras icónicas de Elgar y Tchaikovsky.",
+   "summary": "La Filarmónica de Berlín presenta las 'Variaciones enigma' de Elgar y la 'Sinfonía n.° 4' de Tchaikovsky bajo la dirección de Kirill Petrenko.",
    "kind": "asistir",
    "category": "musica",
    "span": "single",
@@ -2032,7 +997,7 @@
     "walking": "poca",
     "seating": true,
     "wheelchair": "si",
-    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el complejo."
+    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el mismo complejo."
    },
    "forSeniors": false,
    "url": "https://www.teatromayor.org/es/evento/musica/berliner-philharmoniker-alemania-director-kirill-petrenko-rusia-15094?function=3587",
@@ -2074,15 +1039,14 @@
   {
    "id": "3b0268eb4225",
    "title": "Meredith Monk llega al Teatro Jorge Eliécer Gaitán",
-   "summary": "Concierto íntimo de Meredith Monk que explora la voz humana, el silencio y la escucha.",
+   "summary": "Concierto íntimo de Meredith Monk que explora la voz, el cuerpo y el sonido. Una experiencia sonora única.",
    "kind": "asistir",
    "category": "musica",
    "span": "single",
    "start": "2026-10-14T20:00",
    "evening": true,
    "venue": {
-    "name": "Teatro Jorge Eliécer Gaitán",
-    "address": "Carrera 7 No. 22 - 47, Bogotá",
+    "name": "Lugar por confirmar",
     "zone": "centro"
    },
    "nearHome": false,
@@ -2093,14 +1057,45 @@
    "accessibility": {
     "walking": "poca",
     "seating": true,
-    "wheelchair": "si",
-    "note": "Teatro con butacas; ofrece servicio de accesibilidad avisando al comprar la boleta."
+    "wheelchair": "parcial",
+    "note": "Teatro histórico con escaleras; ofrece servicio de accesibilidad avisando al comprar la boleta."
    },
    "forSeniors": false,
    "url": "https://www.idartes.gov.co/es/agenda/concierto/meredith-monk-llega-al-teatro-jorge-eliecer-gaitan",
    "source": "idartes",
    "sourceName": "Idartes (Planetario, Teatro Jorge Eliécer Gaitán, Cinemateca, galerías)",
    "image": "https://www.idartes.gov.co/sites/default/files/styles/440_x_330/public/imagenes-eventos/monk.jpg?itok=myPFTNMM"
+  },
+  {
+   "id": "b66d75e9a444",
+   "title": "Club Persona Mayor Años Dorados",
+   "summary": "Espacio de diálogo y creación plástica para personas mayores, ideal para compartir saberes y hacer arte.",
+   "kind": "participar",
+   "category": "arte",
+   "span": "single",
+   "start": "2026-10-15T10:00",
+   "evening": false,
+   "venue": {
+    "name": "Biblioteca Pública FUGA",
+    "address": "Biblioteca Pública FUGA, Bogotá",
+    "zone": "centro"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Gratis"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Biblioteca pública con rampas y espacios accesibles."
+   },
+   "forSeniors": true,
+   "url": "https://www.biblored.gov.co/programate/club-persona-mayor-anos-dorados-4",
+   "source": "biblored",
+   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
+   "image": "https://biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/club-del-adulto-mayor-3_0.png?itok=Hlrb51Wc"
   },
   {
    "id": "63ab72569f03",
@@ -2135,6 +1130,37 @@
    "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Actividad_enla_Salademusica.640x400.webp?itok=MqccKXjp"
   },
   {
+   "id": "be734e4cf26f",
+   "title": "Festival Reverso Bogotá: Personajes inesperados",
+   "summary": "Taller creativo para imaginar personajes extraordinarios usando el arte, la música y la poesía.",
+   "kind": "participar",
+   "category": "arte",
+   "span": "single",
+   "start": "2026-10-15T14:00",
+   "evening": false,
+   "venue": {
+    "name": "Biblioteca Pública El Mirador",
+    "address": "Biblioteca Pública El Mirador, Bogotá",
+    "zone": "desconocida"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Gratis"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "desconocido",
+    "note": "Actividad en biblioteca; generalmente cuentan con sillas y acceso básico."
+   },
+   "forSeniors": false,
+   "url": "https://www.biblored.gov.co/programate/festival-reverso-bogota-personajes-inesperados",
+   "source": "biblored",
+   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
+   "image": "https://biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/personaje.png?itok=-TIwqxQV"
+  },
+  {
    "id": "8f4ba419fa1c",
    "title": "Laboratorio de archivos fotográficos para activar la imaginación histórica",
    "summary": "Taller para investigar la historia de la fotografía colombiana como imagen y objeto. Ideal para quienes aman las artes plásticas.",
@@ -2167,17 +1193,78 @@
    "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/colecciones-fotograficas-blaa-virtual-el-baile-demetrio-paredes-1862-1870-1024%C3%97768.webp?itok=bcQoYa0Z"
   },
   {
+   "id": "cb704f073e17",
+   "title": "Disfruta una tarde de cine",
+   "summary": "Tarde de cine con funciones especiales de la Cinemateca Distrital y espacio para diálogo.",
+   "kind": "asistir",
+   "category": "cine",
+   "span": "single",
+   "start": "2026-10-15T15:00",
+   "evening": false,
+   "venue": {
+    "name": "Biblioteca Pública Fontibón",
+    "address": "Biblioteca Pública Fontibón, Bogotá",
+    "zone": "occidente"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Gratis"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Biblioteca pública con rampas y ascensor; sala de cine con butacas."
+   },
+   "forSeniors": true,
+   "url": "https://www.biblored.gov.co/index.php/programate/disfruta-una-tarde-de-cine-55",
+   "source": "biblored",
+   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
+   "image": "https://www.biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/whatsapp-image-2026-09-07-at-5.50.35-pm_1.jpeg?itok=3G6DwBvZ"
+  },
+  {
+   "id": "252766d8cb1a",
+   "title": "Círculo de mujeres: Mujeres fuera de cuadro",
+   "summary": "Conversatorio sobre la mirada femenina en las artes visuales, explorando obras de artistas mujeres y la identidad.",
+   "kind": "participar",
+   "category": "arte",
+   "span": "single",
+   "start": "2026-10-15T16:00",
+   "evening": false,
+   "venue": {
+    "name": "Biblioteca Pública Gabriel García Márquez - Tunal",
+    "address": "Biblioteca Pública Gabriel García Márquez - Tunal, Bogotá",
+    "zone": "sur"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Gratis (cupo limitado)"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Biblioteca con rampas y ascensor; actividad en salón."
+   },
+   "forSeniors": true,
+   "url": "https://www.biblored.gov.co/programate/circulo-de-mujeres-mujeres-fuera-de-cuadro-0",
+   "source": "biblored",
+   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
+   "image": "https://www.biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/whatsapp-image-2026-06-15-at-10.38.14-pm_0.jpeg?itok=lL_7Hi_o"
+  },
+  {
    "id": "0351e3140f55",
    "title": "Gaitán al Aire Vol. 58 presenta a Gato 'e Monte",
-   "summary": "Concierto de Gato 'e Monte, quien fusiona guasca, música llanera y flamenco para narrar la vida cotidiana. Una propuesta sonora muy bogotana.",
+   "summary": "Concierto de Gato 'e Monte presentando su cuarto álbum. Una excelente oportunidad para disfrutar de música en vivo en un espacio cultural.",
    "kind": "asistir",
    "category": "musica",
    "span": "single",
    "start": "2026-10-15T18:00",
    "evening": true,
    "venue": {
-    "name": "Teatro Jorge Eliécer Gaitán",
-    "address": "Bahía teatro carrera 7 No. 22 - 47, Bogotá",
+    "name": "Lugar por confirmar",
     "zone": "centro"
    },
    "nearHome": false,
@@ -2188,10 +1275,10 @@
    "accessibility": {
     "walking": "poca",
     "seating": true,
-    "wheelchair": "parcial",
-    "note": "Teatro histórico con butacas; ofrece servicio de accesibilidad avisando al comprar la boleta."
+    "wheelchair": "si",
+    "note": "Teatro con butacas; consultar ubicación accesible al comprar la boleta."
    },
-   "forSeniors": true,
+   "forSeniors": false,
    "url": "https://www.idartes.gov.co/es/agenda/concierto/gaitan-al-aire-vol-58-presenta-gato-e-monte",
    "source": "idartes",
    "sourceName": "Idartes (Planetario, Teatro Jorge Eliécer Gaitán, Cinemateca, galerías)",
@@ -2288,12 +1375,12 @@
    "url": "https://www.tuboleta.com/es/eventos/yellowman-0",
    "source": "colsubsidio",
    "sourceName": "Colsubsidio (Teatro Colsubsidio)",
-   "image": "https://www.tuboleta.com/sites/default/files/imported-images/content-comar-prod-secutix-hm3xd8p3/images/catalog/product/xlarge/ae8a46d4-de64-4137-aa45-1ce574ac90be.jpg"
+   "image": "https://www.tuboleta.com/sites/default/files/2026-10/Copia%20de%20post.meta_.jpg"
   },
   {
    "id": "9a8e29fb3e2d",
    "title": "Berliner Philharmoniker, Alemania. Director: Kirill Petrenko, Rusia. Solista: Vikingur Ólafsson, piano",
-   "summary": "La Filarmónica de Berlín presenta el Concierto para piano n.° 1 de Brahms y el poema sinfónico Así habló Zaratustra de Richard Strauss.",
+   "summary": "La Filarmónica de Berlín presenta el 'Concierto para piano n.° 1' de Brahms y 'Así habló Zaratustra' de Richard Strauss.",
    "kind": "asistir",
    "category": "musica",
    "span": "single",
@@ -2313,7 +1400,7 @@
     "walking": "poca",
     "seating": true,
     "wheelchair": "si",
-    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el complejo."
+    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el mismo complejo."
    },
    "forSeniors": false,
    "url": "https://www.teatromayor.org/es/evento/musica/berliner-philharmoniker-alemania-director-kirill-petrenko-rusia-solista-daniil-trifonov-piano-rusia-15093?function=3586",
@@ -2352,6 +1439,37 @@
    "source": "banrep",
    "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
    "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Visita_guiada_Expo_YNPANM_BLAA_640x400.webp?itok=8Dupz_TY"
+  },
+  {
+   "id": "717f15a724ab",
+   "title": "Ciclo de poética cotidiana: club de persona mayor",
+   "summary": "Club de persona mayor donde se comparten historias, música y baile para poetizar la cotidianidad",
+   "kind": "participar",
+   "category": "danza",
+   "span": "single",
+   "start": "2026-10-16T14:00",
+   "evening": false,
+   "venue": {
+    "name": "Biblioteca Pública Manuel Zapata Olivella - Tintal",
+    "address": "Biblioteca Pública Manuel Zapata Olivella - Tintal, Bogotá",
+    "zone": "occidente"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Gratis"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Biblioteca El Tintal cuenta con rampas y ascensor"
+   },
+   "forSeniors": true,
+   "url": "https://www.biblored.gov.co/programate/ciclo-de-poetica-cotidiana-club-de-persona-mayor-1",
+   "source": "biblored",
+   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
+   "image": "https://www.biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/whatsapp-image-2026-09-05-at-6.30.37-pm_1.jpeg?itok=5lrVdw_k"
   },
   {
    "id": "d1183e41a90c",
@@ -2416,6 +1534,37 @@
    "source": "banrep",
    "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
    "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/compressed-shutterstock_2027818124.webp?itok=2iyVmBmy"
+  },
+  {
+   "id": "7eb3739a4bef",
+   "title": "Poesía expandida, donde las artes se encuentran",
+   "summary": "Experiencia multisensorial sobre cómo la poesía dialoga con la música, el cine y otras artes",
+   "kind": "asistir",
+   "category": "arte",
+   "span": "single",
+   "start": "2026-10-16T15:00",
+   "evening": false,
+   "venue": {
+    "name": "Biblioteca Pública Fontibón",
+    "address": "Biblioteca Pública Fontibón, Bogotá",
+    "zone": "occidente"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Gratis"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Biblioteca Pública con rampas y ascensor"
+   },
+   "forSeniors": true,
+   "url": "https://www.biblored.gov.co/programate/poesia-expandida-donde-las-artes-se-encuentran-1",
+   "source": "biblored",
+   "sourceName": "BibloRed — Bibliotecas Públicas de Bogotá",
+   "image": "https://www.biblored.gov.co/sites/default/files/styles/219x164/public/2026-09/whatsapp-image-2026-08-31-at-4.02.31-pm_2.jpeg?itok=caO_F4LR"
   },
   {
    "id": "e5ea525429d2",
@@ -2792,6 +1941,37 @@
    "sourceName": "Museo Nacional de Colombia"
   },
   {
+   "id": "852624676ade",
+   "title": "Una nueva edición de Distrito Urbano retumbará en la Biblioteca El Tintal",
+   "summary": "Distrito Urbano: encuentro de culturas urbanas con música, tornamesismo y breakdance en la Biblioteca El Tintal.",
+   "kind": "asistir",
+   "category": "musica",
+   "span": "single",
+   "start": "2026-10-17T16:00",
+   "evening": false,
+   "venue": {
+    "name": "Escenarios móviles",
+    "address": "Parque Biblioteca Tintal - Localidad: Kennedy, Bogotá",
+    "zone": "sur"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Entrada libre"
+   },
+   "accessibility": {
+    "walking": "moderada",
+    "seating": null,
+    "wheelchair": "si",
+    "note": "La biblioteca cuenta con rampas y ascensor, pero el evento es en un escenario móvil en el parque."
+   },
+   "forSeniors": false,
+   "url": "https://www.idartes.gov.co/es/agenda/concierto/una-nueva-edicion-de-distrito-urbano-retumbara-en-la-biblioteca-el-tintal",
+   "source": "idartes",
+   "sourceName": "Idartes (Planetario, Teatro Jorge Eliécer Gaitán, Cinemateca, galerías)",
+   "image": "https://www.idartes.gov.co/sites/default/files/styles/440_x_330/public/imagenes-eventos/Captura-de-Pantalla-2026-09-17-a-la%28s%29-12.23.52-p.-m..png?itok=DOiptQuB"
+  },
+  {
    "id": "487a7b32ad04",
    "title": "Noches Pilona presenta: Lila Sky",
    "summary": "Presentación de Lila Sky, artista de pop electrónico y reguetón experimental con una propuesta visual futurista.",
@@ -2851,7 +2031,7 @@
    "url": "https://www.tuboleta.com/es/eventos/alexis-play-big-band",
    "source": "colsubsidio",
    "sourceName": "Colsubsidio (Teatro Colsubsidio)",
-   "image": "https://www.tuboleta.com/sites/default/files/imported-images/content-comar-prod-secutix-hm3xd8p3/images/catalog/product/xlarge/cc834ca0-506f-4bac-8b3d-68fd9185dad3.jpg"
+   "image": "https://www.tuboleta.com/sites/default/files/2026-10/Alexis%20Baja.png"
   },
   {
    "id": "09490f459f42",
@@ -3103,7 +2283,7 @@
   {
    "id": "51eef1c38ddb",
    "title": "Eleni Katz y Llewellyn Sánchez-Werner (Estados Unidos)",
-   "summary": "Recital de fagot y piano con obras de Piazzolla, Ravel y Gershwin en la Sala de Conciertos.",
+   "summary": "Concierto de fagot y piano con los artistas Eleni Katz y Llewellyn Sánchez-Werner en la Sala de Conciertos de la BLAA.",
    "kind": "asistir",
    "category": "musica",
    "span": "single",
@@ -3124,7 +2304,7 @@
     "walking": "poca",
     "seating": true,
     "wheelchair": "si",
-    "note": "Sala de conciertos con butacas y acceso para silla de ruedas."
+    "note": "Sala de conciertos con butacas; el edificio cuenta con ascensor."
    },
    "forSeniors": true,
    "url": "https://www.banrepcultural.org/bogota/actividad/eleni-katz-y-llewellyn-sanchez-werner-estados-unidos",
@@ -3478,6 +2658,37 @@
    "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/cerebro-640x440.webp?itok=_tIuFanh"
   },
   {
+   "id": "fba3d0c15be4",
+   "title": "Música Como en casa – EMOM | ORDIG",
+   "summary": "Presentación de ORDIG que combina sintetizadores analógicos e imágenes generativas en una experiencia sensorial inmersiva.",
+   "kind": "asistir",
+   "category": "musica",
+   "span": "single",
+   "start": "2026-10-21T18:00",
+   "evening": true,
+   "venue": {
+    "name": "Lobby Sala Delia Zapata — Centro Nacional de las Artes Delia Zapata Olivella (Teatro Colón)",
+    "address": "Calle 10 # 5-32, La Candelaria, Bogotá",
+    "zone": "centro"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Entrada libre con inscripción previa"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": null,
+    "wheelchair": "si",
+    "note": "Lobby de la sala; espacio plano y accesible."
+   },
+   "forSeniors": false,
+   "url": "https://eneldelia.gov.co/event/musica-como-en-casa-emom-ordig/",
+   "source": "teatrocolon",
+   "sourceName": "Teatro Colón / Centro Nacional de las Artes Delia Zapata Olivella",
+   "image": "https://www.eneldelia.gov.co/wp-content/uploads/2026/10/Despliegue-Emom-octubre_IG_1080x1350-en-tamano-grande.jpeg"
+  },
+  {
    "id": "5f6491a919ae",
    "title": "Descubre tu voz: introducción a la práctica vocal",
    "summary": "Taller introductorio a la práctica vocal para descubrir la propia voz a través de las colecciones de la Sala de Música.",
@@ -3602,7 +2813,7 @@
    "url": "https://www.tuboleta.com/es/eventos/felipe-pelaez",
    "source": "colsubsidio",
    "sourceName": "Colsubsidio (Teatro Colsubsidio)",
-   "image": "https://www.tuboleta.com/sites/default/files/imported-images/content-comar-prod-secutix-hm3xd8p3/images/catalog/product/xlarge/663d7dbd-ecd0-4550-8551-216a6c6faadd.jpg"
+   "image": "https://www.tuboleta.com/sites/default/files/2026-10/Copia%20de%20Meta-felipe-peleaez-post.jpg"
   },
   {
    "id": "47baf457b21f",
@@ -3886,6 +3097,37 @@
    "image": "https://www.idartes.gov.co/sites/default/files/styles/440_x_330/public/imagenes-eventos/pi%C3%B1ata.jpg?itok=C4poxK37"
   },
   {
+   "id": "41a650cd0418",
+   "title": "Las formas del vacío",
+   "summary": "Obra experimental que explora la identidad mediante el cuerpo circense, proyecciones digitales y paisajes sonoros.",
+   "kind": "asistir",
+   "category": "teatro",
+   "span": "single",
+   "start": "2026-10-23T19:30",
+   "evening": true,
+   "venue": {
+    "name": "Sala Fanny Mikey — Centro Nacional de las Artes Delia Zapata Olivella (Teatro Colón)",
+    "address": "Calle 10 # 5-32, La Candelaria, Bogotá",
+    "zone": "centro"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Entrada libre con inscripción previa"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Sala de teatro con butacas; acceso mediante rampas y ascensores en el complejo."
+   },
+   "forSeniors": false,
+   "url": "https://eneldelia.gov.co/event/las-formas-del-vacio/",
+   "source": "teatrocolon",
+   "sourceName": "Teatro Colón / Centro Nacional de las Artes Delia Zapata Olivella",
+   "image": "https://www.eneldelia.gov.co/wp-content/uploads/2026/10/01-Las-FormasdelVacio-1080x1350_IG-en-tamano-grande.jpeg"
+  },
+  {
    "id": "462c4634723f",
    "title": "Yuri Buenaventura Sinfónico",
    "summary": "Concierto de Yuri Buenaventura que fusiona la salsa con una orquesta sinfónica. Una propuesta elegante y musicalmente rica.",
@@ -3919,7 +3161,7 @@
   {
    "id": "d22717732a30",
    "title": "Ricardo Narváez - 'Amuleto': jazz colombiano",
-   "summary": "Lanzamiento de 'Amuleto', un proyecto de jazz íntimo y expresivo a cargo del saxofonista Ricardo Narváez.",
+   "summary": "Ricardo Narváez presenta 'Amuleto', un proyecto de jazz colombiano que fusiona la improvisación con sonidos latinoamericanos.",
    "kind": "asistir",
    "category": "musica",
    "span": "single",
@@ -3933,13 +3175,13 @@
    "nearHome": true,
    "price": {
     "free": false,
-    "text": "Con boletería (Tuboleta)"
+    "text": "Agotado"
    },
    "accessibility": {
     "walking": "poca",
     "seating": true,
     "wheelchair": "si",
-    "note": "Teatro moderno con ascensores y espacios para silla de ruedas."
+    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el mismo complejo."
    },
    "forSeniors": false,
    "url": "https://www.teatromayor.org/es/evento/musica/ricardo-narvaez-amuleto-jazz-colombiano-15197?function=3672",
@@ -4105,7 +3347,7 @@
   {
    "id": "b5c339f97f39",
    "title": "Curso de pintura al óleo (Compensar Avenida 68)",
-   "summary": "Curso de pintura al óleo para desarrollar la sensibilidad creativa, el manejo del color y la luz. Ideal para experimentar con pinceladas.",
+   "summary": "Curso de pintura al óleo para desarrollar la sensibilidad creativa, el manejo del color y la luz.",
    "kind": "participar",
    "category": "pintura",
    "span": "range",
@@ -4119,13 +3361,13 @@
    "nearHome": false,
    "price": {
     "free": false,
-    "text": "Afiliados cat. A $75.000 · B $100.000 · C $155.200 · No afiliados $253.800"
+    "text": "Desde $75.000 hasta $253.800"
    },
    "accessibility": {
     "walking": "poca",
     "seating": true,
     "wheelchair": "si",
-    "note": "Sede de Compensar con accesibilidad; actividad realizada sentada en salón."
+    "note": "Taller en salón con sillas; sede Compensar con acceso para silla de ruedas."
    },
    "forSeniors": true,
    "url": "https://www.tiendacompensar.com/cursos-escuela-de-capacitaci%C3%B3n-sedes/curso-de-pintura-al-oleo/HER-B-RED-EDU-ESC-266",
@@ -4258,6 +3500,37 @@
    "sourceName": "Museo Nacional de Colombia"
   },
   {
+   "id": "49b77c3a4b50",
+   "title": "Lecturas que acompañan el duelo - La muerte ilustrada",
+   "summary": "Encuentro sobre la muerte ilustrada, explorando cómo las imágenes y colores ayudan a procesar la ausencia y el duelo.",
+   "kind": "asistir",
+   "category": "arte",
+   "span": "single",
+   "start": "2026-10-24T11:00",
+   "evening": false,
+   "venue": {
+    "name": "Babel Libros - Calle 39A No. 20-55, Bogotá",
+    "address": "Babel Libros - Calle 39A No. 20-55, Bogotá",
+    "zone": "centro"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Entrada libre"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "desconocido",
+    "note": "Librería local; se recomienda preguntar por accesibilidad al ingresar."
+   },
+   "forSeniors": false,
+   "url": "https://www.idartes.gov.co/es/agenda/encuentro/lecturas-que-acompanan-el-duelo-la-muerte-ilustrada",
+   "source": "idartes",
+   "sourceName": "Idartes (Planetario, Teatro Jorge Eliécer Gaitán, Cinemateca, galerías)",
+   "image": "https://www.idartes.gov.co/sites/default/files/styles/440_x_330/public/imagenes-eventos/Captura-de-pantalla-2026-08-29-223439_1.png?itok=1WxyZSxf"
+  },
+  {
    "id": "359f70123ba0",
    "title": "Cielos de piedra: navegando con las estrellas",
    "summary": "Taller para imaginar y crear representaciones del universo basadas en la etnoastronomía y la arqueoastronomía.",
@@ -4323,7 +3596,7 @@
   {
    "id": "f16f57846d4b",
    "title": "Una trama de nosotras mismas",
-   "summary": "Ciclo de visitas guiadas por el MAMU para explorar imágenes y prácticas artísticas femeninas de los siglos XX y XXI.",
+   "summary": "Visita guiada por el MAMU para explorar la representación de las mujeres a través de diversas exposiciones artísticas.",
    "kind": "asistir",
    "category": "arte",
    "span": "single",
@@ -4342,9 +3615,9 @@
    },
    "accessibility": {
     "walking": "moderada",
-    "seating": false,
+    "seating": null,
     "wheelchair": "si",
-    "note": "Museo con rampas; preguntar por ascensor. Recorrido a pie."
+    "note": "Museo con rampas; el recorrido es a pie por las salas."
    },
    "forSeniors": false,
    "url": "https://www.banrepcultural.org/bogota/actividad/una-trama-de-nosotras-mismas",
@@ -4448,6 +3721,37 @@
    "sourceName": "Museo Nacional de Colombia"
   },
   {
+   "id": "48f77ac50ef5",
+   "title": "Las formas del vacío",
+   "summary": "Obra experimental que explora la identidad mediante el cuerpo circense, proyecciones digitales y paisajes sonoros.",
+   "kind": "asistir",
+   "category": "teatro",
+   "span": "single",
+   "start": "2026-10-24T19:30",
+   "evening": true,
+   "venue": {
+    "name": "Sala Fanny Mikey — Centro Nacional de las Artes Delia Zapata Olivella (Teatro Colón)",
+    "address": "Calle 10 # 5-32, La Candelaria, Bogotá",
+    "zone": "centro"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Entrada libre con inscripción previa"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Sala de teatro con butacas; acceso mediante rampas y ascensores en el complejo."
+   },
+   "forSeniors": false,
+   "url": "https://eneldelia.gov.co/event/las-formas-del-vacio/",
+   "source": "teatrocolon",
+   "sourceName": "Teatro Colón / Centro Nacional de las Artes Delia Zapata Olivella",
+   "image": "https://www.eneldelia.gov.co/wp-content/uploads/2026/10/01-Las-FormasdelVacio-1080x1350_IG-en-tamano-grande.jpeg"
+  },
+  {
    "id": "a1d38215161a",
    "title": "Yuri Buenaventura Sinfónico",
    "summary": "Concierto de Yuri Buenaventura que fusiona la salsa con una orquesta sinfónica. Una propuesta elegante y musicalmente rica.",
@@ -4508,6 +3812,37 @@
    "source": "teatromayor",
    "sourceName": "Teatro Mayor Julio Mario Santo Domingo",
    "image": "https://www.teatromayor.org/sites/default/files/styles/sc_r_380x240/public/20260513/perine.jpg?itok=Cf4CPwdG&timestamp=1778681924"
+  },
+  {
+   "id": "fd18f78e55ab",
+   "title": "Ricardo Narváez - 'Amuleto': jazz colombiano",
+   "summary": "Ricardo Narváez presenta 'Amuleto', un proyecto de jazz colombiano que fusiona la improvisación con sonidos latinoamericanos.",
+   "kind": "asistir",
+   "category": "musica",
+   "span": "single",
+   "start": "2026-10-24T20:00",
+   "evening": true,
+   "venue": {
+    "name": "Teatro Mayor Julio Mario Santo Domingo",
+    "address": "Av. Calle 170 # 67-51, Bogotá",
+    "zone": "norte"
+   },
+   "nearHome": true,
+   "price": {
+    "free": false,
+    "text": "Con boletería (Tuboleta)"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el mismo complejo."
+   },
+   "forSeniors": false,
+   "url": "https://www.teatromayor.org/es/evento/musica/ricardo-narvaez-amuleto-jazz-colombiano-15197?function=3763",
+   "source": "teatromayor",
+   "sourceName": "Teatro Mayor Julio Mario Santo Domingo",
+   "image": "https://www.teatromayor.org/sites/default/files/styles/sc_r_380x240/public/20260717/imagenes_web_ricardo_narvaez_teatro_mayor.jpg?itok=BTShxkvM&timestamp=1784298701"
   },
   {
    "id": "3fbf880df4c6",
@@ -4789,6 +4124,130 @@
    "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Buzz%20Brass_640x400.webp?itok=ii0LaR3h"
   },
   {
+   "id": "b85395bd8e9f",
+   "title": "Las formas del vacío",
+   "summary": "Obra experimental que explora la identidad mediante el cuerpo circense, proyecciones digitales y paisajes sonoros.",
+   "kind": "asistir",
+   "category": "teatro",
+   "span": "single",
+   "start": "2026-10-25T15:00",
+   "evening": false,
+   "venue": {
+    "name": "Sala Fanny Mikey — Centro Nacional de las Artes Delia Zapata Olivella (Teatro Colón)",
+    "address": "Calle 10 # 5-32, La Candelaria, Bogotá",
+    "zone": "centro"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Entrada libre con inscripción previa"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Sala de teatro con butacas; acceso mediante rampas y ascensores en el complejo."
+   },
+   "forSeniors": false,
+   "url": "https://eneldelia.gov.co/event/las-formas-del-vacio/",
+   "source": "teatrocolon",
+   "sourceName": "Teatro Colón / Centro Nacional de las Artes Delia Zapata Olivella",
+   "image": "https://www.eneldelia.gov.co/wp-content/uploads/2026/10/01-Las-FormasdelVacio-1080x1350_IG-en-tamano-grande.jpeg"
+  },
+  {
+   "id": "b6ed3dbbf3b6",
+   "title": "Instrucciones Para Ser Feliz Tour",
+   "summary": "Monsieur Periné presenta su tour 'Instrucciones para ser feliz', con una propuesta de música latina contemporánea y ritmos variados.",
+   "kind": "asistir",
+   "category": "musica",
+   "span": "single",
+   "start": "2026-10-25T20:00",
+   "evening": true,
+   "venue": {
+    "name": "Teatro Mayor Julio Mario Santo Domingo",
+    "address": "Av. Calle 170 # 67-51, Bogotá",
+    "zone": "norte"
+   },
+   "nearHome": true,
+   "price": {
+    "free": false,
+    "text": "Con boletería (Tuboleta)"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el mismo complejo."
+   },
+   "forSeniors": false,
+   "url": "https://www.teatromayor.org/es/evento/musica/instrucciones-para-ser-feliz-tour-15173?function=3664",
+   "source": "teatromayor",
+   "sourceName": "Teatro Mayor Julio Mario Santo Domingo",
+   "image": "https://www.teatromayor.org/sites/default/files/styles/sc_r_380x240/public/20260513/perine.jpg?itok=Cf4CPwdG&timestamp=1778681924"
+  },
+  {
+   "id": "327c087a165b",
+   "title": "Curso de baile bachata (Compensar Avenida 68)",
+   "summary": "Clases de baile bachata en niveles básico, intermedio y avanzado.",
+   "kind": "participar",
+   "category": "danza",
+   "span": "range",
+   "start": "2026-10-26",
+   "end": "2026-11-22",
+   "evening": false,
+   "venue": {
+    "name": "Compensar Avenida 68",
+    "zone": "occidente"
+   },
+   "nearHome": false,
+   "price": {
+    "free": false,
+    "text": "Desde $70.600 hasta $220.600"
+   },
+   "accessibility": {
+    "walking": "moderada",
+    "seating": false,
+    "wheelchair": "si",
+    "note": "Actividad física de pie; el lugar es accesible pero la práctica requiere movilidad."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/promo-cursos-deportivos/curso-de-baile-bachata/HER-B-RED-DEP-MOT-007",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v2345090690636681662/products/id1500.dos-parejas-bailando-bachata.jpg"
+  },
+  {
+   "id": "6fe04264adc6",
+   "title": "Curso de dibujo artístico (Compensar Avenida 68)",
+   "summary": "Curso de dibujo artístico para dominar trazos, sombras y proporciones usando diversas herramientas.",
+   "kind": "participar",
+   "category": "pintura",
+   "span": "range",
+   "start": "2026-10-26",
+   "end": "2026-11-16",
+   "evening": false,
+   "venue": {
+    "name": "Compensar Avenida 68",
+    "zone": "occidente"
+   },
+   "nearHome": false,
+   "price": {
+    "free": false,
+    "text": "Desde $75.000 hasta $253.800"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Taller en salón con sillas; sede Compensar con acceso para silla de ruedas."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/actividades-para-ni%C3%B1os/curso-de-dibujo-artistico/HER-B-RED-EDU-ESC-237",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v8099150841262294727/products/id1410.mujer-dibuja-en-libreta-rosada.jpg"
+  },
+  {
    "id": "777885cb811f",
    "title": "Curso de pintura en acuarela (Compensar Avenida 68)",
    "summary": "Curso de pintura en acuarela para aprender a controlar pigmentos y agua creando obras armoniosas.",
@@ -4911,6 +4370,130 @@
    "source": "compensar",
    "sourceName": "Compensar",
    "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v4840228938922421664/products/hombre-mayor-en-clase-de-tecnica-vocal.jpg"
+  },
+  {
+   "id": "5ca5232db05f",
+   "title": "Curso de baile (Compensar Centro Mayor)",
+   "summary": "Curso de baile básico para adultos, ideal para liberar el espíritu y ganar seguridad en la pista.",
+   "kind": "participar",
+   "category": "danza",
+   "span": "range",
+   "start": "2026-10-27",
+   "end": "2026-11-22",
+   "evening": false,
+   "venue": {
+    "name": "Compensar Centro Mayor",
+    "zone": "sur"
+   },
+   "nearHome": false,
+   "price": {
+    "free": false,
+    "text": "Desde $70.600"
+   },
+   "accessibility": {
+    "walking": "moderada",
+    "seating": false,
+    "wheelchair": "desconocido",
+    "note": "Actividad de baile de pie en salón."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/cbi-am%C3%A9ricas/curso-de-baile/HER-B-RED-DEP-MOT-008",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v7367266319995953822/products/id1500.hombre-dandole-una-vuelta-a-mujer.jpg"
+  },
+  {
+   "id": "2a06ac5a14c9",
+   "title": "Curso de baile bachata (Compensar Centro Mayor)",
+   "summary": "Clases de bachata básico para aprender ritmo, técnica y expresión corporal en un ambiente acogedor.",
+   "kind": "participar",
+   "category": "danza",
+   "span": "range",
+   "start": "2026-10-27",
+   "end": "2026-11-21",
+   "evening": false,
+   "venue": {
+    "name": "Compensar Centro Mayor",
+    "zone": "sur"
+   },
+   "nearHome": false,
+   "price": {
+    "free": false,
+    "text": "Desde $70.600"
+   },
+   "accessibility": {
+    "walking": "moderada",
+    "seating": false,
+    "wheelchair": "desconocido",
+    "note": "Actividad de baile de pie en salón."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/promo-cursos-deportivos/curso-de-baile-bachata/HER-B-RED-DEP-MOT-007",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v2345090690636681662/products/id1500.dos-parejas-bailando-bachata.jpg"
+  },
+  {
+   "id": "2134c425d17a",
+   "title": "Curso de baile salsa (Compensar Avenida 68)",
+   "summary": "Clases de salsa en niveles básico e intermedio para aprender este ritmo latino popular.",
+   "kind": "participar",
+   "category": "danza",
+   "span": "range",
+   "start": "2026-10-27",
+   "end": "2026-11-22",
+   "evening": false,
+   "venue": {
+    "name": "Compensar Avenida 68",
+    "zone": "occidente"
+   },
+   "nearHome": false,
+   "price": {
+    "free": false,
+    "text": "Desde $70.600"
+   },
+   "accessibility": {
+    "walking": "moderada",
+    "seating": false,
+    "wheelchair": "desconocido",
+    "note": "Actividad de baile de pie en salón."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/promo-cursos-deportivos/curso-de-baile-salsa/HER-B-RED-DEP-MOT-025",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v9034244385477103579/products/id1500.tres-parejas-bailando-salsa.jpg"
+  },
+  {
+   "id": "5b4aa193d840",
+   "title": "Curso de baile salsa (Compensar Centro Mayor)",
+   "summary": "Clases de salsa básico para disfrutar del ritmo y la alegría del baile en un ambiente educativo y divertido.",
+   "kind": "participar",
+   "category": "danza",
+   "span": "range",
+   "start": "2026-10-27",
+   "end": "2026-11-22",
+   "evening": false,
+   "venue": {
+    "name": "Compensar Centro Mayor",
+    "zone": "sur"
+   },
+   "nearHome": false,
+   "price": {
+    "free": false,
+    "text": "Afiliados cat. A $70.600 · B $86.600 · C $135.700 · No afiliados $220.600"
+   },
+   "accessibility": {
+    "walking": "moderada",
+    "seating": false,
+    "wheelchair": "si",
+    "note": "Instalaciones modernas de Compensar; el baile es una actividad de pie."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/promo-cursos-deportivos/curso-de-baile-salsa/HER-B-RED-DEP-MOT-025",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v9034244385477103579/products/id1500.tres-parejas-bailando-salsa.jpg"
   },
   {
    "id": "439d8bcf9d7d",
@@ -5255,6 +4838,161 @@
    "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Banco-de-semillas-640x440.webp?itok=P4IZbjEb"
   },
   {
+   "id": "9d2cfd303616",
+   "title": "Curso de baile (Compensar CUR - Centro Urbano de Recreación)",
+   "summary": "Cursos de baile en niveles básico, intermedio y avanzado para mayores de 18 años. Diversos horarios disponibles.",
+   "kind": "participar",
+   "category": "danza",
+   "span": "range",
+   "start": "2026-10-28",
+   "end": "2026-11-22",
+   "evening": false,
+   "venue": {
+    "name": "Compensar CUR - Centro Urbano de Recreación",
+    "zone": "desconocida"
+   },
+   "nearHome": false,
+   "price": {
+    "free": false,
+    "text": "Afiliados cat. A $70.600 · B $86.600 · C $135.700 · No afiliados $220.600"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": null,
+    "wheelchair": "desconocido",
+    "note": "Actividad en salón; se recomienda consultar disponibilidad de sillas para descansos."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/cbi-am%C3%A9ricas/curso-de-baile/HER-B-RED-DEP-MOT-008",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v7367266319995953822/products/id1500.hombre-dandole-una-vuelta-a-mujer.jpg"
+  },
+  {
+   "id": "97e8caced42e",
+   "title": "Curso de baile bachata (Compensar Carrera 60)",
+   "summary": "Clases de bachata para principiantes. Un espacio acogedor para aprender los pasos básicos, técnica y musicalidad de este ritmo latino.",
+   "kind": "participar",
+   "category": "danza",
+   "span": "range",
+   "start": "2026-10-28",
+   "end": "2026-11-22",
+   "evening": false,
+   "venue": {
+    "name": "Compensar Carrera 60",
+    "zone": "occidente"
+   },
+   "nearHome": false,
+   "price": {
+    "free": false,
+    "text": "Afiliados cat. A $70.600 · B $86.600 · C $135.700 · No afiliados $220.600"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": null,
+    "wheelchair": "desconocido",
+    "note": "Actividad en salón; se recomienda consultar disponibilidad de sillas para descansos."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/promo-cursos-deportivos/curso-de-baile-bachata/HER-B-RED-DEP-MOT-007",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v2345090690636681662/products/id1500.dos-parejas-bailando-bachata.jpg"
+  },
+  {
+   "id": "36d84363dda9",
+   "title": "Curso de baile bachata (Compensar CUR - Centro Urbano de Recreación)",
+   "summary": "Clases de bachata en niveles básico e intermedio. Ideal para quienes desean perfeccionar su estilo y expresión corporal.",
+   "kind": "participar",
+   "category": "danza",
+   "span": "range",
+   "start": "2026-10-28",
+   "end": "2026-11-22",
+   "evening": false,
+   "venue": {
+    "name": "Compensar CUR - Centro Urbano de Recreación",
+    "zone": "desconocida"
+   },
+   "nearHome": false,
+   "price": {
+    "free": false,
+    "text": "Afiliados cat. A $70.600 · B $86.600 · C $135.700 · No afiliados $220.600"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": null,
+    "wheelchair": "desconocido",
+    "note": "Actividad en salón; se recomienda consultar disponibilidad de sillas para descansos."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/promo-cursos-deportivos/curso-de-baile-bachata/HER-B-RED-DEP-MOT-007",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v2345090690636681662/products/id1500.dos-parejas-bailando-bachata.jpg"
+  },
+  {
+   "id": "1574291de410",
+   "title": "Curso de baile salsa (Compensar Carrera 60)",
+   "summary": "Clases de salsa para aprender pasos básicos y avanzados, trabajando la coordinación y el ritmo latino.",
+   "kind": "participar",
+   "category": "danza",
+   "span": "range",
+   "start": "2026-10-28",
+   "end": "2026-11-22",
+   "evening": false,
+   "venue": {
+    "name": "Compensar Carrera 60",
+    "zone": "occidente"
+   },
+   "nearHome": false,
+   "price": {
+    "free": false,
+    "text": "Afiliados cat. A $70.600 · B $86.600 · C $135.700 · No afiliados $220.600"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": null,
+    "wheelchair": "desconocido",
+    "note": "Actividad en salón; se recomienda consultar disponibilidad de sillas para descansos."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/promo-cursos-deportivos/curso-de-baile-salsa/HER-B-RED-DEP-MOT-025",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v9034244385477103579/products/id1500.tres-parejas-bailando-salsa.jpg"
+  },
+  {
+   "id": "c618cd5e2678",
+   "title": "Curso de baile salsa (Compensar CUR - Centro Urbano de Recreación)",
+   "summary": "Cursos de salsa en niveles básico e intermedio con múltiples horarios para aprender este ritmo contagioso.",
+   "kind": "participar",
+   "category": "danza",
+   "span": "range",
+   "start": "2026-10-28",
+   "end": "2026-11-22",
+   "evening": false,
+   "venue": {
+    "name": "Compensar CUR - Centro Urbano de Recreación",
+    "zone": "desconocida"
+   },
+   "nearHome": false,
+   "price": {
+    "free": false,
+    "text": "Afiliados cat. A $70.600 · B $86.600 · C $135.700 · No afiliados $220.600"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": null,
+    "wheelchair": "desconocido",
+    "note": "Actividad en salón; se recomienda consultar disponibilidad de sillas para descansos."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/promo-cursos-deportivos/curso-de-baile-salsa/HER-B-RED-DEP-MOT-025",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v9034244385477103579/products/id1500.tres-parejas-bailando-salsa.jpg"
+  },
+  {
    "id": "a3902f95d086",
    "title": "Curso de dibujo artístico (Compensar Centro Mayor)",
    "summary": "Curso de dibujo artístico para dominar trazos, sombras y proporciones usando grafito, carboncillo y pasteles.",
@@ -5565,6 +5303,99 @@
    "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v1011820681010991971/products/mujeres-posando-para-una-portada-de-evento-con-microfonos.jpg"
   },
   {
+   "id": "fdc97a838878",
+   "title": "Curso de baile (Compensar Carrera 60)",
+   "summary": "Curso de baile básico para aprender ritmos como salsa, bachata y merengue. Ideal para disfrutar de la música y el movimiento.",
+   "kind": "participar",
+   "category": "danza",
+   "span": "range",
+   "start": "2026-10-29",
+   "end": "2026-11-21",
+   "evening": false,
+   "venue": {
+    "name": "Compensar Carrera 60",
+    "zone": "occidente"
+   },
+   "nearHome": false,
+   "price": {
+    "free": false,
+    "text": "Afiliados cat. A $70.600 · B $86.600 · C $135.700 · No afiliados $220.600"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": null,
+    "wheelchair": "si",
+    "note": "Sede de Compensar; generalmente cuentan con accesibilidad, pero la actividad es de pie."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/cbi-am%C3%A9ricas/curso-de-baile/HER-B-RED-DEP-MOT-008",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v7367266319995953822/products/id1500.hombre-dandole-una-vuelta-a-mujer.jpg"
+  },
+  {
+   "id": "ac97bf12eec4",
+   "title": "Curso de baile bachata (Compensar Calle 94)",
+   "summary": "Clases de bachata básico para aprender la técnica y musicalidad de este género latino en un ambiente acogedor.",
+   "kind": "participar",
+   "category": "danza",
+   "span": "range",
+   "start": "2026-10-29",
+   "end": "2026-11-22",
+   "evening": false,
+   "venue": {
+    "name": "Compensar Calle 94",
+    "zone": "norte"
+   },
+   "nearHome": true,
+   "price": {
+    "free": false,
+    "text": "Afiliados cat. A $70.600 · B $86.600 · C $135.700 · No afiliados $220.600"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": null,
+    "wheelchair": "desconocido",
+    "note": "Actividad en salón; se recomienda consultar disponibilidad de sillas para descansos."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/promo-cursos-deportivos/curso-de-baile-bachata/HER-B-RED-DEP-MOT-007",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v2345090690636681662/products/id1500.dos-parejas-bailando-bachata.jpg"
+  },
+  {
+   "id": "122b5292debd",
+   "title": "Curso de baile salsa (Compensar Calle 94)",
+   "summary": "Clases de salsa básico para aprender pasos, coordinación y ritmo en un ambiente divertido.",
+   "kind": "participar",
+   "category": "danza",
+   "span": "range",
+   "start": "2026-10-29",
+   "end": "2026-11-22",
+   "evening": false,
+   "venue": {
+    "name": "Compensar Calle 94",
+    "zone": "norte"
+   },
+   "nearHome": true,
+   "price": {
+    "free": false,
+    "text": "Afiliados cat. A $70.600 · B $86.600 · C $135.700 · No afiliados $220.600"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": null,
+    "wheelchair": "si",
+    "note": "Sede en Calle 94 con acceso para silla de ruedas; actividad requiere movilidad de pie."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/promo-cursos-deportivos/curso-de-baile-salsa/HER-B-RED-DEP-MOT-025",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v9034244385477103579/products/id1500.tres-parejas-bailando-salsa.jpg"
+  },
+  {
    "id": "b0925f84209c",
    "title": "Curso de pintura al óleo (Compensar Autopista Sur)",
    "summary": "Taller de pintura al óleo para adultos: aprenda sobre color, composición y luz para expresar sus ideas con realismo.",
@@ -5817,6 +5648,130 @@
    "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v403495940787311663/products/hombres-posando-para-una-portada-de-eventos-con-microfonos.jpg"
   },
   {
+   "id": "0921675fff05",
+   "title": "Curso de baile (Compensar Calle 94)",
+   "summary": "Curso de baile básico para aprender salsa, bachata y merengue, ideal para coordinar el cuerpo con la música.",
+   "kind": "participar",
+   "category": "danza",
+   "span": "range",
+   "start": "2026-10-30",
+   "end": "2026-11-22",
+   "evening": false,
+   "venue": {
+    "name": "Compensar Calle 94",
+    "zone": "norte"
+   },
+   "nearHome": true,
+   "price": {
+    "free": false,
+    "text": "Afiliados cat. A $70.600 · B $86.600 · C $135.700 · No afiliados $220.600"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": null,
+    "wheelchair": "si",
+    "note": "Sede Calle 94 con acceso para silla de ruedas; actividad de pie."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/cbi-am%C3%A9ricas/curso-de-baile/HER-B-RED-DEP-MOT-008",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v7367266319995953822/products/id1500.hombre-dandole-una-vuelta-a-mujer.jpg"
+  },
+  {
+   "id": "4b9be7099fb0",
+   "title": "Curso de baile bachata (Compensar Suba Sede Integral)",
+   "summary": "Clases de bachata básico para aprender técnica, musicalidad y expresión corporal.",
+   "kind": "participar",
+   "category": "danza",
+   "span": "range",
+   "start": "2026-10-30",
+   "end": "2026-11-22",
+   "evening": false,
+   "venue": {
+    "name": "Compensar Suba Sede Integral",
+    "zone": "norte"
+   },
+   "nearHome": true,
+   "price": {
+    "free": false,
+    "text": "Afiliados cat. A $70.600 · B $86.600 · C $135.700 · No afiliados $220.600"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": null,
+    "wheelchair": "si",
+    "note": "Sede Suba con accesibilidad; actividad requiere movilidad de pie."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/promo-cursos-deportivos/curso-de-baile-bachata/HER-B-RED-DEP-MOT-007",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v2345090690636681662/products/id1500.dos-parejas-bailando-bachata.jpg"
+  },
+  {
+   "id": "fbe73d958be8",
+   "title": "Curso de baile salsa (Compensar Suba Sede Integral)",
+   "summary": "Clases de salsa básico para aprender pasos y ritmo en un ambiente alegre. Ideal para disfrutar la danza.",
+   "kind": "participar",
+   "category": "danza",
+   "span": "range",
+   "start": "2026-10-30",
+   "end": "2026-11-22",
+   "evening": false,
+   "venue": {
+    "name": "Compensar Suba Sede Integral",
+    "zone": "norte"
+   },
+   "nearHome": true,
+   "price": {
+    "free": false,
+    "text": "Afiliados cat. A $70.600 · B $86.600 · C $135.700 · No afiliados $220.600"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": null,
+    "wheelchair": "si",
+    "note": "Sede integral con accesibilidad; la actividad es de pie pero en salón."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/promo-cursos-deportivos/curso-de-baile-salsa/HER-B-RED-DEP-MOT-025",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v9034244385477103579/products/id1500.tres-parejas-bailando-salsa.jpg"
+  },
+  {
+   "id": "311d2f2d4381",
+   "title": "Curso de fotografía de retrato (Compensar Avenida 68)",
+   "summary": "Taller de fotografía de retrato para capturar emociones, manejar iluminación y desarrollar una visión artística.",
+   "kind": "participar",
+   "category": "arte",
+   "span": "range",
+   "start": "2026-10-30",
+   "end": "2026-11-20",
+   "evening": false,
+   "venue": {
+    "name": "Compensar Avenida 68",
+    "zone": "occidente"
+   },
+   "nearHome": false,
+   "price": {
+    "free": false,
+    "text": "Afiliados cat. A $75.000 · B $100.000 · C $155.200 · No afiliados $253.800"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Sede con accesibilidad; el taller incluye teoría sentada y práctica de pie."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/fotograf%C3%ADa/curso-de-fotografia-de-retrato/HER-B-RED-EDU-ESC-247",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v6588930590475324466/products/mujer-con-camara-tomando-foto-junto-a-profesora.jpg"
+  },
+  {
    "id": "24a651cfda8a",
    "title": "Fiesta de disfraces generación silver (Compensar Carrera 60)",
    "summary": "Fiesta de disfraces Generación Silver: tarde de creatividad, concurso de disfraces y rumba para bailar y compartir.",
@@ -6002,7 +5957,7 @@
    "url": "https://www.tuboleta.com/es/eventos/luis-enrique",
    "source": "colsubsidio",
    "sourceName": "Colsubsidio (Teatro Colsubsidio)",
-   "image": "https://www.tuboleta.com/sites/default/files/imported-images/content-comar-prod-secutix-hm3xd8p3/images/catalog/product/xlarge/7fc1760c-f20f-457a-b14a-42b51120cf1d.jpg"
+   "image": "https://www.tuboleta.com/sites/default/files/2026-10/Copia%20de%20Luis%20enrique%2010801080.jpg"
   },
   {
    "id": "12256fa51c05",
@@ -6034,6 +5989,68 @@
    "source": "idartes",
    "sourceName": "Idartes (Planetario, Teatro Jorge Eliécer Gaitán, Cinemateca, galerías)",
    "image": "https://www.idartes.gov.co/sites/default/files/styles/440_x_330/public/imagenes-eventos/Web-evento.jpg?itok=rgvIJJ_T"
+  },
+  {
+   "id": "aba8cb499509",
+   "title": "Curso de baile (Compensar Avenida 68)",
+   "summary": "Curso de baile básico para aprender a moverse con soltura y seguridad al ritmo de la música.",
+   "kind": "participar",
+   "category": "danza",
+   "span": "range",
+   "start": "2026-10-31",
+   "end": "2026-11-22",
+   "evening": false,
+   "venue": {
+    "name": "Compensar Avenida 68",
+    "zone": "occidente"
+   },
+   "nearHome": false,
+   "price": {
+    "free": false,
+    "text": "Afiliados cat. A $70.600 · B $86.600 · C $135.700 · No afiliados $220.600"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": null,
+    "wheelchair": "si",
+    "note": "Sede Compensar con accesibilidad; actividad realizada en salón."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/cbi-am%C3%A9ricas/curso-de-baile/HER-B-RED-DEP-MOT-008",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v7367266319995953822/products/id1500.hombre-dandole-una-vuelta-a-mujer.jpg"
+  },
+  {
+   "id": "4ff560ccdb77",
+   "title": "Curso de baile (Compensar Suba Sede Integral)",
+   "summary": "Clases de baile básico donde aprenderá ritmos como salsa, bachata y merengue.",
+   "kind": "participar",
+   "category": "danza",
+   "span": "range",
+   "start": "2026-10-31",
+   "end": "2026-11-22",
+   "evening": false,
+   "venue": {
+    "name": "Compensar Suba Sede Integral",
+    "zone": "norte"
+   },
+   "nearHome": true,
+   "price": {
+    "free": false,
+    "text": "Afiliados cat. A $70.600 · B $86.600 · C $135.700 · No afiliados $220.600"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": null,
+    "wheelchair": "si",
+    "note": "Sede integral con accesibilidad; la actividad es de pie pero en salón."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/cbi-am%C3%A9ricas/curso-de-baile/HER-B-RED-DEP-MOT-008",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v7367266319995953822/products/id1500.hombre-dandole-una-vuelta-a-mujer.jpg"
   },
   {
    "id": "101fa775257a",
@@ -6070,7 +6087,7 @@
   {
    "id": "05250c53e8f0",
    "title": "Una trama de nosotras mismas",
-   "summary": "Recorrido guiado por el MAMU para explorar la representación de las mujeres a través de diversas exposiciones artísticas.",
+   "summary": "Recorrido guiado por el MAMU analizando la memoria y los oficios feminizados a través del arte.",
    "kind": "asistir",
    "category": "arte",
    "span": "single",
@@ -6133,7 +6150,7 @@
   {
    "id": "c7a9566fd316",
    "title": "Novena Sinfonía' de Beethoven - Orquesta Sinfónica Nacional de Colombia y Coro Nacional de Colombia. Director titular y artístico: Yeruham Scharovsky. Solistas: Betty Garcés, soprano, Colombia…",
-   "summary": "Interpretación de la Novena Sinfonía de Beethoven y variaciones de Brahms por la Orquesta Sinfónica Nacional.",
+   "summary": "Impresionante interpretación de la Novena Sinfonía de Beethoven por la Orquesta y el Coro Nacional de Colombia. Una obra símbolo de alegría y esperanza.",
    "kind": "asistir",
    "category": "musica",
    "span": "single",
@@ -6153,7 +6170,7 @@
     "walking": "poca",
     "seating": true,
     "wheelchair": "si",
-    "note": "Teatro moderno con ascensores y espacios para silla de ruedas."
+    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el mismo complejo."
    },
    "forSeniors": false,
    "url": "https://www.teatromayor.org/es/evento/musica/novena-sinfonia-de-beethoven-orquesta-sinfonica-nacional-de-colombia-y-coro-nacional-de-colombia-15099?function=3593",
@@ -6191,6 +6208,68 @@
    "source": "teatrocolon",
    "sourceName": "Teatro Colón / Centro Nacional de las Artes Delia Zapata Olivella",
    "image": "https://www.eneldelia.gov.co/wp-content/uploads/2026/08/Perdon-pulep_IG-1080-x1350-en-tamano-grande.jpeg"
+  },
+  {
+   "id": "43ba6373026e",
+   "title": "Curso de baile bachata (Compensar Autopista Sur)",
+   "summary": "Clases de bachata básico para aprender técnica, musicalidad y expresión corporal.",
+   "kind": "participar",
+   "category": "danza",
+   "span": "range",
+   "start": "2026-11-01",
+   "end": "2026-11-22",
+   "evening": false,
+   "venue": {
+    "name": "Compensar Autopista Sur",
+    "zone": "sur"
+   },
+   "nearHome": false,
+   "price": {
+    "free": false,
+    "text": "Afiliados cat. A $70.600 · B $86.600 · C $135.700 · No afiliados $220.600"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": null,
+    "wheelchair": "si",
+    "note": "Sede Compensar con accesibilidad; actividad realizada en salón."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/promo-cursos-deportivos/curso-de-baile-bachata/HER-B-RED-DEP-MOT-007",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v2345090690636681662/products/id1500.dos-parejas-bailando-bachata.jpg"
+  },
+  {
+   "id": "3e40ffd61361",
+   "title": "Curso de baile salsa (Compensar Autopista Sur)",
+   "summary": "Clases de salsa básico para aprender pasos, giros y coordinación al ritmo latino. Una actividad alegre y social.",
+   "kind": "participar",
+   "category": "danza",
+   "span": "range",
+   "start": "2026-11-01",
+   "end": "2026-11-22",
+   "evening": false,
+   "venue": {
+    "name": "Compensar Autopista Sur",
+    "zone": "sur"
+   },
+   "nearHome": false,
+   "price": {
+    "free": false,
+    "text": "Afiliados cat. A $70.600 · B $86.600 · C $135.700 · No afiliados $220.600"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": null,
+    "wheelchair": "desconocido",
+    "note": "Clase de baile en salón; consultar disponibilidad de sillas para descansos."
+   },
+   "forSeniors": false,
+   "url": "https://www.tiendacompensar.com/promo-cursos-deportivos/curso-de-baile-salsa/HER-B-RED-DEP-MOT-025",
+   "source": "compensar",
+   "sourceName": "Compensar",
+   "image": "https://www.tiendacompensar.com/ccstore/v1/images/?source=/file/v9034244385477103579/products/id1500.tres-parejas-bailando-salsa.jpg"
   },
   {
    "id": "8aa9a8ac8534",
@@ -6320,7 +6399,7 @@
   {
    "id": "ced889854188",
    "title": "Novena Sinfonía' de Beethoven - Orquesta Sinfónica Nacional de Colombia y Coro Nacional de Colombia. Director titular y artístico: Yeruham Scharovsky. Solistas: Betty Garcés, soprano, Colombia…",
-   "summary": "Concierto de la Novena Sinfonía de Beethoven por la Orquesta y Coro Nacional de Colombia. Una obra maestra universal llena de alegría.",
+   "summary": "Impresionante interpretación de la Novena Sinfonía de Beethoven por la Orquesta y el Coro Nacional de Colombia. Una obra símbolo de alegría y esperanza.",
    "kind": "asistir",
    "category": "musica",
    "span": "single",
@@ -6340,7 +6419,7 @@
     "walking": "poca",
     "seating": true,
     "wheelchair": "si",
-    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el complejo."
+    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el mismo complejo."
    },
    "forSeniors": false,
    "url": "https://www.teatromayor.org/es/evento/musica/novena-sinfonia-de-beethoven-orquesta-sinfonica-nacional-de-colombia-y-coro-nacional-de-colombia-15099?function=3594",
@@ -6792,7 +6871,7 @@
   {
    "id": "6c48b18a88fb",
    "title": "Una trama de nosotras mismas. Recorridos para desobedecer, crear y hacer memoria juntas",
-   "summary": "Recorrido guiado por el MAMU para explorar la memoria y las prácticas artísticas de las mujeres en los siglos XX y XXI.",
+   "summary": "Visita guiada por el MAMU que pone en diálogo exposiciones sobre la experiencia femenina y el arte.",
    "kind": "asistir",
    "category": "arte",
    "span": "single",
@@ -6813,7 +6892,7 @@
     "walking": "moderada",
     "seating": null,
     "wheelchair": "si",
-    "note": "Museo con rampas; preguntar por ascensor. Recorrido a pie por las salas."
+    "note": "Museo con rampas; el recorrido es a pie por las salas."
    },
    "forSeniors": true,
    "url": "https://www.banrepcultural.org/bogota/actividad/una-trama-de-nosotras-mismas-recorridos-para-desobedecer-crear-y-hacer-memoria",
@@ -6881,7 +6960,7 @@
    "url": "https://www.tuboleta.com/es/eventos/billos-caracas-boys-1",
    "source": "colsubsidio",
    "sourceName": "Colsubsidio (Teatro Colsubsidio)",
-   "image": "https://www.tuboleta.com/sites/default/files/imported-images/content-comar-prod-secutix-hm3xd8p3/images/catalog/product/xlarge/dd0279b0-c22d-4c7c-bfd4-c120841a8d36.jpg"
+   "image": "https://www.tuboleta.com/sites/default/files/2026-10/post%20nueva%20fecha.png"
   },
   {
    "id": "78942ba5b684",
@@ -7010,8 +7089,8 @@
   },
   {
    "id": "06bda8b17faa",
-   "title": "Juan Carlos Higuita, violín, Colombia, y Mac McClure, piano, Estados Unidos - 'Estrenos musicales, grandes hits y",
-   "summary": "Concierto divertido y elegante de violín y piano con obras de Mozart y estrenos musicales contemporáneos.",
+   "title": "Juan Carlos Higuita, violín, Colombia, y Mac McClure, piano, Estados Unidos - 15 años de amistad en violín y piano",
+   "summary": "Recital divertido y elegante de violín y piano con obras de Mozart y Gershwin. Una celebración de 15 años de amistad musical.",
    "kind": "asistir",
    "category": "musica",
    "span": "single",
@@ -7031,7 +7110,7 @@
     "walking": "poca",
     "seating": true,
     "wheelchair": "si",
-    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el complejo."
+    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el mismo complejo."
    },
    "forSeniors": false,
    "url": "https://www.teatromayor.org/es/evento/musica/juan-carlos-higuita-violin-colombia-y-mac-mcclure-piano-estados-unidos-15-anos-de-violin-y-piano-15103?function=3600",
@@ -7100,6 +7179,38 @@
    "url": "https://www.banrepcultural.org/bogota/actividad/mujeres-en-la-blaa",
    "source": "banrep",
    "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)"
+  },
+  {
+   "id": "1ff984626328",
+   "title": "Club de lectura visual",
+   "summary": "Exploración visual de la colección fotográfica de Carlos Eslava Flórez en el Laboratorio de la BLAA.",
+   "kind": "participar",
+   "category": "arte",
+   "span": "single",
+   "start": "2026-11-11T11:00",
+   "end": "2026-11-11T13:00",
+   "evening": false,
+   "venue": {
+    "name": "Biblioteca Luis Ángel Arango, Laboratorio",
+    "address": "Calle 11 # 4-14, La Candelaria, Bogotá",
+    "zone": "centro"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Gratuita, inscripción previa"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Laboratorio con espacio accesible y sillas."
+   },
+   "forSeniors": false,
+   "url": "https://www.banrepcultural.org/bogota/actividad/club-de-lectura-visual-14",
+   "source": "banrep",
+   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
+   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Club_de_lectura_visual-saladearte.webp?itok=NEtoYlyi"
   },
   {
    "id": "03950ce01215",
@@ -7258,7 +7369,8 @@
    "forSeniors": false,
    "url": "https://www.banrepcultural.org/bogota/actividad/arte-rupestre-las-puertas-de-bogota-historias-pintadas-en-la-roca",
    "source": "banrep",
-   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)"
+   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
+   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Arte%20rupestre%20alrededores%20Bogot%C3%A1%20Diego%20Mart%C3%ADnez.webp?itok=b0Lv9-tB"
   },
   {
    "id": "c4bcf7a06b00",
@@ -7321,12 +7433,12 @@
    "url": "https://www.tuboleta.com/es/eventos/ekhymosis-el-origen",
    "source": "colsubsidio",
    "sourceName": "Colsubsidio (Teatro Colsubsidio)",
-   "image": "https://www.tuboleta.com/sites/default/files/imported-images/content-comar-prod-secutix-hm3xd8p3/images/catalog/product/xlarge/0f0d1267-d2b9-483d-8721-ab094f28739a.jpg"
+   "image": "https://www.tuboleta.com/sites/default/files/2026-10/Copia%20de%20XMOSIS_PMAX_1080x1080.jpg"
   },
   {
-   "id": "52fd030a4d2a",
-   "title": "Noche de Museos 2026: Bajo el mismo cielo Temporada de Arqueoastronomía",
-   "summary": "Taller de dibujo para crear constelaciones y exploración de la arqueoastronomía en el Museo del Oro.",
+   "id": "96b73ed9a9d3",
+   "title": "Noche de Museos en el Museo del Oro",
+   "summary": "Noche de Museos con taller de dibujo para crear constelaciones y observación del cielo nocturno.",
    "kind": "participar",
    "category": "pintura",
    "span": "single",
@@ -7347,10 +7459,10 @@
     "walking": "moderada",
     "seating": true,
     "wheelchair": "si",
-    "note": "Museo con rampa y ascensor; el taller suele ser sentado."
+    "note": "Museo con rampa y ascensor; el taller suele contar con sillas."
    },
    "forSeniors": false,
-   "url": "https://www.banrepcultural.org/bogota/actividad/noche-de-museos-2026-bajo-el-mismo-cielo-temporada-de-arqueoastronomia",
+   "url": "https://www.banrepcultural.org/bogota/actividad/noche-de-museos-en-el-museo-del-oro-0",
    "source": "banrep",
    "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
    "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Un%20visitante%20sentado%20en%20la%20sala%20de%20La%20Ofrenda%20del%20Museo%20del%20Oro.webp?itok=se85Vye0"
@@ -7485,8 +7597,8 @@
   {
    "id": "ae09d015ea71",
    "title": "Una trama de nosotras mismas.",
-   "summary": "Ciclo de visitas guiadas por el MAMU para explorar la representación de las mujeres a través de las artes plásticas.",
-   "kind": "asistir",
+   "summary": "Recorrido guiado por el MAMU para explorar la memoria y las prácticas artísticas de las mujeres en los siglos XX y XXI.",
+   "kind": "participar",
    "category": "arte",
    "span": "single",
    "start": "2026-11-14T14:00",
@@ -7576,7 +7688,7 @@
    "url": "https://www.banrepcultural.org/bogota/actividad/visual-vernacular-laboratorio-de-arte-sordo",
    "source": "banrep",
    "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/sordos-alejandra-velez-640x400px.jpg?itok=p4v5qJQY"
+   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/activity/main-image/lengua-senas-lsc-640x400.jpg?itok=tVPYPqUC"
   },
   {
    "id": "1aaa959d73b3",
@@ -7638,7 +7750,7 @@
    "url": "https://www.tuboleta.com/es/eventos/los-corraleros-de-majagual-0",
    "source": "colsubsidio",
    "sourceName": "Colsubsidio (Teatro Colsubsidio)",
-   "image": "https://www.tuboleta.com/sites/default/files/imported-images/content-comar-prod-secutix-hm3xd8p3/images/catalog/product/xlarge/b7aa4a73-07a0-478c-8055-8e62b4777869_1.jpg"
+   "image": "https://www.tuboleta.com/sites/default/files/2026-10/Copia%20de%20POST%20Y%20STORY%20-%20LOS%20CORRALEROS%20DE%20MAJAGUALjpg-01.jpg"
   },
   {
    "id": "b76083ae2d25",
@@ -7765,6 +7877,38 @@
    "source": "banrep",
    "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
    "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Pez-volador-San-Agust%C3%ADn-Museo-del-Oro.webp?itok=YJICDfQT"
+  },
+  {
+   "id": "ede9ceba9c30",
+   "title": "Visita especial por la exposición Imagen Regional 10",
+   "summary": "Visita guiada por la exposición Imagen Regional 10, conversando sobre saberes ancestrales y ritualidades.",
+   "kind": "asistir",
+   "category": "arte",
+   "span": "single",
+   "start": "2026-11-15T11:00",
+   "end": "2026-11-15T12:00",
+   "evening": false,
+   "venue": {
+    "name": "Museo de Arte Miguel Urrutia (MAMU)",
+    "address": "Calle 11 # 4-21, La Candelaria, Bogotá",
+    "zone": "centro"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Gratuita"
+   },
+   "accessibility": {
+    "walking": "moderada",
+    "seating": null,
+    "wheelchair": "si",
+    "note": "Museo con rampas; el recorrido es a pie por las salas."
+   },
+   "forSeniors": false,
+   "url": "https://www.banrepcultural.org/bogota/actividad/visita-especial-por-la-exposicion-imagen-regional-10",
+   "source": "banrep",
+   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
+   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/get-_3_.webp?itok=wlfiIICk"
   },
   {
    "id": "38e5613392d2",
@@ -7956,6 +8100,38 @@
    "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Camilo%20Baracaldo_640x400.webp?itok=CM1En2wx"
   },
   {
+   "id": "7d8a48313b0f",
+   "title": "Curso de órgano con Jeremy Joseph",
+   "summary": "Curso de órgano con Jeremy Joseph para profundizar en la interpretación y posibilidades musicales de este instrumento.",
+   "kind": "participar",
+   "category": "musica",
+   "span": "single",
+   "start": "2026-11-20T09:00",
+   "end": "2026-11-20T12:00",
+   "evening": false,
+   "venue": {
+    "name": "Biblioteca Luis Ángel Arango, Sala de conciertos",
+    "address": "Calle 11 # 4-14, La Candelaria, Bogotá",
+    "zone": "centro"
+   },
+   "nearHome": false,
+   "price": {
+    "free": false,
+    "text": "$47.800"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Sala de conciertos con sillas; el edificio cuenta con accesibilidad."
+   },
+   "forSeniors": false,
+   "url": "https://www.banrepcultural.org/bogota/actividad/curso-de-organo-con-jeremy-joseph",
+   "source": "banrep",
+   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
+   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Jeremy-Joseph-Sud%C3%A1frica-640x400.webp?itok=0TNLZdLo"
+  },
+  {
    "id": "2f4c2b64c2b0",
    "title": "Visitas para grupos en la Sala de Arte e Imagen",
    "summary": "Visita guiada por la Sala de Arte e Imagen para descubrir el patrimonio visual y artístico de Colombia.",
@@ -8049,6 +8225,70 @@
    "source": "teatromayor",
    "sourceName": "Teatro Mayor Julio Mario Santo Domingo",
    "image": "https://www.teatromayor.org/sites/default/files/styles/sc_r_380x240/public/20260610/tm-maria-lundina.jpg?itok=VuPZ2RN4&timestamp=1781103025"
+  },
+  {
+   "id": "a72178eaba3d",
+   "title": "Curso de órgano con Jeremy Joseph",
+   "summary": "Curso de órgano con Jeremy Joseph para profundizar en la interpretación y posibilidades musicales de este instrumento.",
+   "kind": "participar",
+   "category": "musica",
+   "span": "single",
+   "start": "2026-11-21T09:00",
+   "end": "2026-11-21T12:00",
+   "evening": false,
+   "venue": {
+    "name": "Biblioteca Luis Ángel Arango, Sala de conciertos",
+    "address": "Calle 11 # 4-14, La Candelaria, Bogotá",
+    "zone": "centro"
+   },
+   "nearHome": false,
+   "price": {
+    "free": false,
+    "text": "$47.800"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Sala de conciertos con sillas; el edificio cuenta con accesibilidad."
+   },
+   "forSeniors": false,
+   "url": "https://www.banrepcultural.org/bogota/actividad/curso-de-organo-con-jeremy-joseph",
+   "source": "banrep",
+   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
+   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Jeremy-Joseph-Sud%C3%A1frica-640x400.webp?itok=0TNLZdLo"
+  },
+  {
+   "id": "d617a736bfbd",
+   "title": "Banderas para gritar ¡Digna Rabia!",
+   "summary": "Taller con la artista Gabriela Pinilla sobre la creación de banderas y los discursos que representan.",
+   "kind": "participar",
+   "category": "arte",
+   "span": "single",
+   "start": "2026-11-21T10:00",
+   "end": "2026-11-21T18:00",
+   "evening": false,
+   "venue": {
+    "name": "Museo de Arte Miguel Urrutia (MAMU)",
+    "address": "Calle 11 # 4-21, La Candelaria, Bogotá",
+    "zone": "centro"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Gratuita, inscripción previa"
+   },
+   "accessibility": {
+    "walking": "moderada",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Museo con rampas; preguntar por ascensor. Recorrido a pie por salas."
+   },
+   "forSeniors": false,
+   "url": "https://www.banrepcultural.org/bogota/actividad/banderas-para-gritar-digna-rabia",
+   "source": "banrep",
+   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
+   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Taller%20Banderas%20Gabriela%20Pinilla.webp?itok=KmvihdZb"
   },
   {
    "id": "da1751dd4f85",
@@ -8175,12 +8415,12 @@
    "url": "https://www.banrepcultural.org/bogota/actividad/visual-vernacular-laboratorio-de-arte-sordo",
    "source": "banrep",
    "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/sordos-alejandra-velez-640x400px.jpg?itok=p4v5qJQY"
+   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/activity/main-image/lengua-senas-lsc-640x400.jpg?itok=tVPYPqUC"
   },
   {
    "id": "4be5188f6b89",
    "title": "Camané, Portugal - Festival de Fado 2026 - Coproducción de Alto e Bom Som y Everything is New",
-   "summary": "Festival de Fado con el cantante Camané. Una oportunidad para conocer la música tradicional de Portugal.",
+   "summary": "Concierto de Camané en el Festival de Fado. Una oportunidad para disfrutar de la música tradicional y melancólica de Portugal.",
    "kind": "asistir",
    "category": "musica",
    "span": "single",
@@ -8200,7 +8440,7 @@
     "walking": "poca",
     "seating": true,
     "wheelchair": "si",
-    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el complejo."
+    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el mismo complejo."
    },
    "forSeniors": false,
    "url": "https://www.teatromayor.org/es/evento/musica/camane-portugal-festival-de-fado-2026-coproduccion-de-alto-e-bom-som-y-everything-new-15107?function=3604",
@@ -8305,7 +8545,7 @@
   {
    "id": "998e0a0edaf6",
    "title": "Sara Correia, Portugal - Festival de Fado 2026 - Coproducción de Alto e Bom Som y Everything is New",
-   "summary": "Concierto de Sara Correia en el marco del Festival de Fado. Una oportunidad para disfrutar de la música tradicional de Lisboa.",
+   "summary": "Presentación de Sara Correia, estrella del fado portugués. Música emotiva que explora la cultura de los barrios de Lisboa.",
    "kind": "asistir",
    "category": "musica",
    "span": "single",
@@ -8325,13 +8565,45 @@
     "walking": "poca",
     "seating": true,
     "wheelchair": "si",
-    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el complejo."
+    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el mismo complejo."
    },
    "forSeniors": false,
    "url": "https://www.teatromayor.org/es/evento/musica/sara-correia-portugal-festival-de-fado-2026-coproduccion-de-alto-e-bom-som-y-everything-new-15108?function=3605",
    "source": "teatromayor",
    "sourceName": "Teatro Mayor Julio Mario Santo Domingo",
    "image": "https://www.teatromayor.org/sites/default/files/styles/sc_r_380x240/public/20260921/tm-sara-correia.jpg?itok=E36kgpOU&timestamp=1790029912"
+  },
+  {
+   "id": "c5ff986c95b8",
+   "title": "Curso de órgano con Jeremy Joseph",
+   "summary": "Curso de órgano con Jeremy Joseph para profundizar en la interpretación y posibilidades musicales de este instrumento.",
+   "kind": "participar",
+   "category": "musica",
+   "span": "single",
+   "start": "2026-11-23T09:00",
+   "end": "2026-11-23T12:00",
+   "evening": false,
+   "venue": {
+    "name": "Biblioteca Luis Ángel Arango, Sala de conciertos",
+    "address": "Calle 11 # 4-14, La Candelaria, Bogotá",
+    "zone": "centro"
+   },
+   "nearHome": false,
+   "price": {
+    "free": false,
+    "text": "$47.800"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Sala de conciertos con sillas; el edificio cuenta con accesibilidad."
+   },
+   "forSeniors": false,
+   "url": "https://www.banrepcultural.org/bogota/actividad/curso-de-organo-con-jeremy-joseph",
+   "source": "banrep",
+   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
+   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Jeremy-Joseph-Sud%C3%A1frica-640x400.webp?itok=0TNLZdLo"
   },
   {
    "id": "731e1c081440",
@@ -8393,7 +8665,7 @@
    "url": "https://www.banrepcultural.org/bogota/actividad/iconicas-y-al-mando-mujeres-mas-alla-del-sufragio-1",
    "source": "banrep",
    "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/grupo-de-mujeres-detalle-carolina-cardenas-640x400.webp?itok=_6h1bI4r"
+   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Visita_guiada_Expo_YNPANM_BLAA_640x400.webp?itok=8Dupz_TY"
   },
   {
    "id": "90744dfe3234",
@@ -8681,6 +8953,38 @@
    "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/Ocarinas.webp?itok=Gtbdrj2D"
   },
   {
+   "id": "b50a99a2d1a9",
+   "title": "Mirar, sentir y defender la tierra",
+   "summary": "Visita especializada en el MAMU para explorar la representación del territorio y la tierra a través del arte y los sentidos.",
+   "kind": "asistir",
+   "category": "arte",
+   "span": "single",
+   "start": "2026-11-28T15:00",
+   "end": "2026-11-28T16:00",
+   "evening": false,
+   "venue": {
+    "name": "Museo de Arte Miguel Urrutia (MAMU), Exposición Permanente de la Colección de Arte",
+    "address": "Calle 11 # 4-21, La Candelaria, Bogotá",
+    "zone": "centro"
+   },
+   "nearHome": false,
+   "price": {
+    "free": true,
+    "text": "Gratuita"
+   },
+   "accessibility": {
+    "walking": "moderada",
+    "seating": null,
+    "wheelchair": "si",
+    "note": "Museo con ascensor y rampas; el recorrido es a pie por las salas."
+   },
+   "forSeniors": false,
+   "url": "https://www.banrepcultural.org/bogota/actividad/mirar-sentir-y-defender-la-tierra",
+   "source": "banrep",
+   "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
+   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/V%C3%ADa%20Panamericana%2C%20Cauca.webp?itok=GciyuumB"
+  },
+  {
    "id": "cce4d4666ad1",
    "title": "Veladas",
    "summary": "Experiencia performativa de lectura en vivo y movimiento basada en archivos de mujeres, creando un coro polivocal.",
@@ -8740,7 +9044,7 @@
    "url": "https://www.tuboleta.com/es/eventos/jhon-onofre-en-concierto-0",
    "source": "cafam",
    "sourceName": "Cafam (Teatro Cafam)",
-   "image": "https://www.tuboleta.com/sites/default/files/imported-images/content-comar-prod-secutix-hm3xd8p3/images/catalog/product/xlarge/5c3d2096-7b22-47de-b645-cedffde7b591.jpg"
+   "image": "https://www.tuboleta.com/sites/default/files/imported-images/content-comar-prod-secutix-hm3xd8p3/images/catalog/product/xlarge/9e4f3d25-c933-4a31-99b8-66eec0499535.jpg"
   },
   {
    "id": "add59572d324",
@@ -8897,7 +9201,7 @@
    "url": "https://www.banrepcultural.org/bogota/actividad/la-mujer-del-billete",
    "source": "banrep",
    "sourceName": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
-   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/La%20mujer%20del%20billete.webp?itok=QcT23OLj"
+   "image": "https://d3nmwx7scpuzgc.cloudfront.net/sites/default/files/styles/bloque_carrusel_actividades/public/media/image/LMDB%20-%20Horizontal.webp?itok=rKkclvgg"
   },
   {
    "id": "6161e21b5830",
@@ -9673,7 +9977,7 @@
   {
    "id": "c3dcffac9480",
    "title": "LOS MELÓDICOS – CONCIERTO NAVIDEÑO",
-   "summary": "Concierto navideño de la orquesta Los Melódicos con sus grandes éxitos tropicales para bailar y celebrar en familia.",
+   "summary": "Concierto navideño de la orquesta Los Melódicos, una noche de ritmo y recuerdos musicales en familia.",
    "kind": "asistir",
    "category": "musica",
    "span": "single",
@@ -9698,7 +10002,7 @@
    "url": "https://www.tuboleta.com/es/eventos/los-melodicos-concierto-navideno",
    "source": "cafam",
    "sourceName": "Cafam (Teatro Cafam)",
-   "image": "https://www.tuboleta.com/sites/default/files/2026-09/Captura%20de%20pantalla%202026-09-28%20151241.png"
+   "image": "https://www.tuboleta.com/sites/default/files/imported-images/content-comar-prod-secutix-hm3xd8p3/images/catalog/product/xlarge/26b967e8-4bf0-4279-bb64-60efbdee8f53.jpg"
   },
   {
    "id": "3729c0bfd5ad",
@@ -9730,6 +10034,128 @@
    "source": "teatromayor",
    "sourceName": "Teatro Mayor Julio Mario Santo Domingo",
    "image": "https://www.teatromayor.org/sites/default/files/styles/sc_r_380x240/public/20251104/tm-navidad-filarmonica.jpg?itok=L8ZwJ87M&timestamp=1762308964"
+  },
+  {
+   "id": "b32b233b0d65",
+   "title": "Mercado de las Pulgas de Usaquén",
+   "summary": "Domingo de artesanías, antigüedades y música en vivo en la plaza de Usaquén, a pocas cuadras de casa. Hay cafés y bancas para descansar.",
+   "kind": "asistir",
+   "category": "otro",
+   "span": "single",
+   "start": "2026-12-20T10:00",
+   "evening": false,
+   "venue": {
+    "name": "Mercado de las Pulgas de Usaquén",
+    "address": "Carrera 6A con Calle 119, Usaquén",
+    "zone": "norte"
+   },
+   "nearHome": true,
+   "price": {
+    "free": true,
+    "text": "Entrada libre"
+   },
+   "accessibility": {
+    "walking": "mucha",
+    "seating": true,
+    "wheelchair": "parcial",
+    "note": "Calles con desniveles y mucha gente; la plaza tiene bancas y hay muchos cafés para sentarse. Mejor ir temprano."
+   },
+   "forSeniors": false,
+   "url": "https://bogota.gov.co/mi-ciudad/turismo/historia-y-horarios-de-los-mercados-de-las-pulgas-de-bogota",
+   "source": "lugares",
+   "sourceName": "Lugares de siempre (selección de la familia)",
+   "end": "2026-12-20T17:00"
+  },
+  {
+   "id": "5476d02112e2",
+   "title": "Navidad Filarmónica - Orquesta Filarmónica de Bogotá, Coro Filarmónico Juvenil y Coro Filarmónico Infantil",
+   "summary": "Tradicional concierto de Navidad con la Orquesta Filarmónica de Bogotá y coros, interpretando villancicos y obras populares.",
+   "kind": "asistir",
+   "category": "musica",
+   "span": "single",
+   "start": "2026-12-20T11:00",
+   "evening": false,
+   "venue": {
+    "name": "Teatro Mayor Julio Mario Santo Domingo",
+    "address": "Av. Calle 170 # 67-51, Bogotá",
+    "zone": "norte"
+   },
+   "nearHome": true,
+   "price": {
+    "free": false,
+    "text": "Con boletería (Tuboleta)"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Teatro moderno con ascensores y espacios para silla de ruedas; parqueadero en el mismo complejo."
+   },
+   "forSeniors": false,
+   "url": "https://www.teatromayor.org/es/evento/musica/navidad-filarmonica-orquesta-filarmonica-de-bogota-15115?function=3621",
+   "source": "teatromayor",
+   "sourceName": "Teatro Mayor Julio Mario Santo Domingo",
+   "image": "https://www.teatromayor.org/sites/default/files/styles/sc_r_380x240/public/20251104/tm-navidad-filarmonica.jpg?itok=L8ZwJ87M&timestamp=1762308964"
+  },
+  {
+   "id": "ed6c4e4e7166",
+   "title": "INTERNACIONAL BALLET COMPANY \"EL CASCANUECES\"",
+   "summary": "El Cascanueces por la International Ballet Company. Un clásico navideño de danza y fantasía.",
+   "kind": "asistir",
+   "category": "danza",
+   "span": "single",
+   "start": "2026-12-20T17:00",
+   "evening": false,
+   "venue": {
+    "name": "Teatro Cafam",
+    "zone": "occidente"
+   },
+   "nearHome": false,
+   "price": {
+    "free": false,
+    "text": "$100.800 – $246.200"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Teatro con butacas; consultar ubicación accesible al comprar la boleta."
+   },
+   "forSeniors": false,
+   "url": "https://www.tuboleta.com/es/eventos/internacional-ballet-company-el-cascanueces",
+   "source": "cafam",
+   "sourceName": "Cafam (Teatro Cafam)",
+   "image": "https://www.tuboleta.com/sites/default/files/imported-images/content-comar-prod-secutix-hm3xd8p3/images/catalog/product/xlarge/c29921ca-260d-4ed9-a078-b5f986507811.png"
+  },
+  {
+   "id": "1362d5cd39dd",
+   "title": "INTERNACIONAL BALLET COMPANY \"EL CASCANUECES\"",
+   "summary": "El Cascanueces por la International Ballet Company. Un clásico navideño de danza y fantasía.",
+   "kind": "asistir",
+   "category": "danza",
+   "span": "single",
+   "start": "2026-12-21T20:00",
+   "evening": true,
+   "venue": {
+    "name": "Teatro Cafam",
+    "zone": "occidente"
+   },
+   "nearHome": false,
+   "price": {
+    "free": false,
+    "text": "$100.800 – $246.200"
+   },
+   "accessibility": {
+    "walking": "poca",
+    "seating": true,
+    "wheelchair": "si",
+    "note": "Teatro con butacas; consultar ubicación accesible al comprar la boleta."
+   },
+   "forSeniors": false,
+   "url": "https://www.tuboleta.com/es/eventos/internacional-ballet-company-el-cascanueces",
+   "source": "cafam",
+   "sourceName": "Cafam (Teatro Cafam)",
+   "image": "https://www.tuboleta.com/sites/default/files/imported-images/content-comar-prod-secutix-hm3xd8p3/images/catalog/product/xlarge/c29921ca-260d-4ed9-a078-b5f986507811.png"
   }
  ],
  "places": [
