@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-26T16:41:53.917Z",
- "today": "2026-10-26",
+ "generatedAt": "2026-11-02T20:08:07.687Z",
+ "today": "2026-11-02",
  "horizonDays": 75,
  "flags": {
   "only": null,
@@ -11,28 +11,26 @@
   "banrep": {
    "name": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
    "status": "ok",
-   "raw": 163,
-   "valid": 163,
+   "raw": 136,
+   "valid": 136,
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 2027,
-   "logs": 9,
-   "kept": 84,
-   "dropped": 79
+   "durationMs": 1863,
+   "logs": 8,
+   "kept": 73,
+   "dropped": 63
   },
   "museonacional": {
    "name": "Museo Nacional de Colombia",
-   "status": "ok",
-   "raw": 6,
-   "valid": 6,
+   "status": "empty",
+   "raw": 0,
+   "valid": 0,
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 865,
-   "logs": 2,
-   "kept": 5,
-   "dropped": 1
+   "durationMs": 586,
+   "logs": 2
   },
   "mambo": {
    "name": "MAMBO — Museo de Arte Moderno de Bogotá",
@@ -42,71 +40,72 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 10793,
-   "logs": 1,
+   "durationMs": 22556,
+   "logs": 2,
    "kept": 4
   },
   "jardinbotanico": {
    "name": "Jardín Botánico de Bogotá",
    "status": "ok",
-   "raw": 1,
-   "valid": 1,
+   "raw": 2,
+   "valid": 2,
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 499,
+   "durationMs": 271,
    "logs": 1,
-   "kept": 1
+   "kept": 2
   },
   "teatrocolon": {
    "name": "Teatro Colón / Centro Nacional de las Artes Delia Zapata Olivella",
    "status": "ok",
-   "raw": 23,
-   "valid": 23,
+   "raw": 20,
+   "valid": 20,
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 7778,
+   "durationMs": 5726,
    "logs": 1,
-   "dropped": 5,
-   "kept": 18
+   "kept": 16,
+   "dropped": 4
   },
   "teatromayor": {
    "name": "Teatro Mayor Julio Mario Santo Domingo",
    "status": "ok",
-   "raw": 35,
-   "valid": 35,
+   "raw": 33,
+   "valid": 33,
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 21922,
+   "durationMs": 23113,
    "logs": 5,
-   "kept": 33
+   "kept": 31
   },
   "idartes": {
    "name": "Idartes (Planetario, Teatro Jorge Eliécer Gaitán, Cinemateca, galerías)",
-   "status": "failed",
-   "raw": 0,
-   "valid": 0,
+   "status": "ok",
+   "raw": 33,
+   "valid": 33,
    "invalid": 0,
    "invalidSamples": [],
-   "error": "fetch failed",
-   "durationMs": 3807,
+   "error": null,
+   "durationMs": 4674,
    "logs": 0,
-   "carriedOver": 8
+   "kept": 25,
+   "dropped": 8
   },
   "biblored": {
    "name": "BibloRed — Bibliotecas Públicas de Bogotá",
    "status": "ok",
-   "raw": 126,
-   "valid": 126,
+   "raw": 136,
+   "valid": 136,
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 33155,
+   "durationMs": 22158,
    "logs": 0,
-   "kept": 30,
-   "dropped": 95
+   "dropped": 99,
+   "kept": 34
   },
   "idrd": {
    "name": "IDRD — Persona Mayor",
@@ -116,34 +115,34 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 859,
+   "durationMs": 430,
    "logs": 0,
    "dropped": 14
   },
   "compensar": {
    "name": "Compensar",
    "status": "ok",
-   "raw": 118,
-   "valid": 118,
+   "raw": 92,
+   "valid": 92,
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 9212,
+   "durationMs": 3879,
    "logs": 0,
-   "dropped": 57,
-   "kept": 61
+   "kept": 59,
+   "dropped": 33
   },
   "colsubsidio": {
    "name": "Colsubsidio (Teatro Colsubsidio)",
    "status": "ok",
-   "raw": 8,
-   "valid": 8,
+   "raw": 7,
+   "valid": 7,
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 2208,
+   "durationMs": 3253,
    "logs": 0,
-   "kept": 5,
+   "kept": 4,
    "dropped": 2
   },
   "cafam": {
@@ -154,7 +153,7 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 2733,
+   "durationMs": 2326,
    "logs": 0,
    "kept": 11
   },
@@ -166,148 +165,36 @@
    "errors": []
   }
  },
- "classifier": "ollama",
+ "classifier": "mixed",
  "classification": {
-  "total": 505,
-  "cacheHits": 385,
-  "ai": 120,
-  "keywords": 0,
+  "total": 482,
+  "cacheHits": 237,
+  "ai": 237,
+  "keywords": 8,
   "aiEnabled": true,
   "ollama": {
-   "requests": 15,
-   "batches": 15,
-   "okBatches": 15,
+   "requests": 31,
+   "batches": 31,
+   "okBatches": 31,
    "failedBatches": 0,
-   "classified": 120,
+   "classified": 237,
    "errors": [],
    "disabled": false
   }
  },
  "totals": {
-  "scrapedValid": 510,
+  "scrapedValid": 489,
   "outOfHorizon": 0,
-  "duplicates": 5,
-  "classified": 505,
-  "kept": 252,
-  "dropped": 253,
-  "carriedOver": 8,
+  "duplicates": 7,
+  "classified": 482,
+  "kept": 259,
+  "dropped": 223,
+  "carriedOver": 0,
   "recurring": 12,
-  "events": 272,
+  "events": 271,
   "places": 14
  },
  "dropped": [
-  {
-   "source": "banrep",
-   "title": "Club de conversación en idiomas",
-   "start": "2026-10-26T15:00",
-   "reason": "Es un club de idiomas, no relacionado con arte, pintura, danza, música o naturaleza.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
-   "title": "Café literario de la Casa Gómez Campuzano",
-   "start": "2026-10-27T17:00",
-   "reason": "Es un club de lectura de una novela, no trata sobre arte, pintura o danza.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
-   "title": "Club de conversación en idiomas",
-   "start": "2026-10-27T15:00",
-   "reason": "Es un club de idiomas, no relacionado con arte, pintura, danza, música o naturaleza.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
-   "title": "Diseña una activación digital",
-   "start": "2026-10-27T14:00",
-   "reason": "Se enfoca en herramientas digitales y tecnología, no en artes plásticas o danza.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
-   "title": "Club de conversación en idiomas",
-   "start": "2026-10-28T14:00",
-   "reason": "Es un club de idiomas, no relacionado con arte, pintura, danza, música o naturaleza.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
-   "title": "Club de lectura científica | AstroBLAA",
-   "start": "2026-10-28T16:30",
-   "reason": "Es un club de lectura científica sobre astronomía y clima, no sobre arte o danza.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
-   "title": "ABC de la Biblioteca Virtual",
-   "start": "2026-10-28T10:00",
-   "reason": "Es un taller de alfabetización digital y navegación en biblioteca virtual.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
-   "title": "Jugar para imaginar",
-   "start": "2026-10-28T15:00",
-   "reason": "Actividad enfocada en juego e imaginación, no es específicamente arte, pintura o danza.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
-   "title": "Trilce en la BLAA",
-   "start": "2026-10-29T17:00",
-   "reason": "Evento de poesía y creación literaria, no trata sobre arte plástico, pintura o danza.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
-   "title": "Club de conversación en idiomas",
-   "start": "2026-10-29T15:00",
-   "reason": "Club de conversación en idiomas.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
-   "title": "Menos tiempo buscando, más tiempo investigando",
-   "start": "2026-10-29T16:00",
-   "reason": "Taller de herramientas de investigación académica y bases de datos.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
-   "title": "El cielo que imaginamos: crea tu propia constelación",
-   "start": "2026-10-30T14:00",
-   "reason": "Taller enfocado principalmente en público infantil y creación de constelaciones, no es arte plástico o danza.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
-   "title": "Club de conversación en idiomas",
-   "start": "2026-10-30T14:00",
-   "reason": "Club de idiomas, no relacionado con arte, pintura o danza.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
-   "title": "Entra con confianza en la era de la IA",
-   "start": "2026-10-31T11:00",
-   "reason": "Taller de tecnología e inteligencia artificial.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
-   "title": "Club de conversación en idiomas",
-   "start": "2026-10-31T09:00",
-   "reason": "Es un club de idiomas, no es una actividad artística o cultural de los gustos de Totoya.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
-   "title": "Colcha de retazos · María Mulata (Colombia)",
-   "start": "2026-11-01T11:00",
-   "reason": "Aunque es música, está etiquetado y descrito principalmente como un concierto infantil/familiar para niños pequeños.",
-   "by": "ollama"
-  },
   {
    "source": "banrep",
    "title": "Club de conversación en idiomas",
@@ -352,20 +239,6 @@
   },
   {
    "source": "banrep",
-   "title": "Imaginamos otros mundos",
-   "start": "2026-11-07T11:30",
-   "reason": "Actividad dirigida a niños de 6 a 12 años.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
-   "title": "Taller ¿Y por qué? Fluidos asquerosos - Parte 1",
-   "start": "2026-11-07T15:00",
-   "reason": "Taller de ciencia para niños de 6 a 12 años.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
    "title": "Bestiario amazónico",
    "start": "2026-11-07T11:00",
    "reason": "Actividad dirigida exclusivamente a niños.",
@@ -380,6 +253,13 @@
   },
   {
    "source": "banrep",
+   "title": "Imaginamos otros mundos",
+   "start": "2026-11-07T11:30",
+   "reason": "Actividad dirigida a niños de 6 a 12 años.",
+   "by": "ollama"
+  },
+  {
+   "source": "banrep",
    "title": "Club de conversación en idiomas",
    "start": "2026-11-07T09:00",
    "reason": "Es un club de idiomas, no relacionado con arte, pintura, danza o música.",
@@ -390,6 +270,13 @@
    "title": "Raíces y sabores: semillas y frutas nativas de nuestra tierra",
    "start": "2026-11-07T11:30",
    "reason": "Es una experiencia sensorial sobre frutas, no es una actividad artística o cultural del perfil.",
+   "by": "ollama"
+  },
+  {
+   "source": "banrep",
+   "title": "Taller ¿Y por qué? Fluidos asquerosos - Parte 1",
+   "start": "2026-11-07T15:00",
+   "reason": "Taller de ciencia para niños de 6 a 12 años.",
    "by": "ollama"
   },
   {
@@ -457,13 +344,6 @@
   },
   {
    "source": "banrep",
-   "title": "El peritaje antropológico en Colombia y su aporte a decisiones judiciales y administrativas",
-   "start": "2026-11-13T08:00",
-   "reason": "Es una conferencia académica sobre antropología y derecho, no relacionada con arte o danza.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
    "title": "Club de conversación en idiomas",
    "start": "2026-11-13T14:00",
    "reason": "Es un club de idiomas, no relacionado con arte, danza o música.",
@@ -474,6 +354,13 @@
    "title": "Demostración de acuñación y entrega de medallas",
    "start": "2026-11-13T18:00",
    "reason": "Actividad enfocada en procesos económicos y numismática, no es arte, danza o música.",
+   "by": "ollama"
+  },
+  {
+   "source": "banrep",
+   "title": "El peritaje antropológico en Colombia y su aporte a decisiones judiciales y administrativas",
+   "start": "2026-11-13T08:00",
+   "reason": "Es una conferencia académica sobre antropología y derecho, no relacionada con arte o danza.",
    "by": "ollama"
   },
   {
@@ -576,13 +463,6 @@
   },
   {
    "source": "banrep",
-   "title": "Tejiendo el mundo: una red de vida en comunidad",
-   "start": "2026-11-21T11:00",
-   "reason": "Se trata de una manualidad textil (tejido), descartada según las reglas.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
    "title": "Entra con confianza en la era de la IA",
    "start": "2026-11-21T11:00",
    "reason": "Taller de tecnología e inteligencia artificial, descartado.",
@@ -600,6 +480,13 @@
    "title": "Club de conversación en idiomas",
    "start": "2026-11-21T09:00",
    "reason": "Es un club de idiomas, no es una actividad artística o cultural según el perfil.",
+   "by": "ollama"
+  },
+  {
+   "source": "banrep",
+   "title": "Tejiendo el mundo: una red de vida en comunidad",
+   "start": "2026-11-21T11:00",
+   "reason": "Se trata de una manualidad textil (tejido), descartada según las reglas.",
    "by": "ollama"
   },
   {
@@ -660,13 +547,6 @@
   },
   {
    "source": "banrep",
-   "title": "Club de conversación en idiomas",
-   "start": "2026-11-26T14:00",
-   "reason": "Es un club de conversación de idiomas, actividad descartada según las reglas.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
    "title": "Trilce en la BLAA",
    "start": "2026-11-26T17:30",
    "reason": "Es un encuentro de poesía y lecturas literarias, no enfocado en arte, pintura o danza.",
@@ -675,8 +555,29 @@
   {
    "source": "banrep",
    "title": "Club de conversación en idiomas",
+   "start": "2026-11-26T14:00",
+   "reason": "Es un club de conversación de idiomas, actividad descartada según las reglas.",
+   "by": "ollama"
+  },
+  {
+   "source": "banrep",
+   "title": "Club de conversación en idiomas",
    "start": "2026-11-27T14:00",
    "reason": "Es un club de conversación de idiomas, actividad descartada.",
+   "by": "ollama"
+  },
+  {
+   "source": "banrep",
+   "title": "Entra con confianza en la era de la IA",
+   "start": "2026-11-28T11:00",
+   "reason": "Es un taller de inteligencia artificial y tecnología, actividad descartada.",
+   "by": "ollama"
+  },
+  {
+   "source": "banrep",
+   "title": "Cielos de piedra: navegando con las estrellas",
+   "start": "2026-11-28T11:00",
+   "reason": "Es un taller de etnoastronomía, no es arte, pintura o danza.",
    "by": "ollama"
   },
   {
@@ -709,20 +610,6 @@
   },
   {
    "source": "banrep",
-   "title": "Entra con confianza en la era de la IA",
-   "start": "2026-11-28T11:00",
-   "reason": "Es un taller de inteligencia artificial y tecnología, actividad descartada.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
-   "title": "Cielos de piedra: navegando con las estrellas",
-   "start": "2026-11-28T11:00",
-   "reason": "Es un taller de etnoastronomía, no es arte, pintura o danza.",
-   "by": "ollama"
-  },
-  {
-   "source": "banrep",
    "title": "Club de conversación en idiomas",
    "start": "2026-11-30T14:00",
    "reason": "Es un club de idiomas, no relacionado con arte, pintura o danza.",
@@ -747,20 +634,6 @@
    "title": "Cuando el sol gira: explorando los secretos de la geometría prehispánica",
    "start": "2026-12-12T14:00",
    "reason": "Actividad dirigida a niños y jóvenes.",
-   "by": "ollama"
-  },
-  {
-   "source": "museonacional",
-   "title": "Vidas, oficios y saberes: 80 años en las aulas y espacios del complejo del Panóptico de Cundinamarca",
-   "start": "2026-10-27T14:30",
-   "reason": "Es un recorrido de memorias e historia, no enfocado en arte, pintura o danza",
-   "by": "ollama"
-  },
-  {
-   "source": "teatrocolon",
-   "title": "Nos vamos de paseo – Franja Rin Rin",
-   "start": "2026-10-31T15:00",
-   "reason": "Actividad dirigida a la primera infancia y público infantil.",
    "by": "ollama"
   },
   {
@@ -792,507 +665,591 @@
    "by": "ollama"
   },
   {
-   "source": "biblored",
-   "title": "Festival Reverso Bogotá: Una mirada poética a la huerta",
-   "start": "2026-10-27T09:00",
-   "reason": "Actividad centrada en escritura creativa y poesía, no en artes plásticas o danza.",
+   "source": "idartes",
+   "title": "Desbordes: cátedra abierta de lectura y escritura en Bogotá",
+   "start": "2026-11-05T18:00",
+   "reason": "Es una cátedra de lectura y escritura literaria, no enfocada en artes plásticas, danza o música.",
+   "by": "ollama"
+  },
+  {
+   "source": "idartes",
+   "title": "Recorridos en bicicleta y a pie las intervenciones del Museo Abierto de Bogotá en Suba",
+   "start": "2026-11-07T10:00",
+   "reason": "Implica caminatas largas y recorridos en bicicleta, lo cual excede la movilidad de Totoya.",
+   "by": "ollama"
+  },
+  {
+   "source": "idartes",
+   "title": "El Ska, el Punk y el Metal reunidos en un solo lugar... Tríptico de los Escenarios Móviles",
+   "start": "2026-11-14T17:00",
+   "reason": "Música de géneros muy ruidosos (punk, metal) en espacio público, no acorde al perfil de tranquilidad de Totoya.",
+   "by": "ollama"
+  },
+  {
+   "source": "idartes",
+   "title": "Noches Pilona presenta: Bolívar Gang",
+   "start": "2026-11-21T19:00",
+   "reason": "Música urbana/hip hop en zona sur, no se alinea con sus preferencias artísticas tradicionales.",
+   "by": "ollama"
+  },
+  {
+   "source": "idartes",
+   "title": "Pilona 10 presenta 'Arenautas' de Enarmonía",
+   "start": "2026-11-22T15:00",
+   "reason": "Actividad dirigida específicamente a la primera infancia (niños).",
+   "by": "ollama"
+  },
+  {
+   "source": "idartes",
+   "title": "Lecturas que acompañan el duelo - Muertes sin respuesta",
+   "start": "2026-11-27T18:00",
+   "reason": "Es una charla literaria sobre duelo, no trata de arte, pintura o danza.",
+   "by": "ollama"
+  },
+  {
+   "source": "idartes",
+   "title": "Lecturas que acompañan el duelo - Los libros que responden a las pérdidas",
+   "start": "2026-12-03T17:00",
+   "reason": "Es una charla literaria sobre duelo, no trata de arte, pintura o danza.",
+   "by": "ollama"
+  },
+  {
+   "source": "idartes",
+   "title": "Lecturas que acompañan el duelo - Los libros que responden a las pérdidas",
+   "start": "2026-12-05T16:00",
+   "reason": "Es una actividad de lectura y apoyo emocional, no enfocada en arte, pintura o danza.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Lo que permanece en los versos",
-   "start": "2026-10-27T10:00",
-   "reason": "Charla de poesía y memoria, no enfocada en artes plásticas, danza o música.",
+   "title": "Trazos del vuelo",
+   "start": "2026-11-03",
+   "reason": "Información insuficiente para determinar si es una actividad artística concreta.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Poéticas de la palabra - café literario",
-   "start": "2026-10-27T14:00",
-   "reason": "Es un café literario centrado en lectura crítica y conversación, no en arte, pintura o danza.",
+   "title": "Club de ciencia en las alturas",
+   "start": "2026-11-04",
+   "reason": "Es un club de ciencia, no relacionado con artes, música o naturaleza tranquila.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Laboratorio de cocina: dulces",
-   "start": "2026-10-27T14:30",
-   "reason": "Taller de cocina.",
+   "title": "Palabras de bienestar: actividad de extensión: los lugares donde todavía habita la infancia",
+   "start": "2026-11-04",
+   "reason": "Actividad de bienestar y reflexión personal, no artística.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Álvaro Mutis: viajes, mar y memoria",
-   "start": "2026-10-27T15:00",
-   "reason": "Es un ciclo de lectura y poesía, no enfocado específicamente en artes plásticas o danza.",
+   "title": "Grandes derechos para peque mundos",
+   "start": "2026-11-04",
+   "reason": "Actividad dirigida a niños y familia sobre derechos.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Costurero puntada de palabras: memorias de Venecia",
-   "start": "2026-10-28",
-   "reason": "Actividad de costurero; se descarta por ser manualidad textil.",
+   "title": "Detectives del tiempo: las huellas de la infancia",
+   "start": "2026-11-04",
+   "reason": "Actividad infantil/familiar sin enfoque en arte, pintura o danza.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Café Literario Tambó: democracia y dictadura.",
-   "start": "2026-10-28",
-   "reason": "Charla literaria sobre política, no relacionada con arte, pintura o danza.",
+   "title": "Un mensaje para la muerte",
+   "start": "2026-11-04T09:30",
+   "reason": "Es un círculo de oralidad, lectura y memoria, no es arte, pintura o danza.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Ciclo de costuras poéticas, laboratorio de creación",
-   "start": "2026-10-28",
-   "reason": "Actividad de costura y manualidades textiles.",
+   "title": "Club de persona mayor: el encanto de nuestra historia",
+   "start": "2026-11-04T10:00",
+   "reason": "Club de conversación y anécdotas, no enfocado en artes plásticas, música o danza.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "¡Club de ciencia en la montaña!",
-   "start": "2026-10-28",
-   "reason": "Actividad de ciencia y montaña (senderismo/naturaleza activa).",
+   "title": "Club de lectura para personas mayores",
+   "start": "2026-11-04T10:00",
+   "reason": "Club de lectura y reflexión sobre la infancia, no es arte o danza.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Día dulce: cuentos, colores y pequeños espantos",
-   "start": "2026-10-28",
-   "reason": "Actividad dirigida a niños (cuentos y pequeños espantos).",
+   "title": "Un mensaje para la muerte",
+   "start": "2026-11-04T10:00",
+   "reason": "Círculo de lectura y diálogo sobre rituales de muerte, no es arte o danza.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Poesia que habita: ver, oír, tocar las palabras",
-   "start": "2026-10-28",
-   "reason": "Es una actividad de poesía y lectura, no enfocada en artes plásticas, danza o música.",
+   "title": "El Palacio de Cristal y la contradicción humana",
+   "start": "2026-11-04T14:00",
+   "reason": "Encuentro literario sobre Dostoievski, no es arte, pintura o danza.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Tarde de juegos",
-   "start": "2026-10-28",
-   "reason": "Tarde de juegos, no encaja en los intereses artísticos o culturales específicos.",
+   "title": "Los primeros fantasmas: infancia y relaciones familiares",
+   "start": "2026-11-04T14:00",
+   "reason": "Es un club de lectura y conversación sobre no ficción, no enfocado en arte, pintura o danza.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "La poesía de las cosas",
-   "start": "2026-10-28",
-   "reason": "Actividad dirigida a infancias.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Emilia Ayarza de Herrera y la literatura testimonial",
-   "start": "2026-10-28T09:30",
-   "reason": "Se centra en literatura testimonial y poesía, no en las artes visuales o escénicas.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Club de persona mayor: El encanto de nuestra historia",
-   "start": "2026-10-28T10:00",
-   "reason": "Es un club de conversación y anécdotas personales, no una actividad artística.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Lo cositero en la ciudad",
-   "start": "2026-10-28T10:00",
-   "reason": "Actividad de diálogo literario y biografías, no es arte, pintura o danza.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Saberes que florecen en La Siempre Viva",
-   "start": "2026-10-28T10:00",
-   "reason": "Es un encuentro de diálogo en una huerta sobre la vejez, no es una actividad cultural de arte.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Club de persona mayor: memoria entre los versos.",
-   "start": "2026-10-28T10:00",
-   "reason": "Club enfocado en poesía colombiana, no encaja en los gustos de artes plásticas o danza.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Club de creación comunitaria para personas mayores",
-   "start": "2026-10-28T10:30",
-   "reason": "Se enfoca en oralidad, lenguaje expresivo y activación corporal suave, no es danza ni arte plástico.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Muñecas chamula: historias en telar para hilar la memoria personal",
-   "start": "2026-10-28T14:00",
-   "reason": "Se trata de arte textil (telar/muñecas), lo cual está explícitamente descartado.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Tardes de historias: memorias que habitan el territorio",
-   "start": "2026-10-28T14:00",
-   "reason": "Es un club de memoria y conversación literaria, no se centra en arte, pintura o danza.",
+   "title": "La vida y la muerte",
+   "start": "2026-11-04T14:30",
+   "reason": "Es un club de lectura y reflexión sobre la muerte, no es una actividad artística.",
    "by": "ollama"
   },
   {
    "source": "biblored",
    "title": "Laboratorio de arte textil",
-   "start": "2026-10-28T15:00",
-   "reason": "Se trata de bordado y tejido, que son manualidades textiles descartadas.",
+   "start": "2026-11-04T15:00",
+   "reason": "Se trata de bordado y tejido, que son manualidades textiles descartadas según las reglas.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Costurero puntadas de palabras: hilos que cuentan",
+   "start": "2026-11-04T15:00",
+   "reason": "Actividad de tejido y costura, manualidades textiles descartadas.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Café literario: Las palabras bajo sospecha",
+   "start": "2026-11-04T16:00",
+   "reason": "Es un café literario sobre narrativa y política, no sobre arte, pintura o danza",
    "by": "ollama"
   },
   {
    "source": "biblored",
    "title": "Círculo de mujeres",
-   "start": "2026-10-28T16:00",
-   "reason": "Es un círculo de lectura y charla sobre el rol de la mujer, no es arte o danza.",
+   "start": "2026-11-04T16:00",
+   "reason": "Es un círculo de lectura y escritura femenina, no enfocado en artes plásticas o danza",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Café literario: memorias en verso - María Mercedes Carranza",
-   "start": "2026-10-28T16:00",
-   "reason": "Es un café literario de poesía y memoria histórica.",
+   "title": "Leo con mi bebé (0 a 2 años)",
+   "start": "2026-11-05",
+   "reason": "Actividad dirigida a bebés y padres",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "leo con mi bebé: palabras para abrazar y arrullar",
-   "start": "2026-10-29",
-   "reason": "Actividad dirigida a bebés y sus cuidadores.",
+   "title": "Leo con mi bebé (2 años a 5 años de edad)",
+   "start": "2026-11-05",
+   "reason": "Actividad dirigida a niños pequeños",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Palabras que dejan huella: memoria y poesía",
-   "start": "2026-10-29",
-   "reason": "Es una actividad de memoria y poesía, no relacionada con las artes plásticas o escénicas.",
+   "title": "Distopías: el futuro que no queremos habitar",
+   "start": "2026-11-05",
+   "reason": "Charla literaria sobre distopías, no relacionada con arte o danza",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Festival Reverso Bogotá: verso de miedo",
-   "start": "2026-10-29",
-   "reason": "Actividad de lectura/poesía que no se enfoca en artes plásticas, danza o música.",
+   "title": "Detectives de lo invisible: misterios de la naturaleza",
+   "start": "2026-11-05",
+   "reason": "Actividad de naturaleza/misterio general, no es un jardín ni arte plástico",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Laboratorio de escritura: el mapa secreto de nuestra infancia",
+   "start": "2026-11-05",
+   "reason": "Taller de escritura no relacionado con arte, pintura o danza.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Tarde de juegos",
+   "start": "2026-11-05",
+   "reason": "Actividad de juegos, no encaja en los intereses culturales de Totoya.",
    "by": "ollama"
   },
   {
    "source": "biblored",
    "title": "En-barco familiar, ¡Al compás de tu bebé! (0 a 17 meses)",
-   "start": "2026-10-29",
-   "reason": "Actividad dirigida a bebés y primera infancia.",
+   "start": "2026-11-05",
+   "reason": "Actividad dirigida a bebés y familias con niños pequeños.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "En-barco familiar, ¡Al compás de tu bebé! (18 meses a 5 años)",
-   "start": "2026-10-29",
-   "reason": "Actividad dirigida a niños pequeños.",
+   "title": "Historias que toman forma",
+   "start": "2026-11-05",
+   "reason": "Actividad dirigida a infancias y familias.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Festival Reverso Bogotá: caldero de rimas",
-   "start": "2026-10-29",
-   "reason": "Actividad de rimas y lectura dirigida a familias/niños.",
+   "title": "Monstruos, amigos y otros personajes de la niñez",
+   "start": "2026-11-05",
+   "reason": "Actividad dirigida a infancias y familias.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Cuando las palabras dibujan",
-   "start": "2026-10-29",
-   "reason": "Actividad dirigida a familias/niños en espacio de infancias.",
+   "title": "Del píxel al holograma: imágenes que cobran vida",
+   "start": "2026-11-05",
+   "reason": "Enfoque en tecnología (píxel, holograma) y dirigido a juventud.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Café literario: gabo en sus cuentos.",
-   "start": "2026-10-29T10:30",
-   "reason": "Es un café literario sobre cuentos de Gabriel García Márquez.",
+   "title": "Familias en la literatura",
+   "start": "2026-11-05",
+   "reason": "Charla literaria dirigida a jóvenes.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "En verso te converso",
-   "start": "2026-10-29T11:00",
-   "reason": "Es una actividad de poesía y tradición oral, no enfocada en artes plásticas, danza o música.",
+   "title": "Café Literario: ciclo de cuento ruso",
+   "start": "2026-11-05T10:30",
+   "reason": "Es un club de lectura y literatura, no trata sobre arte, pintura o danza.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Cenizas de lo cotidiano",
-   "start": "2026-10-29T14:00",
-   "reason": "Actividad de lectura y escritura de terror urbano, no es arte, pintura o danza.",
+   "title": "Cempasúchil de palabras",
+   "start": "2026-11-05T11:00",
+   "reason": "Es un encuentro literario y de conversación, no es arte, pintura o danza.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Las palabras de un amigo: recorrer a Álvaro Mutis",
-   "start": "2026-10-29T14:00",
-   "reason": "Charla literaria sobre la obra de Álvaro Mutis.",
+   "title": "Las preguntas que hacen los niños",
+   "start": "2026-11-05T11:00",
+   "reason": "Es un club de lectura y diálogo para personas mayores, no es arte, pintura o danza.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Círculo de mujeres: mujeres fuera de cuadro",
-   "start": "2026-10-29T16:00",
-   "reason": "Círculo de lectura y escritura autobiográfica femenina.",
+   "title": "Arturo Uslar Pietri: literatura, historia e identidad latinoamericana",
+   "start": "2026-11-05T14:00",
+   "reason": "Es un club de lectura sobre literatura e historia, no es arte, pintura o danza.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Los rituales de la muerte",
+   "start": "2026-11-05T14:00",
+   "reason": "Es un círculo de relatos y conversaciones, no es arte, pintura o danza.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "I. Puntada a puntada: bordar para nombrar",
+   "start": "2026-11-05T14:30",
+   "reason": "Es una actividad de bordado (manualidad textil), descartada según reglas.",
    "by": "ollama"
   },
   {
    "source": "biblored",
    "title": "Café Literario: un encuentro para leer, conversar y descubrir",
-   "start": "2026-10-29T16:00",
-   "reason": "Café literario general, no enfocado en arte, pintura o danza.",
+   "start": "2026-11-05T16:00",
+   "reason": "Es un club de lectura y conversación literaria, no trata sobre arte, pintura o danza.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Un revés en la ciudad",
-   "start": "2026-10-30",
-   "reason": "Actividad literaria o de lectura no relacionada con arte, pintura o danza.",
+   "title": "Círculo de mujeres: Catleya",
+   "start": "2026-11-05T16:00",
+   "reason": "Círculo de mujeres enfocado en literatura y saberes cotidianos, no en artes plásticas o danza.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "La palabra que brota de la tierra",
-   "start": "2026-10-30",
-   "reason": "Información insuficiente y parece ser una actividad literaria.",
+   "title": "Laboratorio de Escritura Creativa",
+   "start": "2026-11-05T17:00",
+   "reason": "Taller de escritura creativa, no relacionado con artes plásticas, música o danza.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Taller de poesía El sueño de las piedras",
-   "start": "2026-10-30",
-   "reason": "Taller de poesía; se descartan charlas literarias o poesía salvo que traten de arte.",
+   "title": "Palabras que transforman",
+   "start": "2026-11-06",
+   "reason": "Actividad literaria general.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Una historia que continúa después del punto",
-   "start": "2026-10-30",
-   "reason": "Actividad de lectura no relacionada con arte, pintura o danza.",
+   "title": "La chispa del cuento: ideas que se convierten en historias",
+   "start": "2026-11-06",
+   "reason": "Taller de cuentos y escritura.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "¿Y después qué?",
-   "start": "2026-10-30",
-   "reason": "Actividad de lectura o charla general no relacionada con arte, pintura o danza.",
+   "title": "Navegantes digitales: las huellas de la infancia en la memoria digital",
+   "start": "2026-11-06",
+   "reason": "Trata sobre memoria digital y tecnología.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "Club de robótica: cazadores de fantasmas",
-   "start": "2026-10-30",
-   "reason": "Actividad de robótica y tecnología, no encaja con los gustos de arte o cultura de Totoya.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Carnaval animal",
-   "start": "2026-10-30",
-   "reason": "Actividad dirigida a infancias y familias con niños.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Día dulce: Brujas y magos en la Biblioteca",
-   "start": "2026-10-30",
-   "reason": "Actividad dirigida a infancias y familias con niños.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Día dulce: Club de ciencias para niños y niñas: gótico tropical con ciencia, luz, sombra y miedo",
-   "start": "2026-10-30",
-   "reason": "Club de ciencias dirigido específicamente a niños y niñas.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Día Dulce al ritmo del rock",
-   "start": "2026-10-30",
-   "reason": "Actividad dirigida a infancias y familias con niños.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Día dulce en el festival del Callejón",
-   "start": "2026-10-30",
-   "reason": "Actividad dirigida a infancias y familias con niños.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Senderos que cuentan historias",
-   "start": "2026-10-30T09:30",
-   "reason": "Es una charla literaria sobre poetas, no enfocada en artes plásticas, danza o música.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Viernes cultural",
-   "start": "2026-10-30T15:00",
-   "reason": "Es un ejercicio de creación poética y literaria.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Paréntesis: Laboratorio de escritura (cuento)",
-   "start": "2026-10-30T16:00",
-   "reason": "Taller de escritura de cuentos (literatura).",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Palabras encontradas",
-   "start": "2026-10-30T17:00",
-   "reason": "Taller de creación poética a partir de recortes (literatura).",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Creación, futuro e imaginación.",
-   "start": "2026-10-31",
-   "reason": "Charla general sobre creación e imaginación, no es específicamente de arte, pintura o danza.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Club de robótica: cazadores de fantasmas",
-   "start": "2026-10-31",
-   "reason": "Actividad de robótica y tecnología, no relacionada con arte, danza o naturaleza.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Cómo los colores pueden definir los espacios - Construyamos nuevos mundos - Taller de escritura creativa.",
-   "start": "2026-10-31",
-   "reason": "Es un taller de escritura creativa, no de artes plásticas o danza.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "¡Celebremos juntos el Día Dulce!",
-   "start": "2026-10-31",
-   "reason": "Evento general de celebración sin enfoque en arte, música o danza.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Armemos la imagen con poesía - Voces rebeldes.",
-   "start": "2026-10-31",
-   "reason": "Taller de poesía y voces rebeldes, no enfocado en artes plásticas o danza.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Día dulce: bebés exploradores: una pizza hecha de abrazos y canciones",
-   "start": "2026-10-31",
-   "reason": "Actividad dirigida específicamente a bebés.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Osos poetosos",
-   "start": "2026-10-31",
-   "reason": "Actividad dirigida a niños (Territorio de infancias).",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Fantasmas, libros y escobas voladoras",
-   "start": "2026-10-31",
-   "reason": "Actividad temática de lectura/familia, no es arte, música o danza.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "La fiesta del asombro",
-   "start": "2026-10-31",
-   "reason": "Actividad dirigida a niños (Territorio de infancias).",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Los bichos: lecturas, cantos y exploraciones (Día Dulce)",
-   "start": "2026-10-31",
-   "reason": "Actividad dirigida a niños (Territorio de infancias).",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Los monstruos de los cuentos",
-   "start": "2026-10-31",
-   "reason": "Actividad de cuentos infantiles.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "¡Bua ja ja ja ja!: relatos de un día dulce",
-   "start": "2026-10-31",
-   "reason": "Actividad dirigida a niños (Territorio de infancias).",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "¿El miedo se esconde o nos enseña?- Club de filosofía infantil.",
-   "start": "2026-10-31",
-   "reason": "Club de filosofía específicamente infantil.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Día dulce: los miedos que habitan nuestros cuerpos",
-   "start": "2026-10-31",
-   "reason": "Actividad de lectura/reflexión no enfocada en arte, pintura o danza.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Chumbalacachumba: dulce cuento para el rato",
-   "start": "2026-10-31",
-   "reason": "Actividad dirigida a niños (Territorio de infancias).",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Entre sombras y libros",
-   "start": "2026-10-31",
-   "reason": "Actividad dirigida a niños (Territorio de infancias).",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "¡Chumba la cachumba!",
-   "start": "2026-10-31",
-   "reason": "Actividad dirigida a niños (Territorio de infancias).",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Fábrica de ritmos",
-   "start": "2026-10-31",
-   "reason": "Actividad dirigida a niños (Territorio de infancias).",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Archivo de una especie que todavía no existe",
-   "start": "2026-10-31",
-   "reason": "Dirigido a jóvenes y es una actividad de lectura/literaria no relacionada con arte.",
+   "title": "La pieza que nadie está mirando",
+   "start": "2026-11-06",
+   "reason": "Actividad literaria general sin enfoque en artes plásticas o danza.",
    "by": "ollama"
   },
   {
    "source": "biblored",
    "title": "De cero a 3D, ¿Cómo funciona la impresión 3D?",
    "start": "2026-11-06",
-   "reason": "Trata sobre tecnología e impresión 3D.",
+   "reason": "Trata sobre tecnología e impresión 3D, no es arte, danza o música.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Club viñeta: mangas y cómics de siempre",
+   "start": "2026-11-06",
+   "reason": "Es un club de lectura de cómics y mangas, no es una actividad de artes plásticas o danza.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Formas que florecen: Introducción al modelado 3D (Sesión 1/3)",
+   "start": "2026-11-06",
+   "reason": "Se enfoca en modelado 3D digital/tecnológico, no en pintura o artes plásticas tradicionales.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "La infancia que fuimos, la infancia que recordamos",
+   "start": "2026-11-06",
+   "reason": "Es una charla literaria sobre recuerdos de la infancia, no trata sobre arte o danza.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Ucronías y libro álbum",
+   "start": "2026-11-06",
+   "reason": "Es una charla sobre libros álbum y ucronías, no es arte plástico, música o danza.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Bebés en La Gabo (0 a 17 meses)",
+   "start": "2026-11-06",
+   "reason": "Actividad dirigida exclusivamente a bebés.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Bebés en La Gabo (18 meses a 5 años)",
+   "start": "2026-11-06",
+   "reason": "Actividad dirigida exclusivamente a niños pequeños.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Ciclo: el derecho a otro mundo posible",
+   "start": "2026-11-06",
+   "reason": "Actividad enfocada en infancias/niños.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Leo con mi bebé",
+   "start": "2026-11-06",
+   "reason": "Actividad para bebés y sus cuidadores.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Historia, mitos y realidades de la maternidad",
+   "start": "2026-11-06T09:30",
+   "reason": "Charla sobre maternidad e historia, no relacionada con arte, pintura o danza.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Infancias en la literatura",
+   "start": "2026-11-06T10:00",
+   "reason": "Club de lectura y charla literaria sobre la infancia.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Taller de poesía \" el sueño de las piedras&quot",
+   "start": "2026-11-06T15:00",
+   "reason": "Taller de escritura de poesía.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Tardes de cháchara y café",
+   "start": "2026-11-06T15:00",
+   "reason": "Charla literaria y de memorias sobre roles femeninos.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "(Paréntesis): Laboratorio de escritura creativa",
+   "start": "2026-11-06T16:00",
+   "reason": "Es un laboratorio de escritura creativa, no relacionado con artes plásticas, danza o música.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Club de ficción",
+   "start": "2026-11-06T17:00",
+   "reason": "Es un club de lectura de ficción, no enfocado en arte, pintura o danza.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "La ciudad que hemos habitado",
+   "start": "2026-11-06T17:00",
+   "reason": "Es un círculo de lectura sobre memoria y ciudad, no sobre arte o danza.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Encuentro con el autor: Luis Camilo Dorado",
+   "start": "2026-11-07",
+   "reason": "Encuentro con autor literario, no relacionado con artes plásticas o danza.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Del susurro al canto, historias en voces de niñas y mujeres.",
+   "start": "2026-11-07",
+   "reason": "Actividad de narración oral/historias, no enfocada en arte, pintura o danza.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Bebés exploradores: un mundo por descubrir con los sentidos",
+   "start": "2026-11-07",
+   "reason": "Actividad dirigida exclusivamente a bebés e infantes.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Laboratorio de escritura: maestras del Nobel",
+   "start": "2026-11-07",
+   "reason": "Taller de escritura literaria, no enfocado en arte, pintura o danza.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Método brújula y método mapa para la creación de una novela - Taller de escritura creativa",
+   "start": "2026-11-07",
+   "reason": "Taller de escritura creativa de novelas, no es arte plástico ni danza.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "La infancia en la literatura universal",
+   "start": "2026-11-07",
+   "reason": "Charla sobre literatura universal, no relacionada con artes plásticas o danza.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Puntadas de memoria",
+   "start": "2026-11-07",
+   "reason": "Actividad de costura/tejido (puntadas), descartada según reglas de manualidades textiles.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "De los cuentos tradicionales a Shrek: reimaginar y desarmar las infancias - Voces rebeldes",
+   "start": "2026-11-07",
+   "reason": "Análisis de cuentos e infancias, es una actividad literaria.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Café literario: la infancia como territorio de la memoria y la literatura",
+   "start": "2026-11-07",
+   "reason": "Es un café literario sobre memoria y literatura, no enfocado en arte, pintura o danza.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Veamos las diferencias entre el microcuento y el minicuento - Taller de escritura creativa",
+   "start": "2026-11-07",
+   "reason": "Taller de escritura creativa (microcuentos), no es arte plástico, danza o música.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Habito un mundo, habito historias",
+   "start": "2026-11-07",
+   "reason": "Actividad literaria/historias dirigida a familias, no encaja en los gustos artísticos específicos.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "El reconocimiento desde la cuna",
+   "start": "2026-11-07",
+   "reason": "Actividad dirigida a infancias/familia.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "El mar de los cuentos",
+   "start": "2026-11-07",
+   "reason": "Actividad de cuentos dirigida a infancias/familia.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Historias que toman forma",
+   "start": "2026-11-07",
+   "reason": "Actividad dirigida a infancias/familia.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Hora de cuento: entre vivos y muertos",
+   "start": "2026-11-07",
+   "reason": "Hora de cuento dirigida a familias/niños.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Club de arte",
+   "start": "2026-11-07",
+   "reason": "Aunque es un club de arte, se encuentra en el venue 'Territorio de infancias' y tiene etiqueta de 'Familia', indicando que es para niños.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Una gota, mil aventuras",
+   "start": "2026-11-07",
+   "reason": "Actividad dirigida a infancias.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "¿Otros mundos son posibles?- Club de filosofía infantil.",
+   "start": "2026-11-07",
+   "reason": "Club de filosofía infantil.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Hora del cuento",
+   "start": "2026-11-07",
+   "reason": "Actividad de cuentacuentos para niños.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "La muerte y la literatura",
+   "start": "2026-11-07",
+   "reason": "Actividad dirigida a jóvenes y temática literaria no artística.",
    "by": "ollama"
   },
   {
@@ -1306,28 +1263,35 @@
    "source": "biblored",
    "title": "Mi cuerpo, territorio de cuidado",
    "start": "2026-11-17",
-   "reason": "Es una actividad de cuidado corporal/salud, no es arte, danza ni música.",
+   "reason": "Actividad de cuidado corporal/salud, no es arte, danza o música.",
    "by": "ollama"
   },
   {
    "source": "biblored",
    "title": "El catálogo de nuestros miedos",
    "start": "2026-11-17T10:00",
-   "reason": "Encuentro de literatura infantil sobre miedos.",
+   "reason": "Charla literaria sobre miedos, no enfocada en artes plásticas, danza o música.",
    "by": "ollama"
   },
   {
    "source": "biblored",
    "title": "Poéticas de la palabra - Café Literario",
    "start": "2026-11-17T14:00",
-   "reason": "Café literario enfocado en lectura crítica y conversación.",
+   "reason": "Es un club de lectura y charla literaria, no trata sobre arte, pintura o danza.",
    "by": "ollama"
   },
   {
    "source": "biblored",
    "title": "25N - Vivas nos leemos: memoria y reflexión sobre las violencias contra las mujeres",
    "start": "2026-11-17T15:00",
-   "reason": "Es una charla de reflexión y lectura sobre violencias, no es arte, pintura, danza, música, cine o teatro.",
+   "reason": "Es una sesión de reflexión y lectura sobre violencias, no es una actividad artística.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Círculo de Mujeres",
+   "start": "2026-11-18",
+   "reason": "Círculo de mujeres, actividad social/espiritual, no artística.",
    "by": "ollama"
   },
   {
@@ -1346,13 +1310,6 @@
   },
   {
    "source": "biblored",
-   "title": "Club de lectura para personas mayores",
-   "start": "2026-11-18T10:00",
-   "reason": "Es un club de lectura y reflexión personal, no trata sobre arte, pintura o danza.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
    "title": "Club de persona mayor: El encanto de nuestra historia",
    "start": "2026-11-18T10:00",
    "reason": "Es un club de socialización y anécdotas, no es una actividad artística o cultural específica.",
@@ -1363,6 +1320,13 @@
    "title": "Tengo miedo, tengo miedo",
    "start": "2026-11-18T10:00",
    "reason": "Es un ciclo de lecturas de cuentos y mitos, no es arte, pintura, danza o música.",
+   "by": "ollama"
+  },
+  {
+   "source": "biblored",
+   "title": "Club de lectura para personas mayores",
+   "start": "2026-11-18T10:00",
+   "reason": "Es un club de lectura sobre la infancia, no es arte, pintura o danza.",
    "by": "ollama"
   },
   {
@@ -1388,9 +1352,9 @@
   },
   {
    "source": "biblored",
-   "title": "Círculo de Mujeres",
-   "start": "2026-11-18T16:00",
-   "reason": "Círculo de lectura y escritura sobre género y feminismo, no enfocado en artes plásticas, música o danza.",
+   "title": "III. Puntada a puntada: Bordar para nombrar",
+   "start": "2026-11-19",
+   "reason": "Se trata de bordado, que es una manualidad textil descartada según las reglas.",
    "by": "ollama"
   },
   {
@@ -1411,14 +1375,14 @@
    "source": "biblored",
    "title": "Viajes en el tiempo: otras versiones de nosotros mismos",
    "start": "2026-11-19",
-   "reason": "Es una charla de reflexión personal/literaria, no trata sobre arte, pintura o danza.",
+   "reason": "No especifica que sea arte, pintura, danza, música, cine o teatro.",
    "by": "ollama"
   },
   {
    "source": "biblored",
    "title": "Laboratorio de escritura: Las voces de la infancia también cuentan",
    "start": "2026-11-19",
-   "reason": "Taller de escritura creativa, no enfocado en artes plásticas, música o danza.",
+   "reason": "Es un laboratorio de escritura, no es arte plástico, pintura o danza.",
    "by": "ollama"
   },
   {
@@ -1432,476 +1396,119 @@
    "source": "biblored",
    "title": "Monstruos, amigos y otros personajes de la niñez",
    "start": "2026-11-19",
-   "reason": "Actividad dirigida a niños y familias.",
+   "reason": "Actividad dirigida a niños y primera infancia.",
    "by": "ollama"
   },
   {
    "source": "biblored",
-   "title": "III. Puntada a puntada: Bordar para nombrar",
-   "start": "2026-11-19T14:30",
-   "reason": "Se trata de un taller de bordado (manualidad textil), lo cual está descartado según las reglas.",
+   "title": "Club de ficción",
+   "start": "2026-11-20",
+   "reason": "Club de lectura y ficción; no trata sobre arte, pintura o danza.",
    "by": "ollama"
   },
   {
    "source": "biblored",
    "title": "Leo con mi bebé",
    "start": "2026-11-20",
-   "reason": "Actividad dirigida a bebés y familias.",
-   "by": "ollama"
-  },
-  {
-   "source": "biblored",
-   "title": "Club de ficción",
-   "start": "2026-11-20T17:00",
-   "reason": "Es un club de lectura de ficción, lo cual está descartado a menos que trate de arte o danza.",
+   "reason": "Actividad para bebés y familias.",
    "by": "ollama"
   },
   {
    "source": "idrd",
    "title": "Actividad física para persona mayor — Parque San Antonio Padua (Antonio Nariño)",
-   "start": "2026-10-27T07:00",
-   "reason": "Es actividad física/deporte, lo cual está explícitamente descartado.",
+   "start": "2026-11-03T07:00",
+   "reason": "Actividad física y deporte.",
    "by": "ollama"
   },
   {
    "source": "idrd",
    "title": "Actividad física para persona mayor — Parque Alameda (Ciudad Bolívar)",
-   "start": "2026-11-02T08:00",
-   "reason": "Es actividad física/deporte, lo cual está explícitamente descartado.",
+   "start": "2026-11-09T08:00",
+   "reason": "Actividad física y deporte.",
    "by": "ollama"
   },
   {
    "source": "idrd",
    "title": "Actividad física para persona mayor — Desarrollo Callejón N de Santa Barbara I y II Sector (Rafael Uribe Uribe)",
-   "start": "2026-10-27T07:00",
-   "reason": "Es actividad física/deporte, lo cual está explícitamente descartado.",
+   "start": "2026-11-03T07:00",
+   "reason": "Actividad física y deporte.",
    "by": "ollama"
   },
   {
    "source": "idrd",
    "title": "Actividad física para persona mayor — Polideportivo Quiroga (Rafael Uribe Uribe)",
-   "start": "2026-10-27T08:00",
-   "reason": "Es actividad física/deporte, lo cual está explícitamente descartado.",
+   "start": "2026-11-03T08:00",
+   "reason": "Actividad física y deporte.",
    "by": "ollama"
   },
   {
    "source": "idrd",
    "title": "Actividad física para persona mayor — Ciudadela Parque la Roca (San Cristóbal)",
-   "start": "2026-10-29T08:00",
-   "reason": "Es actividad física, no encaja con los gustos de arte, cultura o naturaleza tranquila de Totoya.",
+   "start": "2026-11-05T08:00",
+   "reason": "Es una actividad física/deporte, no encaja con los gustos de arte, cultura o naturaleza tranquila.",
    "by": "ollama"
   },
   {
    "source": "idrd",
    "title": "Actividad física para persona mayor — Parque Urbanización Antioquia (San Cristóbal)",
-   "start": "2026-10-30T08:00",
-   "reason": "Es actividad física, no encaja con los gustos de arte, cultura o naturaleza tranquila de Totoya.",
+   "start": "2026-11-06T08:00",
+   "reason": "Es una actividad física/deporte, no encaja con los gustos de arte, cultura o naturaleza tranquila.",
    "by": "ollama"
   },
   {
    "source": "idrd",
    "title": "Actividad física para persona mayor — Agrupación VIVIENDA GRANADA NORTE (Suba)",
-   "start": "2026-10-30T07:00",
-   "reason": "Es actividad física, no encaja con los gustos de arte, cultura o naturaleza tranquila de Totoya.",
+   "start": "2026-11-06T07:00",
+   "reason": "Es una actividad física/deporte, no encaja con los gustos de arte, cultura o naturaleza tranquila.",
    "by": "ollama"
   },
   {
    "source": "idrd",
    "title": "Actividad física para persona mayor — CEFE Cometas (Suba)",
-   "start": "2026-10-29T07:00",
-   "reason": "Es actividad física, no encaja con los gustos de arte, cultura o naturaleza tranquila de Totoya.",
+   "start": "2026-11-05T07:00",
+   "reason": "Es una actividad física/deporte, no encaja con los gustos de arte, cultura o naturaleza tranquila.",
    "by": "ollama"
   },
   {
    "source": "idrd",
    "title": "Actividad física para persona mayor — Parque la Luisita (Teusaquillo)",
-   "start": "2026-10-28T08:00",
-   "reason": "Es actividad física, no encaja con los gustos de arte, cultura o naturaleza tranquila de Totoya.",
+   "start": "2026-11-04T08:00",
+   "reason": "Es una actividad física/deporte, no encaja con los gustos de arte, cultura o naturaleza tranquila.",
    "by": "ollama"
   },
   {
    "source": "idrd",
    "title": "Actividad física para persona mayor — Tunal CEFE(Aqua Rumba) (Tunjuelito)",
-   "start": "2026-10-29T06:00",
-   "reason": "Es actividad física, no encaja con los gustos de arte, cultura o naturaleza tranquila de Totoya.",
+   "start": "2026-11-05T06:00",
+   "reason": "Es una actividad física/deporte, no encaja con los gustos de arte, cultura o naturaleza tranquila.",
    "by": "ollama"
   },
   {
    "source": "idrd",
    "title": "Actividad física para persona mayor — Nuevo Muzú (Tunjuelito)",
-   "start": "2026-10-29T07:00",
-   "reason": "Es actividad física, no encaja con los gustos de arte, cultura o naturaleza tranquila de Totoya.",
+   "start": "2026-11-05T07:00",
+   "reason": "Es una actividad física/deporte, no encaja con los gustos de arte, cultura o naturaleza tranquila.",
    "by": "ollama"
   },
   {
    "source": "idrd",
    "title": "Actividad física para persona mayor — Urbanización JAL Venecia (Tunjuelito)",
-   "start": "2026-10-28T07:00",
-   "reason": "Es actividad física, no encaja con los gustos de arte, cultura o naturaleza tranquila de Totoya.",
+   "start": "2026-11-04T07:00",
+   "reason": "Es una actividad física/deporte, no encaja con los gustos de arte, cultura o naturaleza tranquila.",
    "by": "ollama"
   },
   {
    "source": "idrd",
    "title": "Actividad física para persona mayor — Urbanización San Carlos (Tunjuelito)",
-   "start": "2026-10-27T07:00",
+   "start": "2026-11-03T07:00",
    "reason": "Es una actividad física/deporte, no cultural.",
    "by": "ollama"
   },
   {
    "source": "idrd",
    "title": "Actividad física para persona mayor — Bifamiliares Santa Mónica Norte- la Pradera (Usaquén)",
-   "start": "2026-10-27T08:00",
+   "start": "2026-11-03T08:00",
    "reason": "Es una actividad física/deporte, no cultural.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso activación física para adulto mayor (Compensar Centro Mayor)",
-   "start": "2026-10-26",
-   "reason": "Es activación física/ejercicio, no es una actividad cultural o artística.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de estimulación cognitiva y física plus para adulto mayor (Compensar Suba Sede Integral)",
-   "start": "2026-10-26",
-   "reason": "Es estimulación cognitiva y física, no es arte, música, danza o teatro.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de estimulación cognitiva y física plus para adulto mayor (Compensar Centro Mayor)",
-   "start": "2026-10-26",
-   "reason": "Es estimulación cognitiva y física, no es arte, música, danza o teatro.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de estimulación cognitiva y física plus para adulto mayor (Compensar CEF)",
-   "start": "2026-10-26",
-   "reason": "Es una actividad de salud/estimulación cognitiva, no es arte, música, danza ni naturaleza.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de tejido en dos agujas (Compensar Centro Mayor)",
-   "start": "2026-10-26",
-   "reason": "Es una manualidad textil (tejido), las cuales deben descartarse según las reglas.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso comunicándote con tus ángeles (Compensar Carrera 60)",
-   "start": "2026-10-26",
-   "reason": "Es un curso de temática espiritual/esotérica (ángeles), descartado según las reglas.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de cocina repostería (Compensar Centro Mayor)",
-   "start": "2026-10-26",
-   "reason": "Es un curso de cocina/repostería, no encaja con los gustos de arte, danza o música.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de tejido en crochet (Compensar Centro Mayor)",
-   "start": "2026-10-26",
-   "reason": "Manualidades textiles (crochet) están descartadas según las reglas.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso técnicas de sanación en el agua (Compensar Carrera 60)",
-   "start": "2026-10-26",
-   "reason": "Se trata de una actividad de salud/terapia en el agua, no de arte, danza o música.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de natación acuactividad (Compensar Centro Mayor)",
-   "start": "2026-10-27",
-   "reason": "Es una actividad deportiva (natación), no cultural o artística.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de natación acuactividad (Compensar CUR - Centro Urbano de Recreación)",
-   "start": "2026-10-27",
-   "reason": "Es una actividad deportiva (natación), no cultural o artística.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de natación acuactividad (Compensar Suba Sede Integral)",
-   "start": "2026-10-27",
-   "reason": "Es una actividad deportiva (natación), no cultural ni artística.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de natación acuactividad (Compensar Carrera 60)",
-   "start": "2026-10-27",
-   "reason": "Es una actividad deportiva (natación), no cultural ni artística.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de tejido en dos agujas (Compensar Suba Sede Integral)",
-   "start": "2026-10-27",
-   "reason": "Es una manualidad textil (tejido dos agujas), descartada según las reglas.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de acuayoga (Compensar CUR - Centro Urbano de Recreación)",
-   "start": "2026-10-27",
-   "reason": "Es una actividad deportiva/salud, no artística.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de acuayoga (Compensar Suba Sede Integral)",
-   "start": "2026-10-27",
-   "reason": "Es una actividad deportiva/salud, no artística.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de yoga (Compensar Centro Mayor)",
-   "start": "2026-10-27",
-   "reason": "Es una actividad deportiva/salud, no artística.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de tai chí (Compensar Centro Mayor)",
-   "start": "2026-10-27",
-   "reason": "Es una actividad deportiva/salud, no artística.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de cocina repostería (Compensar Suba Sede Integral)",
-   "start": "2026-10-27",
-   "reason": "Es un curso de cocina y repostería, actividad descartada según las reglas.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de tejido en crochet (Compensar Suba Sede Integral)",
-   "start": "2026-10-27",
-   "reason": "Es una manualidad textil (crochet), actividad descartada.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de tejido en dos agujas (Compensar Calle 94)",
-   "start": "2026-10-28",
-   "reason": "Es un curso de tejido/manualidades textiles, lo cual está descartado según las reglas.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de manejo de celular (Compensar Calle 94)",
-   "start": "2026-10-28",
-   "reason": "Es un curso de tecnología/alfabetización digital, descartado según las reglas.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de manejo de celular (Compensar CEF)",
-   "start": "2026-10-28",
-   "reason": "Es un curso de tecnología/alfabetización digital, lo cual está descartado.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de acuayoga (Compensar Avenida 68)",
-   "start": "2026-10-28",
-   "reason": "Es una actividad física/deportiva (acuayoga), no es arte, danza o música.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de acuayoga (Compensar Centro Mayor)",
-   "start": "2026-10-28",
-   "reason": "Es una actividad física/deportiva (acuayoga), no es arte, danza o música.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de yoga (Compensar Calle 94)",
-   "start": "2026-10-28",
-   "reason": "Es una actividad física/bienestar (yoga), no encaja en arte, danza o música.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de yoga (Compensar Carrera 60)",
-   "start": "2026-10-28",
-   "reason": "Es una actividad física/deportiva (yoga), no es arte, danza o música.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de tai chí (Compensar Avenida 68)",
-   "start": "2026-10-28",
-   "reason": "Es una actividad física/bienestar (tai chí), no encaja en arte, danza o música.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de tai chí (Compensar Calle 94)",
-   "start": "2026-10-28",
-   "reason": "Es una actividad física/deportiva (tai chí), no es arte, danza o música.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de Word (Compensar Calle 94)",
-   "start": "2026-10-28",
-   "reason": "Es un curso de computación/ofimática, descartado según las reglas.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de fotos en la nube y chat adulto mayor (Compensar Calle 94)",
-   "start": "2026-10-28",
-   "reason": "Es un curso de tecnología/alfabetización digital, descartado según las reglas.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de tejido en crochet (Compensar Calle 94)",
-   "start": "2026-10-28",
-   "reason": "Se descartan manualidades textiles como el crochet.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso técnicas de sanación en el agua (Compensar Suba Sede Integral)",
-   "start": "2026-10-28",
-   "reason": "Es una actividad de salud/terapia en el agua, no es arte, danza, música ni naturaleza tranquila.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso técnicas de sanación en el agua (Compensar Centro Mayor)",
-   "start": "2026-10-28",
-   "reason": "Se descartan actividades de salud, terapias o sanación.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de tejido en dos agujas (Compensar Fundación Niño Jesús)",
-   "start": "2026-10-29",
-   "reason": "Manualidades textiles (tejido)",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de yoga (Compensar CUR - Centro Urbano de Recreación)",
-   "start": "2026-10-29",
-   "reason": "El yoga se clasifica como actividad física/salud, no como arte, danza o música.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de yoga (Compensar Suba Sede Integral)",
-   "start": "2026-10-29",
-   "reason": "El yoga se clasifica como actividad física/salud, no como arte, danza o música.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de lencería country (Compensar Fundación Niño Jesús)",
-   "start": "2026-10-29",
-   "reason": "Es un curso de manualidades textiles (lencería), lo cual está descartado según las reglas.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de cocina repostería (Compensar Carrera 60)",
-   "start": "2026-10-29",
-   "reason": "Curso de cocina y repostería",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de tejido en crochet (Compensar Fundación Niño Jesús)",
-   "start": "2026-10-29",
-   "reason": "Manualidades textiles (crochet)",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de acuayoga (Compensar Calle 94)",
-   "start": "2026-10-30",
-   "reason": "Es una actividad física/deportiva (acuayoga), no es arte, danza o música.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de yoga (Compensar Avenida 68)",
-   "start": "2026-10-30",
-   "reason": "Es una actividad física/deportiva (yoga), no es arte, danza o música.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de tai chí (Compensar Suba Sede Integral)",
-   "start": "2026-10-30",
-   "reason": "Es una actividad física/deportiva (tai chí), no es arte, danza o música.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de meditación (Compensar Calle 94)",
-   "start": "2026-10-30",
-   "reason": "La meditación no entra en las categorías de arte, pintura, danza, música, teatro, cine o naturaleza.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso técnicas de sanación en el agua (Compensar CUR - Centro Urbano de Recreación)",
-   "start": "2026-10-30",
-   "reason": "Es una actividad de salud/terapia en el agua, no es arte, danza o música.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de natación acuactividad (Compensar Calle 94)",
-   "start": "2026-10-31",
-   "reason": "La natación es una actividad deportiva/salud, no cultural o artística.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de tai chí (Compensar Calle 220)",
-   "start": "2026-10-31",
-   "reason": "El tai chi es una práctica física/espiritual, no encaja en las categorías artísticas solicitadas.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de meditación (Compensar CUR - Centro Urbano de Recreación)",
-   "start": "2026-10-31",
-   "reason": "La meditación es una actividad de bienestar/espiritualidad, no es arte, danza o música.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de acuayoga (Compensar Carrera 60)",
-   "start": "2026-11-01",
-   "reason": "El acuayoga es una actividad física/deportiva, no es arte, danza o música.",
-   "by": "ollama"
-  },
-  {
-   "source": "compensar",
-   "title": "Curso de tai chí (Compensar CUR - Centro Urbano de Recreación)",
-   "start": "2026-11-01",
-   "reason": "El tai chí es una actividad física/deportiva, no encaja en arte, pintura, danza o música.",
    "by": "ollama"
   },
   {
@@ -1909,6 +1516,13 @@
    "title": "Curso integral cuidadores de corazón (Compensar Carrera 60)",
    "start": "2026-11-04",
    "reason": "Es un curso de bienestar para cuidadores, no es una actividad artística, cultural o de naturaleza.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Plan vitalízate generación silver (Compensar Calle 94)",
+   "start": "2026-11-09",
+   "reason": "Es un programa de actividad física, no cultural.",
    "by": "ollama"
   },
   {
@@ -1934,6 +1548,13 @@
   },
   {
    "source": "compensar",
+   "title": "Curso activación física para adulto mayor (Compensar Centro Mayor)",
+   "start": "2026-11-17",
+   "reason": "Es una actividad de activación física/ejercicio",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
    "title": "Curso recreativo para adulto mayor (Compensar Calle 94)",
    "start": "2026-11-17",
    "reason": "Es un curso recreativo general, no enfocado en arte, pintura, danza o música.",
@@ -1944,6 +1565,174 @@
    "title": "Cenas temáticas generación silver (Compensar Carrera 60)",
    "start": "2026-11-18",
    "reason": "Es un evento gastronómico/social, no es una actividad cultural de arte, danza o música.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso de lencería country (Compensar Fundación Niño Jesús)",
+   "start": "2026-11-21",
+   "reason": "Tema fuera de sus intereses",
+   "by": "keywords"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso de cocina repostería (Compensar Suba Sede Integral)",
+   "start": "2026-11-21",
+   "reason": "Tema fuera de sus intereses",
+   "by": "keywords"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso de cocina repostería (Compensar CEF)",
+   "start": "2026-11-21",
+   "reason": "Tema fuera de sus intereses",
+   "by": "keywords"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso técnicas de sanación en el agua (Compensar Carrera 60)",
+   "start": "2026-11-21",
+   "reason": "Tema fuera de sus intereses",
+   "by": "keywords"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso de tejido en dos agujas (Compensar Centro Mayor)",
+   "start": "2026-11-23",
+   "reason": "Tema fuera de sus intereses",
+   "by": "keywords"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso de cocina repostería (Compensar Centro Mayor)",
+   "start": "2026-11-23",
+   "reason": "Tema fuera de sus intereses",
+   "by": "keywords"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso de tejido en crochet (Compensar Centro Mayor)",
+   "start": "2026-11-23",
+   "reason": "Tema fuera de sus intereses",
+   "by": "keywords"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso de tejido en dos agujas (Compensar Suba Sede Integral)",
+   "start": "2026-11-24",
+   "reason": "Manualidades textiles (tejido) no están permitidas.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso de manejo de celular (Compensar Suba Sede Integral)",
+   "start": "2026-11-24",
+   "reason": "Tecnología y alfabetización digital no están permitidas.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso de manejo de celular (Compensar Calle 94)",
+   "start": "2026-11-24",
+   "reason": "Tecnología y alfabetización digital no están permitidas.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso de Word (Compensar Suba Sede Integral)",
+   "start": "2026-11-24",
+   "reason": "Tecnología y ofimática no están permitidas.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso de tejido en crochet (Compensar Suba Sede Integral)",
+   "start": "2026-11-24",
+   "reason": "Manualidades textiles (crochet) no están permitidas.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso de tejido en dos agujas (Compensar Calle 94)",
+   "start": "2026-11-25",
+   "reason": "Es un curso de tejido/manualidades textiles, lo cual está descartado.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso navegando por internet (Compensar CEF)",
+   "start": "2026-11-25",
+   "reason": "Es un curso de tecnología/internet, actividad descartada.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso navegando por internet (Compensar Calle 94)",
+   "start": "2026-11-25",
+   "reason": "Es un curso de tecnología/internet, actividad descartada.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso de Word (Compensar Calle 94)",
+   "start": "2026-11-25",
+   "reason": "Es un curso de ofimática/Word, actividad descartada.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso de fotos en la nube y chat adulto mayor (Compensar Carrera 60)",
+   "start": "2026-11-25",
+   "reason": "Es un curso de tecnología y chat, actividad descartada.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso de tejido en crochet (Compensar Calle 94)",
+   "start": "2026-11-25",
+   "reason": "Es un curso de manualidades textiles (crochet), lo cual está descartado.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso técnicas de sanación en el agua (Compensar Suba Sede Integral)",
+   "start": "2026-11-25",
+   "reason": "Es una actividad de salud/terapia física en el agua, no es arte ni cultura.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso técnicas de sanación en el agua (Compensar Centro Mayor)",
+   "start": "2026-11-25",
+   "reason": "Es una actividad de salud/terapia física en el agua, no es arte ni cultura.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso de tejido en dos agujas (Compensar Fundación Niño Jesús)",
+   "start": "2026-11-26",
+   "reason": "Se trata de manualidades textiles (tejido), las cuales deben descartarse.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso de cocina repostería (Compensar Carrera 60)",
+   "start": "2026-11-26",
+   "reason": "Actividad de cocina y repostería, descartada según las reglas.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso de tejido en crochet (Compensar Fundación Niño Jesús)",
+   "start": "2026-11-26",
+   "reason": "Se trata de manualidades textiles (crochet), las cuales deben descartarse.",
+   "by": "ollama"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso técnicas de sanación en el agua (Compensar CUR - Centro Urbano de Recreación)",
+   "start": "2026-11-27",
+   "reason": "Se trata de una actividad de sanación y terapia en el agua, no es arte, danza o música.",
    "by": "ollama"
   },
   {
@@ -1968,5 +1757,5 @@
    "by": "ollama"
   }
  ],
- "durationMs": 223601
+ "durationMs": 328459
 }
