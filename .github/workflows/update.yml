@@ -1,7 +1,7 @@
 # Weekly update of the Totoya calendar + deploy to GitHub Pages.
 #
-# - schedule / manual run ("Run workflow"): scrape all sources, classify (Ollama Cloud, or keywords
-#   if OLLAMA_API_KEY is missing/failing), commit site/data/*.json back to main, deploy.
+# - schedule / manual run ("Run workflow"): scrape all sources, classify with the keyword
+#   classifier (Ollama Cloud disabled — no longer free), commit site/data/*.json back to main, deploy.
 # - push to main (site/, config/, scraper/): deploy only — fast, no scraping.
 #   The bot's own data commit never re-triggers this: it is made with GITHUB_TOKEN, carries
 #   [skip ci], and site/data/ is excluded from the push paths below.
@@ -16,11 +16,6 @@ on:
         description: 'Solo estas fuentes (ids separados por coma; vacío = todas)'
         required: false
         default: ''
-      no_ai:
-        description: 'Usar solo el clasificador por palabras clave (sin IA)'
-        type: boolean
-        required: false
-        default: false
   push:
     branches: [main]
     paths:
@@ -68,14 +63,13 @@ jobs:
 
       - name: Scrape and classify
         if: github.event_name != 'push'
+        # Ollama Cloud is no longer free: always use the keyword classifier.
+        # To re-enable AI, restore OLLAMA_API_KEY here and drop the --no-ai flag.
         env:
-          OLLAMA_API_KEY: ${{ secrets.OLLAMA_API_KEY }}
           ONLY: ${{ github.event.inputs.only }}
-          NO_AI: ${{ github.event.inputs.no_ai }}
         run: |
-          args=()
+          args=(--no-ai)
           if [ -n "$ONLY" ]; then args+=("--only=$ONLY"); fi
-          if [ "$NO_AI" = "true" ]; then args+=("--no-ai"); fi
           node scraper/run.mjs "${args[@]}"
 
       - name: Save classification cache
