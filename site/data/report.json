@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-09T20:31:45.925Z",
- "today": "2026-11-09",
+ "generatedAt": "2026-11-16T20:04:40.687Z",
+ "today": "2026-11-16",
  "horizonDays": 75,
  "flags": {
   "only": null,
@@ -11,27 +11,27 @@
   "banrep": {
    "name": "Banco de la República (Museo del Oro, Botero, MAMU, Biblioteca Luis Ángel Arango)",
    "status": "ok",
-   "raw": 143,
-   "valid": 143,
+   "raw": 116,
+   "valid": 116,
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 1852,
+   "durationMs": 2255,
    "logs": 5,
-   "kept": 99,
-   "dropped": 44
+   "kept": 77,
+   "dropped": 39
   },
   "museonacional": {
    "name": "Museo Nacional de Colombia",
    "status": "ok",
-   "raw": 20,
-   "valid": 20,
+   "raw": 16,
+   "valid": 16,
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 694,
+   "durationMs": 709,
    "logs": 2,
-   "kept": 20
+   "kept": 16
   },
   "mambo": {
    "name": "MAMBO — Museo de Arte Moderno de Bogotá",
@@ -41,108 +41,109 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 19933,
+   "durationMs": 20622,
    "logs": 2,
    "kept": 4
   },
   "jardinbotanico": {
    "name": "Jardín Botánico de Bogotá",
-   "status": "ok",
-   "raw": 1,
-   "valid": 1,
+   "status": "empty",
+   "raw": 0,
+   "valid": 0,
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 453,
+   "durationMs": 257,
    "logs": 1,
-   "kept": 1
+   "carriedOver": 1
   },
   "teatrocolon": {
    "name": "Teatro Colón / Centro Nacional de las Artes Delia Zapata Olivella",
    "status": "ok",
-   "raw": 18,
-   "valid": 18,
+   "raw": 40,
+   "valid": 40,
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 7030,
+   "durationMs": 5768,
    "logs": 1,
-   "kept": 18
+   "kept": 40
   },
   "teatromayor": {
    "name": "Teatro Mayor Julio Mario Santo Domingo",
    "status": "ok",
-   "raw": 28,
-   "valid": 28,
+   "raw": 22,
+   "valid": 22,
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 18686,
+   "durationMs": 15139,
    "logs": 3,
-   "kept": 22,
+   "kept": 17,
    "dropped": 4
   },
   "idartes": {
    "name": "Idartes (Planetario, Teatro Jorge Eliécer Gaitán, Cinemateca, galerías)",
    "status": "ok",
-   "raw": 24,
-   "valid": 24,
+   "raw": 23,
+   "valid": 23,
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 3778,
+   "durationMs": 4323,
    "logs": 0,
-   "kept": 24
+   "kept": 19,
+   "dropped": 4
   },
   "biblored": {
    "name": "BibloRed — Bibliotecas Públicas de Bogotá",
    "status": "ok",
-   "raw": 214,
-   "valid": 214,
+   "raw": 127,
+   "valid": 127,
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 54891,
+   "durationMs": 22187,
    "logs": 0,
-   "kept": 206,
-   "dropped": 8
+   "dropped": 4,
+   "kept": 123
   },
   "idrd": {
    "name": "IDRD — Persona Mayor",
    "status": "ok",
-   "raw": 14,
-   "valid": 14,
+   "raw": 15,
+   "valid": 15,
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 370,
+   "durationMs": 2155,
    "logs": 0,
-   "kept": 14
+   "kept": 15
   },
   "compensar": {
    "name": "Compensar",
    "status": "ok",
-   "raw": 121,
-   "valid": 121,
+   "raw": 117,
+   "valid": 117,
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 13290,
+   "durationMs": 27654,
    "logs": 0,
-   "kept": 99,
-   "dropped": 22
+   "kept": 94,
+   "dropped": 23
   },
   "colsubsidio": {
    "name": "Colsubsidio (Teatro Colsubsidio)",
    "status": "ok",
-   "raw": 4,
-   "valid": 4,
+   "raw": 3,
+   "valid": 3,
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 3537,
+   "durationMs": 2719,
    "logs": 0,
-   "kept": 4
+   "kept": 3
   },
   "cafam": {
    "name": "Cafam (Teatro Cafam)",
@@ -152,7 +153,7 @@
    "invalid": 0,
    "invalidSamples": [],
    "error": null,
-   "durationMs": 4156,
+   "durationMs": 1068,
    "logs": 0,
    "kept": 10
   },
@@ -166,82 +167,26 @@
  },
  "classifier": "keywords",
  "classification": {
-  "total": 599,
+  "total": 492,
   "cacheHits": 0,
   "ai": 0,
-  "keywords": 599,
+  "keywords": 492,
   "aiEnabled": false,
   "ollama": null
  },
  "totals": {
-  "scrapedValid": 602,
+  "scrapedValid": 494,
   "outOfHorizon": 0,
-  "duplicates": 3,
-  "classified": 599,
-  "kept": 521,
-  "dropped": 78,
-  "carriedOver": 0,
+  "duplicates": 2,
+  "classified": 492,
+  "kept": 418,
+  "dropped": 74,
+  "carriedOver": 1,
   "recurring": 12,
-  "events": 533,
+  "events": 431,
   "places": 14
  },
  "dropped": [
-  {
-   "source": "banrep",
-   "title": "Club de conversación en idiomas",
-   "start": "2026-11-09T14:00",
-   "reason": "Tema fuera de sus intereses",
-   "by": "keywords"
-  },
-  {
-   "source": "banrep",
-   "title": "Club de conversación en idiomas",
-   "start": "2026-11-10T15:00",
-   "reason": "Tema fuera de sus intereses",
-   "by": "keywords"
-  },
-  {
-   "source": "banrep",
-   "title": "ABC de la Biblioteca Virtual",
-   "start": "2026-11-11T10:00",
-   "reason": "Solo virtual",
-   "by": "keywords"
-  },
-  {
-   "source": "banrep",
-   "title": "Club de conversación en idiomas",
-   "start": "2026-11-11T15:00",
-   "reason": "Tema fuera de sus intereses",
-   "by": "keywords"
-  },
-  {
-   "source": "banrep",
-   "title": "Club de conversación en idiomas",
-   "start": "2026-11-12T14:00",
-   "reason": "Tema fuera de sus intereses",
-   "by": "keywords"
-  },
-  {
-   "source": "banrep",
-   "title": "Club de conversación en idiomas",
-   "start": "2026-11-13T14:00",
-   "reason": "Tema fuera de sus intereses",
-   "by": "keywords"
-  },
-  {
-   "source": "banrep",
-   "title": "Entra con confianza en la era de la IA",
-   "start": "2026-11-14T11:00",
-   "reason": "Tema fuera de sus intereses",
-   "by": "keywords"
-  },
-  {
-   "source": "banrep",
-   "title": "Club de conversación en idiomas",
-   "start": "2026-11-14T09:00",
-   "reason": "Tema fuera de sus intereses",
-   "by": "keywords"
-  },
   {
    "source": "banrep",
    "title": "Club de conversación en idiomas",
@@ -377,6 +322,13 @@
   },
   {
    "source": "banrep",
+   "title": "Entra con confianza en la era de la IA",
+   "start": "2026-11-28T11:00",
+   "reason": "Tema fuera de sus intereses",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
    "title": "Club de conversación en idiomas",
    "start": "2026-11-28T09:00",
    "reason": "Tema fuera de sus intereses",
@@ -387,13 +339,6 @@
    "title": "Cantar y contar en la primera infancia",
    "start": "2026-11-28T15:00",
    "reason": "Dirigido a niños",
-   "by": "keywords"
-  },
-  {
-   "source": "banrep",
-   "title": "Entra con confianza en la era de la IA",
-   "start": "2026-11-28T11:00",
-   "reason": "Tema fuera de sus intereses",
    "by": "keywords"
   },
   {
@@ -495,6 +440,27 @@
    "by": "keywords"
   },
   {
+   "source": "banrep",
+   "title": "Juan Villoro y sus libros sobre fútbol",
+   "start": "2027-01-27T17:00",
+   "reason": "Actividad deportiva",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "Vacaciones literarias en la BLAA",
+   "start": "2027-01-30T11:30",
+   "reason": "Dirigido a niños",
+   "by": "keywords"
+  },
+  {
+   "source": "banrep",
+   "title": "Explora nuevos mundos con tecnologías de realidad virtual",
+   "start": "2027-01-30T14:00",
+   "reason": "Solo virtual",
+   "by": "keywords"
+  },
+  {
    "source": "teatromayor",
    "title": "Navidad Filarmónica - Orquesta Filarmónica de Bogotá, Coro Filarmónico Juvenil y Coro Filarmónico Infantil",
    "start": "2026-12-16T20:00",
@@ -523,38 +489,38 @@
    "by": "keywords"
   },
   {
-   "source": "biblored",
-   "title": "Bebés en La Gabo (0 a 17 meses)",
-   "start": "2026-11-13",
-   "reason": "Dirigido a niños",
+   "source": "idartes",
+   "title": "Temporada de podcast en vivo presenta: Entonados Podcast",
+   "start": "2026-11-20T19:00",
+   "reason": "Solo virtual",
+   "by": "keywords"
+  },
+  {
+   "source": "idartes",
+   "title": "Temporada de podcast en vivo presenta: La noche oscura del alma",
+   "start": "2026-11-27T19:00",
+   "reason": "Solo virtual",
+   "by": "keywords"
+  },
+  {
+   "source": "idartes",
+   "title": "Temporada de podcast en vivo presenta: Sonido Libre Podcast",
+   "start": "2026-12-04T19:00",
+   "reason": "Solo virtual",
+   "by": "keywords"
+  },
+  {
+   "source": "idartes",
+   "title": "Temporada de podcast en vivo presenta: Relatos Ñeros",
+   "start": "2026-12-11T19:00",
+   "reason": "Solo virtual",
    "by": "keywords"
   },
   {
    "source": "biblored",
-   "title": "Bebés en La Gabo (18 meses a 5 años)",
-   "start": "2026-11-13",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
-  },
-  {
-   "source": "biblored",
-   "title": "Bebés exploradores: Cada infancia tiene su propio ritmo",
-   "start": "2026-11-14",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
-  },
-  {
-   "source": "biblored",
-   "title": "¿Otros mundos son posibles?- Club de filosofía infantil.",
-   "start": "2026-11-14",
-   "reason": "Dirigido a niños",
-   "by": "keywords"
-  },
-  {
-   "source": "biblored",
-   "title": "La mesa está servida: ¡que comience el juego!",
-   "start": "2026-11-14T14:00",
-   "reason": "Fuera de Bogotá (la mesa)",
+   "title": "Laboratorio de cocina: Hongos",
+   "start": "2026-11-17",
+   "reason": "Tema fuera de sus intereses",
    "by": "keywords"
   },
   {
@@ -731,7 +697,14 @@
    "start": "2026-11-27",
    "reason": "Tema fuera de sus intereses",
    "by": "keywords"
+  },
+  {
+   "source": "compensar",
+   "title": "Curso de natación acuactividad (Compensar Calle 94)",
+   "start": "2026-11-28",
+   "reason": "Actividad deportiva",
+   "by": "keywords"
   }
  ],
- "durationMs": 67040
+ "durationMs": 47438
 }
